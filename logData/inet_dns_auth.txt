@@ -1,0 +1,513 @@
+Mar 22 20:22:20 inet-dns useradd[790]: new group: name=ait, GID=1000
+Mar 22 20:22:20 inet-dns useradd[790]: new user: name=ait, UID=1000, GID=1000, home=/home/ait, shell=/bin/bash
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'adm'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'dialout'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'cdrom'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'floppy'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'sudo'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'audio'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'dip'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'video'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'plugdev'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'lxd'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to group 'netdev'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'adm'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'dialout'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'cdrom'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'floppy'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'sudo'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'audio'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'dip'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'video'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'plugdev'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'lxd'
+Mar 22 20:22:20 inet-dns useradd[790]: add 'ait' to shadow group 'netdev'
+Mar 22 20:22:20 inet-dns chpasswd[797]: pam_unix(chpasswd:chauthtok): password changed for ait
+Mar 22 20:22:20 inet-dns systemd-logind[868]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 22 20:22:20 inet-dns systemd-logind[868]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Mar 22 20:22:20 inet-dns systemd-logind[868]: New seat seat0.
+Mar 22 20:22:32 inet-dns sshd[1079]: Server listening on 0.0.0.0 port 22.
+Mar 22 20:22:32 inet-dns sshd[1079]: Server listening on :: port 22.
+Mar 22 20:33:55 inet-dns sshd[1301]: Accepted publickey for ait from 192.42.3.82 port 34608 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 20:33:55 inet-dns sshd[1301]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 20:33:55 inet-dns systemd-logind[868]: New session 1 of user ait.
+Mar 22 20:33:55 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 20:34:05 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-raxmcgitxhnfvanuokvbqduuewbbloaf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445245.1673677-12108-196477386922256/AnsiballZ_lineinfile.py
+Mar 22 20:34:05 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:06 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:07 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:07 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:07 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cznoeermstbhthgzywptbokcxhdimimf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445247.1637826-12128-31209146347104/AnsiballZ_apt.py
+Mar 22 20:34:07 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:27 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:29 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:29 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:29 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ylhuyvjjogvcyppoofhkakdobcqvicbb ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445268.0007744-12152-188084914976575/AnsiballZ_apt.py
+Mar 22 20:34:29 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:37 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:46 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:46 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:46 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qnyfzelyngklwqtbzizkjzljcoprpwgk ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445284.757603-12170-94939164715183/AnsiballZ_stat.py
+Mar 22 20:34:46 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:46 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:48 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:48 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:48 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mghxrqffutnnymgzcszusgigtbwdufki ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445284.757603-12170-94939164715183/AnsiballZ_copy.py
+Mar 22 20:34:48 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:49 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:50 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:50 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:50 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mmaylipfrblofsmkgyultdtielxtactn ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445289.8048594-12170-85667331473864/AnsiballZ_stat.py
+Mar 22 20:34:50 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:51 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:52 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:52 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:52 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wabfyfrvtuiywiuemyzamwttbmdovtlb ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445289.8048594-12170-85667331473864/AnsiballZ_copy.py
+Mar 22 20:34:52 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:52 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:54 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:54 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:54 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fvlowwslsywqzuhsbizhuhyndzolgnfc ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445293.6120126-12170-231916418393832/AnsiballZ_stat.py
+Mar 22 20:34:54 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:55 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:56 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:56 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:56 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xwnhrmsnetjqkaqfqfeqxhmokadwblnv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445293.6120126-12170-231916418393832/AnsiballZ_copy.py
+Mar 22 20:34:56 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:34:57 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:34:58 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:34:58 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:34:58 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hdzmgtitvscsgybbzmlmzurvpjkrewje ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445297.6008477-12261-127499617432411/AnsiballZ_apt.py
+Mar 22 20:34:58 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:08 inet-dns groupadd[2614]: group added to /etc/group: name=maradns, GID=115
+Mar 22 20:35:08 inet-dns groupadd[2614]: group added to /etc/gshadow: name=maradns
+Mar 22 20:35:08 inet-dns groupadd[2614]: new group: name=maradns, GID=115
+Mar 22 20:35:08 inet-dns useradd[2618]: new user: name=maradns, UID=111, GID=115, home=/etc/maradns, shell=/usr/sbin/nologin
+Mar 22 20:35:08 inet-dns usermod[2624]: change user 'maradns' password
+Mar 22 20:35:08 inet-dns chage[2629]: changed password expiry for maradns
+Mar 22 20:35:20 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:36 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:36 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:36 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mujtowgedfpgzbloaengkbriftsjuubt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445321.622625-12336-85202537790729/AnsiballZ_stat.py
+Mar 22 20:35:36 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:36 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:38 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:38 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:38 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vowfdjztwkhcdjhefgmajuvxmolomqyv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445321.622625-12336-85202537790729/AnsiballZ_copy.py
+Mar 22 20:35:38 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:38 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:53 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:53 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:53 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uqlyyqodihxcmgvuwdgetbotbekmrwos ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445352.4767551-12372-157919471632733/AnsiballZ_stat.py
+Mar 22 20:35:53 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:53 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:55 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:55 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:55 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tkfwshsspxnjezfmonrycujafyrnyygy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445352.4767551-12372-157919471632733/AnsiballZ_copy.py
+Mar 22 20:35:55 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:55 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:57 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:57 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:57 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kdshaahjcwymvyumwdmfuxqfxddlkojv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445356.2745438-12372-8609132703553/AnsiballZ_stat.py
+Mar 22 20:35:57 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:57 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:35:58 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:35:58 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:35:58 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wfnnhalqbzwbdoijddwgasjtxkiclvxi ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445356.2745438-12372-8609132703553/AnsiballZ_copy.py
+Mar 22 20:35:58 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:35:59 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:00 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:00 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:00 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cfhrpetgiajhlygwvfqsnvecjujfufwg ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445359.6679718-12372-143284251472735/AnsiballZ_stat.py
+Mar 22 20:36:00 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:01 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:02 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:02 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:02 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-apualhsosjjugciiqljupldacwwbeuza ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445359.6679718-12372-143284251472735/AnsiballZ_copy.py
+Mar 22 20:36:02 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:02 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:04 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:04 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:04 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cqpbpbfhazriatdzmzxilqvbvhwgthan ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445362.9487278-12372-47748268361022/AnsiballZ_stat.py
+Mar 22 20:36:04 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:04 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:05 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:05 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:05 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ysukdqjvygtnghuuiebbujoewlxouzoa ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445362.9487278-12372-47748268361022/AnsiballZ_copy.py
+Mar 22 20:36:05 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:05 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:07 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:07 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:07 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nfgregcgxuynwqdtzroknraikxropptt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445366.2165697-12372-16976381511996/AnsiballZ_stat.py
+Mar 22 20:36:07 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:07 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:08 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:08 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:08 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kfnfugiwhnjkzikngajbvwwhdfzrqazd ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445366.2165697-12372-16976381511996/AnsiballZ_copy.py
+Mar 22 20:36:08 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:09 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:10 inet-dns sudo:      ait : unable to resolve host inet-dns
+Mar 22 20:36:10 inet-dns sudo:      ait : problem with defaults entries ; TTY=pts/0 ; PWD=/home/ait ; USER=root ;
+Mar 22 20:36:10 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-udtvfxiponhhpgtorpiskugolqbzaetq ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445369.6897776-12612-146940328304855/AnsiballZ_lineinfile.py
+Mar 22 20:36:10 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:10 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:12 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xbqcoalpnvddtamydcwgabmlmypcrlra ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445371.5056129-12630-236515427400514/AnsiballZ_systemd.py
+Mar 22 20:36:12 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:13 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:36:15 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tmakbovcyekqexlciqcafnswpkazzfxd ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445374.000039-12648-192070002213592/AnsiballZ_systemd.py
+Mar 22 20:36:15 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:36:18 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:37:19 inet-dns sshd[1301]: pam_unix(sshd:session): session closed for user ait
+Mar 22 20:37:19 inet-dns systemd-logind[868]: Removed session 1.
+Mar 22 20:42:20 inet-dns sshd[3498]: Accepted publickey for ait from 192.42.3.82 port 35848 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 20:42:20 inet-dns sshd[3498]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 20:42:20 inet-dns systemd-logind[868]: New session 3 of user ait.
+Mar 22 20:42:20 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 20:42:24 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cduptnuzhbqithsmezekcisozdvwenbv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445743.063249-14099-72467092418754/AnsiballZ_apt.py
+Mar 22 20:42:24 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:42:25 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:02 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yzkwgzgnxbmpelftlnvxitpmtjlacjtr ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445781.5602255-14608-131394579524763/AnsiballZ_file.py
+Mar 22 20:43:02 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:43:02 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:28 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dgwzojgkpulhhnamyudblrnikqevopns ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445807.3041081-15273-61578787964221/AnsiballZ_stat.py
+Mar 22 20:43:28 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:43:28 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:30 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tpnnmbamtpyeeontowkwwbetksfanoxv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445807.3041081-15273-61578787964221/AnsiballZ_copy.py
+Mar 22 20:43:30 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:43:30 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:44:31 inet-dns sshd[3498]: pam_unix(sshd:session): session closed for user ait
+Mar 22 20:44:31 inet-dns systemd-logind[868]: Removed session 3.
+Mar 22 21:00:13 inet-dns sshd[3680]: Accepted publickey for ait from 192.42.3.82 port 35962 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 21:00:13 inet-dns sshd[3680]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 21:00:13 inet-dns systemd-logind[868]: New session 5 of user ait.
+Mar 22 21:00:13 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 21:00:22 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aaniqehelswtarrlhsahskpwwkbbnyyy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616446815.8369882-17613-223998461966559/AnsiballZ_apt.py
+Mar 22 21:00:22 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:03:07 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:04:07 inet-dns sshd[3759]: Received disconnect from 192.42.3.82 port 35962:11: disconnected by user
+Mar 22 21:04:07 inet-dns sshd[3759]: Disconnected from user ait 192.42.3.82 port 35962
+Mar 22 21:04:07 inet-dns sshd[3680]: pam_unix(sshd:session): session closed for user ait
+Mar 22 21:04:07 inet-dns systemd-logind[868]: Removed session 5.
+Mar 22 21:04:40 inet-dns sshd[9474]: Accepted publickey for ait from 192.42.3.82 port 36046 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 21:04:40 inet-dns sshd[9474]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 21:04:40 inet-dns systemd-logind[868]: New session 7 of user ait.
+Mar 22 21:04:40 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 21:04:43 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vjyfozslxeiccdjgxbbsdjwgsottvpix ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447082.7463198-18920-155484769224578/AnsiballZ_pip.py
+Mar 22 21:04:43 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:04:47 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:04:48 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ilgmkqrubuslprxmrquyhepkjrjtedah ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447087.6451976-18920-58527473439975/AnsiballZ_pip.py
+Mar 22 21:04:48 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:04:51 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:05:42 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bltbacdboaodvyisrrhxgxumdzqvzmsv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447141.970323-19780-143028745405229/AnsiballZ_command.py
+Mar 22 21:05:42 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:05:43 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:05:45 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wnsobniahifvvxrpiqasbeypkutecyzn ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447143.9378762-19780-103554019873995/AnsiballZ_command.py
+Mar 22 21:05:45 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:05:45 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:06:12 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-phgapxcawlfrjjakvawoiutyhhlwglve ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447171.328944-20398-93601062712117/AnsiballZ_blockinfile.py
+Mar 22 21:06:12 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:06:12 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:06:14 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zebccemxwjirugarpanpoaysqipoaocp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447173.1418014-20398-22369511481862/AnsiballZ_blockinfile.py
+Mar 22 21:06:14 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:06:14 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:06:54 inet-dns sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ylibbfskmybazizasuctmrbbigfwikht ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447213.2769554-20813-120868877994054/AnsiballZ_command.py
+Mar 22 21:06:54 inet-dns sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:06:55 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:07:55 inet-dns sshd[9557]: Received disconnect from 192.42.3.82 port 36046:11: disconnected by user
+Mar 22 21:07:55 inet-dns sshd[9557]: Disconnected from user ait 192.42.3.82 port 36046
+Mar 22 21:07:55 inet-dns sshd[9474]: pam_unix(sshd:session): session closed for user ait
+Mar 22 21:07:55 inet-dns systemd-logind[868]: Removed session 7.
+Mar 22 21:17:01 inet-dns CRON[10707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 21:17:01 inet-dns CRON[10707]: pam_unix(cron:session): session closed for user root
+Mar 22 22:14:44 inet-dns sshd[10717]: Connection closed by 192.42.3.82 port 36198 [preauth]
+Mar 22 22:14:55 inet-dns sshd[10719]: Accepted publickey for ait from 192.42.3.82 port 36200 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 22:14:55 inet-dns sshd[10719]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 22:14:55 inet-dns systemd-logind[868]: New session 10 of user ait.
+Mar 22 22:14:55 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 22:17:01 inet-dns CRON[10875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 22:17:01 inet-dns CRON[10875]: pam_unix(cron:session): session closed for user root
+Mar 22 22:53:14 inet-dns sshd[10719]: pam_unix(sshd:session): session closed for user ait
+Mar 22 22:53:14 inet-dns systemd-logind[868]: Removed session 10.
+Mar 22 23:17:01 inet-dns CRON[10886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 23:17:02 inet-dns CRON[10886]: pam_unix(cron:session): session closed for user root
+Mar 23 00:17:01 inet-dns CRON[10890]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 00:17:01 inet-dns CRON[10890]: pam_unix(cron:session): session closed for user root
+Mar 23 01:17:01 inet-dns CRON[10949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 01:17:01 inet-dns CRON[10949]: pam_unix(cron:session): session closed for user root
+Mar 23 02:17:01 inet-dns CRON[10953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 02:17:01 inet-dns CRON[10953]: pam_unix(cron:session): session closed for user root
+Mar 23 03:17:01 inet-dns CRON[10957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 03:17:01 inet-dns CRON[10957]: pam_unix(cron:session): session closed for user root
+Mar 23 04:17:01 inet-dns CRON[10961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 04:17:01 inet-dns CRON[10961]: pam_unix(cron:session): session closed for user root
+Mar 23 05:17:01 inet-dns CRON[10965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 05:17:01 inet-dns CRON[10965]: pam_unix(cron:session): session closed for user root
+Mar 23 06:17:01 inet-dns CRON[11073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:17:01 inet-dns CRON[11073]: pam_unix(cron:session): session closed for user root
+Mar 23 06:25:01 inet-dns CRON[11077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:26:09 inet-dns CRON[11077]: pam_unix(cron:session): session closed for user root
+Mar 23 07:07:01 inet-dns CRON[11236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 07:07:01 inet-dns CRON[11236]: pam_unix(cron:session): session closed for user root
+Mar 23 07:17:01 inet-dns CRON[11240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 07:17:01 inet-dns CRON[11240]: pam_unix(cron:session): session closed for user root
+Mar 23 08:17:01 inet-dns CRON[11244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 08:17:01 inet-dns CRON[11244]: pam_unix(cron:session): session closed for user root
+Mar 23 09:17:01 inet-dns CRON[11250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 09:17:01 inet-dns CRON[11250]: pam_unix(cron:session): session closed for user root
+Mar 23 10:17:01 inet-dns CRON[11254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 10:17:01 inet-dns CRON[11254]: pam_unix(cron:session): session closed for user root
+Mar 23 11:17:01 inet-dns CRON[11258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 11:17:01 inet-dns CRON[11258]: pam_unix(cron:session): session closed for user root
+Mar 23 12:17:01 inet-dns CRON[11262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 12:17:01 inet-dns CRON[11262]: pam_unix(cron:session): session closed for user root
+Mar 23 13:17:01 inet-dns CRON[11267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 13:17:01 inet-dns CRON[11267]: pam_unix(cron:session): session closed for user root
+Mar 23 14:17:01 inet-dns CRON[11576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 14:17:01 inet-dns CRON[11576]: pam_unix(cron:session): session closed for user root
+Mar 23 15:17:01 inet-dns CRON[11615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 15:17:01 inet-dns CRON[11615]: pam_unix(cron:session): session closed for user root
+Mar 23 16:17:01 inet-dns CRON[11619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 16:17:01 inet-dns CRON[11619]: pam_unix(cron:session): session closed for user root
+Mar 23 17:17:01 inet-dns CRON[11623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 17:17:01 inet-dns CRON[11623]: pam_unix(cron:session): session closed for user root
+Mar 23 18:17:01 inet-dns CRON[11627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 18:17:01 inet-dns CRON[11627]: pam_unix(cron:session): session closed for user root
+Mar 23 19:17:01 inet-dns CRON[11702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 19:17:01 inet-dns CRON[11702]: pam_unix(cron:session): session closed for user root
+Mar 23 20:17:01 inet-dns CRON[11708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 20:17:01 inet-dns CRON[11708]: pam_unix(cron:session): session closed for user root
+Mar 23 21:17:01 inet-dns CRON[11731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 21:17:01 inet-dns CRON[11731]: pam_unix(cron:session): session closed for user root
+Mar 23 22:17:01 inet-dns CRON[11789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 22:17:01 inet-dns CRON[11789]: pam_unix(cron:session): session closed for user root
+Mar 23 23:17:01 inet-dns CRON[11793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 23:17:01 inet-dns CRON[11793]: pam_unix(cron:session): session closed for user root
+Mar 24 00:17:02 inet-dns CRON[11797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 00:17:02 inet-dns CRON[11797]: pam_unix(cron:session): session closed for user root
+Mar 24 01:17:01 inet-dns CRON[11801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 01:17:01 inet-dns CRON[11801]: pam_unix(cron:session): session closed for user root
+Mar 24 02:17:01 inet-dns CRON[11805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 02:17:01 inet-dns CRON[11805]: pam_unix(cron:session): session closed for user root
+Mar 24 03:17:01 inet-dns CRON[11810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 03:17:01 inet-dns CRON[11810]: pam_unix(cron:session): session closed for user root
+Mar 24 04:17:01 inet-dns CRON[11814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 04:17:01 inet-dns CRON[11814]: pam_unix(cron:session): session closed for user root
+Mar 24 05:17:01 inet-dns CRON[11818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 05:17:01 inet-dns CRON[11818]: pam_unix(cron:session): session closed for user root
+Mar 24 06:17:01 inet-dns CRON[11822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:17:01 inet-dns CRON[11822]: pam_unix(cron:session): session closed for user root
+Mar 24 06:25:01 inet-dns CRON[11827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:25:03 inet-dns CRON[11827]: pam_unix(cron:session): session closed for user root
+Mar 24 07:07:01 inet-dns CRON[12060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:07:02 inet-dns CRON[12060]: pam_unix(cron:session): session closed for user root
+Mar 24 07:17:01 inet-dns CRON[12064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:17:01 inet-dns CRON[12064]: pam_unix(cron:session): session closed for user root
+Mar 24 08:17:01 inet-dns CRON[12068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:17:01 inet-dns CRON[12068]: pam_unix(cron:session): session closed for user root
+Mar 24 09:17:01 inet-dns CRON[12127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:17:01 inet-dns CRON[12127]: pam_unix(cron:session): session closed for user root
+Mar 24 10:17:01 inet-dns CRON[12131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:17:01 inet-dns CRON[12131]: pam_unix(cron:session): session closed for user root
+Mar 24 11:17:01 inet-dns CRON[12135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:17:01 inet-dns CRON[12135]: pam_unix(cron:session): session closed for user root
+Mar 24 12:17:01 inet-dns CRON[12139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:17:01 inet-dns CRON[12139]: pam_unix(cron:session): session closed for user root
+Mar 24 13:17:01 inet-dns CRON[12143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:17:01 inet-dns CRON[12143]: pam_unix(cron:session): session closed for user root
+Mar 24 14:17:01 inet-dns CRON[12147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:17:01 inet-dns CRON[12147]: pam_unix(cron:session): session closed for user root
+Mar 24 15:17:01 inet-dns CRON[12152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:17:01 inet-dns CRON[12152]: pam_unix(cron:session): session closed for user root
+Mar 24 16:17:01 inet-dns CRON[12156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:17:01 inet-dns CRON[12156]: pam_unix(cron:session): session closed for user root
+Mar 24 17:17:01 inet-dns CRON[12215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:17:01 inet-dns CRON[12215]: pam_unix(cron:session): session closed for user root
+Mar 24 18:17:01 inet-dns CRON[12568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:17:01 inet-dns CRON[12568]: pam_unix(cron:session): session closed for user root
+Mar 24 19:17:01 inet-dns CRON[12573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:17:01 inet-dns CRON[12573]: pam_unix(cron:session): session closed for user root
+Mar 24 20:17:01 inet-dns CRON[12648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:17:01 inet-dns CRON[12648]: pam_unix(cron:session): session closed for user root
+Mar 24 21:17:01 inet-dns CRON[12669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:17:01 inet-dns CRON[12669]: pam_unix(cron:session): session closed for user root
+Mar 24 22:17:01 inet-dns CRON[12673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 22:17:01 inet-dns CRON[12673]: pam_unix(cron:session): session closed for user root
+Mar 24 23:17:01 inet-dns CRON[12678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 23:17:01 inet-dns CRON[12678]: pam_unix(cron:session): session closed for user root
+Mar 25 00:17:01 inet-dns CRON[12682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 00:17:01 inet-dns CRON[12682]: pam_unix(cron:session): session closed for user root
+Mar 25 01:17:01 inet-dns CRON[12686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 01:17:01 inet-dns CRON[12686]: pam_unix(cron:session): session closed for user root
+Mar 25 02:17:01 inet-dns CRON[12690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 02:17:01 inet-dns CRON[12690]: pam_unix(cron:session): session closed for user root
+Mar 25 03:17:01 inet-dns CRON[12694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 03:17:01 inet-dns CRON[12694]: pam_unix(cron:session): session closed for user root
+Mar 25 04:17:01 inet-dns CRON[12698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 04:17:02 inet-dns CRON[12698]: pam_unix(cron:session): session closed for user root
+Mar 25 05:17:01 inet-dns CRON[12703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 05:17:01 inet-dns CRON[12703]: pam_unix(cron:session): session closed for user root
+Mar 25 06:17:01 inet-dns CRON[12853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:17:01 inet-dns CRON[12853]: pam_unix(cron:session): session closed for user root
+Mar 25 06:25:01 inet-dns CRON[12857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:25:03 inet-dns CRON[12857]: pam_unix(cron:session): session closed for user root
+Mar 25 07:07:01 inet-dns CRON[12993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 07:07:01 inet-dns CRON[12993]: pam_unix(cron:session): session closed for user root
+Mar 25 07:17:01 inet-dns CRON[12997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 07:17:01 inet-dns CRON[12997]: pam_unix(cron:session): session closed for user root
+Mar 25 08:17:01 inet-dns CRON[13001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 08:17:01 inet-dns CRON[13001]: pam_unix(cron:session): session closed for user root
+Mar 25 09:17:01 inet-dns CRON[13007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 09:17:01 inet-dns CRON[13007]: pam_unix(cron:session): session closed for user root
+Mar 25 10:17:01 inet-dns CRON[13011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 10:17:01 inet-dns CRON[13011]: pam_unix(cron:session): session closed for user root
+Mar 25 11:17:01 inet-dns CRON[13015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 11:17:01 inet-dns CRON[13015]: pam_unix(cron:session): session closed for user root
+Mar 25 12:17:01 inet-dns CRON[13019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 12:17:01 inet-dns CRON[13019]: pam_unix(cron:session): session closed for user root
+Mar 25 13:17:01 inet-dns CRON[13023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 13:17:01 inet-dns CRON[13023]: pam_unix(cron:session): session closed for user root
+Mar 25 14:17:01 inet-dns CRON[13027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 14:17:01 inet-dns CRON[13027]: pam_unix(cron:session): session closed for user root
+Mar 25 15:17:01 inet-dns CRON[13031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 15:17:01 inet-dns CRON[13031]: pam_unix(cron:session): session closed for user root
+Mar 25 16:17:01 inet-dns CRON[13388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 16:17:01 inet-dns CRON[13388]: pam_unix(cron:session): session closed for user root
+Mar 25 17:17:01 inet-dns CRON[13392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 17:17:01 inet-dns CRON[13392]: pam_unix(cron:session): session closed for user root
+Mar 25 18:17:01 inet-dns CRON[13396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 18:17:01 inet-dns CRON[13396]: pam_unix(cron:session): session closed for user root
+Mar 25 19:17:01 inet-dns CRON[13400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 19:17:01 inet-dns CRON[13400]: pam_unix(cron:session): session closed for user root
+Mar 25 20:17:01 inet-dns CRON[13404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:17:01 inet-dns CRON[13404]: pam_unix(cron:session): session closed for user root
+Mar 25 21:17:01 inet-dns CRON[13551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 21:17:01 inet-dns CRON[13551]: pam_unix(cron:session): session closed for user root
+Mar 25 22:17:01 inet-dns CRON[13555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 22:17:01 inet-dns CRON[13555]: pam_unix(cron:session): session closed for user root
+Mar 25 23:17:01 inet-dns CRON[13559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 23:17:01 inet-dns CRON[13559]: pam_unix(cron:session): session closed for user root
+Mar 26 00:17:01 inet-dns CRON[13564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 00:17:02 inet-dns CRON[13564]: pam_unix(cron:session): session closed for user root
+Mar 26 01:17:02 inet-dns CRON[13568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 01:17:02 inet-dns CRON[13568]: pam_unix(cron:session): session closed for user root
+Mar 26 02:17:01 inet-dns CRON[13573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 02:17:01 inet-dns CRON[13573]: pam_unix(cron:session): session closed for user root
+Mar 26 03:17:01 inet-dns CRON[13634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:17:01 inet-dns CRON[13634]: pam_unix(cron:session): session closed for user root
+Mar 26 04:17:01 inet-dns CRON[13638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 04:17:01 inet-dns CRON[13638]: pam_unix(cron:session): session closed for user root
+Mar 26 05:17:01 inet-dns CRON[13642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 05:17:01 inet-dns CRON[13642]: pam_unix(cron:session): session closed for user root
+Mar 26 06:17:01 inet-dns CRON[20197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:17:01 inet-dns CRON[20197]: pam_unix(cron:session): session closed for user root
+Mar 26 06:25:01 inet-dns CRON[20201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:25:51 inet-dns CRON[20201]: pam_unix(cron:session): session closed for user root
+Mar 26 07:07:01 inet-dns CRON[20346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 07:07:01 inet-dns CRON[20346]: pam_unix(cron:session): session closed for user root
+Mar 26 07:17:01 inet-dns CRON[20350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 07:17:01 inet-dns CRON[20350]: pam_unix(cron:session): session closed for user root
+Mar 26 08:17:01 inet-dns CRON[20354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 08:17:01 inet-dns CRON[20354]: pam_unix(cron:session): session closed for user root
+Mar 26 09:17:01 inet-dns CRON[20358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 09:17:01 inet-dns CRON[20358]: pam_unix(cron:session): session closed for user root
+Mar 26 10:17:01 inet-dns CRON[20362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 10:17:01 inet-dns CRON[20362]: pam_unix(cron:session): session closed for user root
+Mar 26 11:17:01 inet-dns CRON[20367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 11:17:01 inet-dns CRON[20367]: pam_unix(cron:session): session closed for user root
+Mar 26 12:17:01 inet-dns CRON[20371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 12:17:01 inet-dns CRON[20371]: pam_unix(cron:session): session closed for user root
+Mar 26 13:17:01 inet-dns CRON[20375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 13:17:01 inet-dns CRON[20375]: pam_unix(cron:session): session closed for user root
+Mar 26 14:17:01 inet-dns CRON[20382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:17:01 inet-dns CRON[20382]: pam_unix(cron:session): session closed for user root
+Mar 26 15:17:01 inet-dns CRON[20749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 15:17:01 inet-dns CRON[20749]: pam_unix(cron:session): session closed for user root
+Mar 26 16:17:01 inet-dns CRON[20753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 16:17:01 inet-dns CRON[20753]: pam_unix(cron:session): session closed for user root
+Mar 26 17:17:01 inet-dns CRON[20758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 17:17:01 inet-dns CRON[20758]: pam_unix(cron:session): session closed for user root
+Mar 26 18:17:01 inet-dns CRON[20763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 18:17:01 inet-dns CRON[20763]: pam_unix(cron:session): session closed for user root
+Mar 26 19:17:01 inet-dns CRON[20767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 19:17:01 inet-dns CRON[20767]: pam_unix(cron:session): session closed for user root
+Mar 26 20:17:01 inet-dns CRON[20771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:17:02 inet-dns CRON[20771]: pam_unix(cron:session): session closed for user root
+Mar 26 21:17:01 inet-dns CRON[20794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:17:01 inet-dns CRON[20794]: pam_unix(cron:session): session closed for user root
+Mar 26 22:17:01 inet-dns CRON[20854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:17:01 inet-dns CRON[20854]: pam_unix(cron:session): session closed for user root
+Mar 26 23:17:01 inet-dns CRON[20858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 23:17:01 inet-dns CRON[20858]: pam_unix(cron:session): session closed for user root
+Mar 27 00:17:01 inet-dns CRON[20864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 00:17:01 inet-dns CRON[20864]: pam_unix(cron:session): session closed for user root
+Mar 27 01:17:01 inet-dns CRON[20868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 01:17:01 inet-dns CRON[20868]: pam_unix(cron:session): session closed for user root
+Mar 27 02:17:01 inet-dns CRON[20872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 02:17:01 inet-dns CRON[20872]: pam_unix(cron:session): session closed for user root
+Mar 27 03:17:01 inet-dns CRON[21229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 03:17:01 inet-dns CRON[21229]: pam_unix(cron:session): session closed for user root
+Mar 27 04:17:01 inet-dns CRON[21233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 04:17:01 inet-dns CRON[21233]: pam_unix(cron:session): session closed for user root
+Mar 27 05:17:01 inet-dns CRON[21238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 05:17:01 inet-dns CRON[21238]: pam_unix(cron:session): session closed for user root
+Mar 27 06:17:01 inet-dns CRON[21242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:17:01 inet-dns CRON[21242]: pam_unix(cron:session): session closed for user root
+Mar 27 06:25:01 inet-dns CRON[21246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:25:05 inet-dns CRON[21246]: pam_unix(cron:session): session closed for user root
+Mar 27 07:07:01 inet-dns CRON[21493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 07:07:01 inet-dns CRON[21493]: pam_unix(cron:session): session closed for user root
+Mar 27 07:17:01 inet-dns CRON[21497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 07:17:02 inet-dns CRON[21497]: pam_unix(cron:session): session closed for user root
+Mar 27 08:17:01 inet-dns CRON[21501]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 08:17:01 inet-dns CRON[21501]: pam_unix(cron:session): session closed for user root
+Mar 27 09:17:01 inet-dns CRON[21506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 09:17:01 inet-dns CRON[21506]: pam_unix(cron:session): session closed for user root
+Mar 27 10:17:01 inet-dns CRON[21510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 10:17:02 inet-dns CRON[21510]: pam_unix(cron:session): session closed for user root
+Mar 27 11:17:01 inet-dns CRON[21516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 11:17:01 inet-dns CRON[21516]: pam_unix(cron:session): session closed for user root
+Mar 27 12:17:01 inet-dns CRON[21644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 12:17:01 inet-dns CRON[21644]: pam_unix(cron:session): session closed for user root
+Mar 27 13:17:01 inet-dns CRON[21649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 13:17:01 inet-dns CRON[21649]: pam_unix(cron:session): session closed for user root
+Mar 27 14:17:01 inet-dns CRON[21656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 14:17:01 inet-dns CRON[21656]: pam_unix(cron:session): session closed for user root
+Mar 27 15:17:01 inet-dns CRON[21660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 15:17:01 inet-dns CRON[21660]: pam_unix(cron:session): session closed for user root
+Mar 27 16:17:01 inet-dns CRON[21665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 16:17:01 inet-dns CRON[21665]: pam_unix(cron:session): session closed for user root
+Mar 27 17:17:01 inet-dns CRON[21669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 17:17:01 inet-dns CRON[21669]: pam_unix(cron:session): session closed for user root
+Mar 27 18:17:01 inet-dns CRON[21674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 18:17:01 inet-dns CRON[21674]: pam_unix(cron:session): session closed for user root
+Mar 27 19:17:01 inet-dns CRON[21678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 19:17:01 inet-dns CRON[21678]: pam_unix(cron:session): session closed for user root
+Mar 27 20:17:01 inet-dns CRON[21682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:17:01 inet-dns CRON[21682]: pam_unix(cron:session): session closed for user root
+Mar 27 21:17:01 inet-dns CRON[21703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 21:17:01 inet-dns CRON[21703]: pam_unix(cron:session): session closed for user root
+Mar 27 22:17:01 inet-dns CRON[21710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 22:17:01 inet-dns CRON[21710]: pam_unix(cron:session): session closed for user root
+Mar 27 23:17:01 inet-dns CRON[21715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 23:17:01 inet-dns CRON[21715]: pam_unix(cron:session): session closed for user root
+Mar 28 00:10:18 inet-dns sshd[21773]: Accepted publickey for ait from 192.42.3.82 port 36672 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 28 00:10:18 inet-dns sshd[21773]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 28 00:10:18 inet-dns systemd-logind[868]: New session 144 of user ait.
+Mar 28 00:10:18 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 28 00:11:25 inet-dns sshd[21773]: pam_unix(sshd:session): session closed for user ait
+Mar 28 00:11:25 inet-dns systemd-logind[868]: Removed session 144.
+Mar 28 00:13:38 inet-dns sshd[21959]: Accepted publickey for ait from 192.42.3.82 port 36864 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 28 00:13:38 inet-dns sshd[21959]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 28 00:13:38 inet-dns systemd-logind[868]: New session 146 of user ait.
+Mar 28 00:13:38 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 28 00:13:39 inet-dns sudo:      ait : TTY=unknown ; PWD=/home/ait ; USER=root ; COMMAND=/usr/bin/rsync --server --sender -lLogDtrze.LsfxC . /var/log/audit
+Mar 28 00:13:39 inet-dns sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 00:13:40 inet-dns sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 00:13:40 inet-dns sshd[21959]: pam_unix(sshd:session): session closed for user ait
+Mar 28 00:13:40 inet-dns systemd-logind[868]: Removed session 146.
+Mar 28 00:13:43 inet-dns sshd[22057]: Accepted publickey for ait from 192.42.3.82 port 36868 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 28 00:13:43 inet-dns sshd[22057]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 28 00:13:43 inet-dns systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 28 00:13:43 inet-dns systemd-logind[868]: New session 148 of user ait.
+Mar 28 00:13:45 inet-dns sudo:      ait : TTY=unknown ; PWD=/home/ait ; USER=root ; COMMAND=/usr/bin/rsync --server --sender -lLogDtrze.LsfxC . /var/log/auth.log
+Mar 28 00:13:45 inet-dns sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

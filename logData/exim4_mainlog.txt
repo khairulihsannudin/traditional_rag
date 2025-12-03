@@ -1,0 +1,910 @@
+2021-03-27 06:50:45 Start queue run: pid=7298
+2021-03-27 06:50:45 End queue run: pid=7298
+2021-03-27 07:20:45 Start queue run: pid=7418
+2021-03-27 07:20:45 End queue run: pid=7418
+2021-03-27 07:50:45 Start queue run: pid=7544
+2021-03-27 07:50:45 End queue run: pid=7544
+2021-03-27 08:03:50 1lQ3vC-0001yi-Cc <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84072 id=20210327080350.Horde.e-sgqvFAingt5Zs_ZqnETDL@smtp.acme.cyberrange.at
+2021-03-27 08:03:50 1lQ3vC-0001yi-Cc => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ3vC-0005Pr-O3"
+2021-03-27 08:03:50 1lQ3vC-0001yi-Cc Completed
+2021-03-27 08:04:47 1lQ3w7-0001yw-Mf <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=932 id=20210327080447.Horde.zdCx5u1XSlXybLGMY0ITiDc@smtp.acme.cyberrange.at
+2021-03-27 08:04:47 1lQ3w7-0001yw-Mf => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ3w7-0005Q0-Uw"
+2021-03-27 08:04:47 1lQ3w7-0001yw-Mf Completed
+2021-03-27 08:10:37 1lQ41l-00020S-D2 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1808 id=20210327081037.Horde.tmnEEe4488b50itHbYuGZb0@smtp.acme.cyberrange.at
+2021-03-27 08:10:37 1lQ41l-00020S-D2 => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ41l-0005R4-Kn"
+2021-03-27 08:10:37 1lQ41l-00020S-D2 Completed
+2021-03-27 08:19:27 1lQ4AJ-000211-Ir <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1127 id=20210327081927.Horde.3PAAZo2K2mA2z5pwgnIz4WW@smtp.acme.cyberrange.at
+2021-03-27 08:19:27 1lQ4AJ-000211-Ir => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4AJ-0005S2-Qk"
+2021-03-27 08:19:27 1lQ4AJ-000211-Ir Completed
+2021-03-27 08:20:45 Start queue run: pid=7767
+2021-03-27 08:20:45 End queue run: pid=7767
+2021-03-27 08:21:50 1lQ4Cc-00021K-8u <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1250 id=20210327082150.Horde.p0whW9C9nGSdk_hQ2TFsJ6m@smtp.acme.cyberrange.at
+2021-03-27 08:21:50 1lQ4Cc-00021K-8u => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4Cc-0005SS-HR"
+2021-03-27 08:21:50 1lQ4Cc-00021K-8u Completed
+2021-03-27 08:24:19 1lQ4F1-00021p-B3 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34708 id=20210327082419.Horde.jwsTAMAzGBaPdgNWMQRwJop@smtp.acme.cyberrange.at
+2021-03-27 08:24:19 1lQ4F1-00021p-B3 => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4F1-0005St-Kb"
+2021-03-27 08:24:19 1lQ4F1-00021p-B3 Completed
+2021-03-27 08:25:55 1lQ4GZ-000228-Lc <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1302 id=20210327082555.Horde.Rv3CCwrlKAMnLjRlJnoMOsk@smtp.acme.cyberrange.at
+2021-03-27 08:25:55 1lQ4GZ-000228-Lc => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4GZ-0005TP-Tx"
+2021-03-27 08:25:55 1lQ4GZ-000228-Lc Completed
+2021-03-27 08:26:25 1lQ4H3-00022I-5P <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1051 id=20210327082625.Horde.TkEHLVAgMhv3TJpzVC42547@smtp.acme.cyberrange.at
+2021-03-27 08:26:25 1lQ4H3-00022I-5P => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4H3-0005TZ-De"
+2021-03-27 08:26:25 1lQ4H3-00022I-5P Completed
+2021-03-27 08:27:38 1lQ4IE-00022Y-RF <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1019 id=20210327082738.Horde.5bS-xAD60YQjqMYQSo8vQHA@smtp.acme.cyberrange.at
+2021-03-27 08:27:39 1lQ4IE-00022Y-RF => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4IF-0005Tk-39"
+2021-03-27 08:27:39 1lQ4IE-00022Y-RF Completed
+2021-03-27 08:30:02 1lQ4KY-00022m-0D <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84000 id=20210327083001.Horde.6lA_WVYNGmo8-YDXkQNgjaA@smtp.acme.cyberrange.at
+2021-03-27 08:30:02 1lQ4KY-00022m-0D => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4KY-0005Tt-ED"
+2021-03-27 08:30:02 1lQ4KY-00022m-0D Completed
+2021-03-27 08:31:48 1lQ4MG-000237-Kl <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34368 id=20210327083148.Horde.1e4GiToBkwTKgj7L9P0Lnzh@smtp.acme.cyberrange.at
+2021-03-27 08:31:49 1lQ4MG-000237-Kl => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4MH-0005UR-4B"
+2021-03-27 08:31:49 1lQ4MG-000237-Kl Completed
+2021-03-27 08:32:52 1lQ4NI-00023I-LP <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=919 id=20210327083252.Horde.yqEpRsAKrNAhmR84g4uLORp@smtp.acme.cyberrange.at
+2021-03-27 08:32:53 1lQ4NI-00023I-LP => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4NJ-0005Ur-9F"
+2021-03-27 08:32:53 1lQ4NI-00023I-LP Completed
+2021-03-27 08:34:36 1lQ4Oy-00023e-LF <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2672 id=20210327083436.Horde.9gd9xt4yADBkxRHaj6DdP7Q@smtp.acme.cyberrange.at
+2021-03-27 08:34:37 1lQ4Oy-00023e-LF => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4Oz-0005V0-5x"
+2021-03-27 08:34:37 1lQ4Oy-00023e-LF Completed
+2021-03-27 08:35:17 1lQ4Pd-00023t-TC <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1052 id=20210327083517.Horde.W3o_jygNHys7vXNJ4l57Azp@smtp.acme.cyberrange.at
+2021-03-27 08:35:18 1lQ4Pd-00023t-TC => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4Pe-0005V5-AL"
+2021-03-27 08:35:18 1lQ4Pd-00023t-TC Completed
+2021-03-27 08:39:21 1lQ4TZ-00024Y-0l <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=990 id=20210327083920.Horde.FbfpwpPmEvFAyendoEZBwxT@smtp.acme.cyberrange.at
+2021-03-27 08:39:21 1lQ4TZ-00024Y-0l => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4TZ-0005VK-N0"
+2021-03-27 08:39:21 1lQ4TZ-00024Y-0l Completed
+2021-03-27 08:41:18 1lQ4VR-00025r-W2 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84433 id=20210327084117.Horde.1KVJJGIaWYMbjuHn29OBSyK@smtp.acme.cyberrange.at
+2021-03-27 08:41:18 1lQ4VR-00025r-W2 => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4VS-0005Wn-DR"
+2021-03-27 08:41:18 1lQ4VR-00025r-W2 Completed
+2021-03-27 08:43:05 1lQ4XB-000264-50 <= stefanie.nowak@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1624 id=20210327084304.Horde.QymR-ybWRPvxElwD5LTlZst@mail.dmz.company.cyberrange.at
+2021-03-27 08:43:05 1lQ4XB-000264-50 => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 08:43:05 1lQ4XB-000264-50 Completed
+2021-03-27 08:43:17 1lQ4XN-000269-NG <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1328 id=20210327084317.Horde.bCABgO-_ALbJkVaRa9959Fj@smtp.acme.cyberrange.at
+2021-03-27 08:43:18 1lQ4XN-000269-NG => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4XO-0005XF-Ac"
+2021-03-27 08:43:18 1lQ4XN-000269-NG Completed
+2021-03-27 08:43:19 1lQ4XO-00026L-OR <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1177 id=20210327084318.Horde.UzDjUavUBILMAmkUADsjiVh@smtp.acme.cyberrange.at
+2021-03-27 08:43:19 1lQ4XO-00026L-OR => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4XP-0005XJ-CP"
+2021-03-27 08:43:19 1lQ4XO-00026L-OR Completed
+2021-03-27 08:46:03 1lQ4a3-00026o-Bp <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2985 id=20210327084603.Horde.FR9IakY5RQBJMiqBe5MsnHZ@smtp.acme.cyberrange.at
+2021-03-27 08:46:03 1lQ4a3-00026o-Bp => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4a3-0005Xw-OC"
+2021-03-27 08:46:03 1lQ4a3-00026o-Bp => caroline.rottensteiner@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ4a3-0001eZ-Or"
+2021-03-27 08:46:03 1lQ4a3-00026o-Bp Completed
+2021-03-27 08:46:09 1lQ4a9-000270-Je <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1678 id=20210327084609.Horde.rN8_chF3pGtJL7LpJT3d8RL@smtp.acme.cyberrange.at
+2021-03-27 08:46:10 1lQ4a9-000270-Je => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4a9-0005Y1-VK"
+2021-03-27 08:46:10 1lQ4a9-000270-Je Completed
+2021-03-27 08:46:54 1lQ4as-00027D-9Q <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=908 id=20210327084654.Horde.XQTtajmNODltgpRTuf5wCkV@smtp.acme.cyberrange.at
+2021-03-27 08:46:54 1lQ4as-00027D-9Q => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4as-0005YA-Nb"
+2021-03-27 08:46:54 1lQ4as-00027D-9Q Completed
+2021-03-27 08:48:38 1lQ4cY-00027Y-8A <= emma.geier@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2071 id=20210327084837.Horde.DEQyJHbRDty4w3bknn0FdPg@mail.dmz.company.cyberrange.at
+2021-03-27 08:48:38 1lQ4cY-00027Y-8A => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 08:48:38 1lQ4cY-00027Y-8A Completed
+2021-03-27 08:49:30 1lQ4dO-00027e-Op <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1201 id=20210327084930.Horde.Colo_FQgnSHF6sLmRAZka_s@smtp.acme.cyberrange.at
+2021-03-27 08:49:31 1lQ4dO-00027e-Op => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4dP-0005YY-8l"
+2021-03-27 08:49:31 1lQ4dO-00027e-Op Completed
+2021-03-27 08:50:07 1lQ4dz-00027p-JI <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=191285 id=20210327085007.Horde.F0GHq8Md-iN98A3d6SH1HO5@smtp.acme.cyberrange.at
+2021-03-27 08:50:08 1lQ4dz-00027p-JI => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4e0-0005Yw-00"
+2021-03-27 08:50:08 1lQ4dz-00027p-JI Completed
+2021-03-27 08:50:16 1lQ4e8-00027v-Oq <= stefanie.nowak@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1491 id=20210327085016.Horde.Xz1FBJZiPkD9il7gbiYH8uj@mail.dmz.company.cyberrange.at
+2021-03-27 08:50:16 1lQ4e8-00027v-Oq => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 08:50:16 1lQ4e8-00027v-Oq Completed
+2021-03-27 08:50:30 1lQ4eM-00027z-JK <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=881 id=20210327085030.Horde.rEaKv5AEKavf4GQCLR37GpW@smtp.acme.cyberrange.at
+2021-03-27 08:50:31 1lQ4eM-00027z-JK => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4eN-0005ZE-0b"
+2021-03-27 08:50:31 1lQ4eM-00027z-JK Completed
+2021-03-27 08:50:45 Start queue run: pid=8189
+2021-03-27 08:50:45 End queue run: pid=8189
+2021-03-27 08:52:26 1lQ4gE-00028A-C7 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1103 id=20210327085226.Horde.NP3iDdqMrPWC8jG--DSji9K@smtp.acme.cyberrange.at
+2021-03-27 08:52:26 1lQ4gE-00028A-C7 => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4gE-0005Zz-PF"
+2021-03-27 08:52:26 1lQ4gE-00028A-C7 Completed
+2021-03-27 08:55:40 1lQ4jM-000292-9P <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1888 id=20210327085540.Horde.iJ4f7wDsKmBld6BQDOmyCKG@smtp.acme.cyberrange.at
+2021-03-27 08:55:40 1lQ4jM-000292-9P => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4jM-0005ag-Nj"
+2021-03-27 08:55:40 1lQ4jM-000292-9P Completed
+2021-03-27 08:57:01 1lQ4kf-00029G-8T <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=971 id=20210327085701.Horde.yO4f2QSz6jsEzUrqVHGaGHp@smtp.acme.cyberrange.at
+2021-03-27 08:57:01 1lQ4kf-00029G-8T => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4kf-0005bF-LS"
+2021-03-27 08:57:01 1lQ4kf-00029G-8T Completed
+2021-03-27 08:57:55 1lQ4lX-00029R-Su <= root@smtp.acme.cyberrange.at U=root P=local S=605594
+2021-03-27 08:57:55 1lQ4lX-00029R-Su => /var/mail/mail <root@smtp.acme.cyberrange.at> R=mail4root T=address_file
+2021-03-27 08:57:55 1lQ4lX-00029R-Su Completed
+2021-03-27 09:00:12 1lQ4nk-00029f-Fc <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=962 id=20210327090012.Horde.cl1yxGbSMUOK_Akb3EW9yNR@smtp.acme.cyberrange.at
+2021-03-27 09:00:12 1lQ4nk-00029f-Fc => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4nk-0005c0-Nv"
+2021-03-27 09:00:12 1lQ4nk-00029f-Fc Completed
+2021-03-27 09:02:40 1lQ4q8-0002A1-L0 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=930 id=20210327090240.Horde.Xa5GrzccSlWBqdZJb1tzFne@smtp.acme.cyberrange.at
+2021-03-27 09:02:40 1lQ4q8-0002A1-L0 => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4q8-0005cn-T2"
+2021-03-27 09:02:40 1lQ4q8-0002A1-L0 Completed
+2021-03-27 09:03:55 1lQ4rL-0002AA-N6 <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1445 id=20210327090355.Horde.MT_iDzCdhWgiMpluUtxSq-x@mail.dmz.company.cyberrange.at
+2021-03-27 09:03:55 1lQ4rL-0002AA-N6 => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:03:55 1lQ4rL-0002AA-N6 Completed
+2021-03-27 09:04:49 1lQ4sD-0002AE-7K <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=25866 id=20210327090449.Horde.Zj81M8ll_j-aVyw3G1AiSpl@smtp.acme.cyberrange.at
+2021-03-27 09:04:49 1lQ4sD-0002AE-7K => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4sD-0005d9-Fj"
+2021-03-27 09:04:49 1lQ4sD-0002AE-7K Completed
+2021-03-27 09:10:19 1lQ4xX-0002Bs-HI <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1725 id=20210327091019.Horde.YiEkRSANitv_VwU_6YhtHi4@smtp.acme.cyberrange.at
+2021-03-27 09:10:19 1lQ4xX-0002Bs-HI => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4xX-0005fF-Nr"
+2021-03-27 09:10:19 1lQ4xX-0002Bs-HI Completed
+2021-03-27 09:10:52 1lQ4y4-0002C0-OE <= lorraine.mitteregger@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3436 id=20210327091052.Horde.XTg-imWBnD1lOXk5x0i3v4Z@mailserver.umbrella.cyberrange.at
+2021-03-27 09:10:52 1lQ4y4-0002C0-OE => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:10:52 1lQ4y4-0002C0-OE Completed
+2021-03-27 09:11:16 1lQ4yS-0002C5-Ol <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34233 id=20210327091116.Horde.Hp_P5dySfqh8g3m6sURF5Mq@smtp.acme.cyberrange.at
+2021-03-27 09:11:17 1lQ4yS-0002C5-Ol => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4yT-0005fc-13"
+2021-03-27 09:11:17 1lQ4yS-0002C5-Ol Completed
+2021-03-27 09:12:37 1lQ4zl-0002CJ-H5 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2411 id=20210327091237.Horde.zurAPAfcbWmslIBg5wFVoKD@smtp.acme.cyberrange.at
+2021-03-27 09:12:37 1lQ4zl-0002CJ-H5 => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ4zl-0005fm-PC"
+2021-03-27 09:12:37 1lQ4zl-0002CJ-H5 Completed
+2021-03-27 09:13:08 1lQ50G-0002CT-FS <= emma.geier@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1991 id=20210327091308.Horde.G6ncSQbpElA2t1QevVX9Fai@mail.dmz.company.cyberrange.at
+2021-03-27 09:13:08 1lQ50G-0002CT-FS => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:13:08 1lQ50G-0002CT-FS Completed
+2021-03-27 09:14:43 1lQ51n-0002Ca-6Y <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1238 id=20210327091443.Horde.SgGJ9ySW37bngo6FxKZqmQI@smtp.acme.cyberrange.at
+2021-03-27 09:14:43 1lQ51n-0002Ca-6Y => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ51n-0005gL-Eo"
+2021-03-27 09:14:43 1lQ51n-0002Ca-6Y Completed
+2021-03-27 09:16:27 1lQ53T-0002Ci-Og <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1145 id=20210327091627.Horde.uFkyK3EN6EFIvtZ_hYTHAsY@smtp.acme.cyberrange.at
+2021-03-27 09:16:28 1lQ53T-0002Ci-Og => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ53U-0005gp-0P"
+2021-03-27 09:16:28 1lQ53T-0002Ci-Og Completed
+2021-03-27 09:19:20 1lQ56G-0002D6-Od <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1248 id=20210327091920.Horde.JCMqG08K_ctt4retIwBsKrK@smtp.acme.cyberrange.at
+2021-03-27 09:19:21 1lQ56G-0002D6-Od => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ56H-0005hH-0e"
+2021-03-27 09:19:21 1lQ56G-0002D6-Od Completed
+2021-03-27 09:20:45 Start queue run: pid=8510
+2021-03-27 09:20:45 End queue run: pid=8510
+2021-03-27 09:21:32 1lQ58O-0002DK-IM <= emma.geier@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1450 id=20210327092132.Horde.JcxB7Zpk21rXM8Sd0vYkRiB@mail.dmz.company.cyberrange.at
+2021-03-27 09:21:32 1lQ58O-0002DK-IM => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:21:32 1lQ58O-0002DK-IM Completed
+2021-03-27 09:27:26 1lQ5E6-0002Ds-AQ <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=10372 id=20210327092726.Horde.r-eWTP1vbh1lI1IIHT6ffKs@smtp.acme.cyberrange.at
+2021-03-27 09:27:26 1lQ5E6-0002Ds-AQ => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5E6-0005jC-Il"
+2021-03-27 09:27:26 1lQ5E6-0002Ds-AQ Completed
+2021-03-27 09:28:29 1lQ5F7-0002EF-18 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=873 id=20210327092828.Horde.U4XArFeiAaBJVJSZsbayy5i@smtp.acme.cyberrange.at
+2021-03-27 09:28:29 1lQ5F7-0002EF-18 => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5F7-0005jG-AL"
+2021-03-27 09:28:29 1lQ5F7-0002EF-18 Completed
+2021-03-27 09:30:23 1lQ5Gx-0002EQ-Nb <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1149 id=20210327093023.Horde.NEYxAba_n0FtCzHSJCuVOmU@smtp.acme.cyberrange.at
+2021-03-27 09:30:24 1lQ5Gx-0002EQ-Nb => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5Gx-0005jn-W8"
+2021-03-27 09:30:24 1lQ5Gx-0002EQ-Nb Completed
+2021-03-27 09:32:34 1lQ5J4-0002Ev-Ng <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2559 id=20210327093234.Horde.CajiBQvtIeA67RFWvsukN73@smtp.acme.cyberrange.at
+2021-03-27 09:32:35 1lQ5J4-0002Ev-Ng => caroline.rottensteiner@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ5J5-0001l7-1V"
+2021-03-27 09:32:35 1lQ5J4-0002Ev-Ng => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5J5-0005kE-1V"
+2021-03-27 09:32:35 1lQ5J4-0002Ev-Ng Completed
+2021-03-27 09:39:23 1lQ5Pf-0002FS-8N <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=34863 id=20210327093922.Horde.KItCvjkHw9sBvVqTyITUtbp@mail.dmz.company.cyberrange.at
+2021-03-27 09:39:23 1lQ5Pf-0002FS-8N => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:39:23 1lQ5Pf-0002FS-8N Completed
+2021-03-27 09:41:31 1lQ5Rj-0002Ga-Nh <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=857 id=20210327094131.Horde.AX5t9MtthmaNU-2Tz3Ql6gz@smtp.acme.cyberrange.at
+2021-03-27 09:41:32 1lQ5Rj-0002Ga-Nh => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5Rj-0005nj-VY"
+2021-03-27 09:41:32 1lQ5Rj-0002Ga-Nh Completed
+2021-03-27 09:41:42 1lQ5Ru-0002Gk-50 <= stefanie.nowak@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1375 id=20210327094141.Horde.qxBytx0ylhWcXYmMNIYm5vM@mail.dmz.company.cyberrange.at
+2021-03-27 09:41:42 1lQ5Ru-0002Gk-50 => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:41:42 1lQ5Ru-0002Gk-50 Completed
+2021-03-27 09:44:32 1lQ5Ue-0002HK-8j <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1204 id=20210327094431.Horde.g5wjc7nKinms_v_lNZx1OfR@mail.dmz.company.cyberrange.at
+2021-03-27 09:44:32 1lQ5Ue-0002HK-8j => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 09:44:32 1lQ5Ue-0002HK-8j Completed
+2021-03-27 09:46:34 1lQ5Wc-0002HU-Kh <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=922 id=20210327094634.Horde.b9HbQ3h1TqGw3l9ZeftNJV6@smtp.acme.cyberrange.at
+2021-03-27 09:46:34 1lQ5Wc-0002HU-Kh => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5Wc-0005pX-Tq"
+2021-03-27 09:46:34 1lQ5Wc-0002HU-Kh Completed
+2021-03-27 09:48:29 1lQ5YT-0002Hv-Fv <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34704 id=20210327094829.Horde.4jqtNtDuFvuWLPtcJ4cn0ua@smtp.acme.cyberrange.at
+2021-03-27 09:48:29 1lQ5YT-0002Hv-Fv => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5YT-0005q5-Nd"
+2021-03-27 09:48:29 1lQ5YT-0002Hv-Fv Completed
+2021-03-27 09:49:57 1lQ5Zt-0002I1-T6 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34400 id=20210327094957.Horde.3_ioyn603MITzUTnhKhPlT_@smtp.acme.cyberrange.at
+2021-03-27 09:49:58 1lQ5Zt-0002I1-T6 => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5Zu-0005qJ-4K"
+2021-03-27 09:49:58 1lQ5Zt-0002I1-T6 Completed
+2021-03-27 09:50:45 Start queue run: pid=8820
+2021-03-27 09:50:45 End queue run: pid=8820
+2021-03-27 10:04:00 1lQ5nU-0002J4-3j <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2296 id=20210327100359.Horde.Wdkq04lPkzGDzGG7I-VVOQX@mail.dmz.company.cyberrange.at
+2021-03-27 10:04:00 1lQ5nU-0002J4-3j => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:04:00 1lQ5nU-0002J4-3j Completed
+2021-03-27 10:06:40 1lQ5q4-0002JG-3H <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2481 id=20210327100639.Horde.j12Gi5CGaK1VoQoJJMMEvol@mail.dmz.company.cyberrange.at
+2021-03-27 10:06:40 1lQ5q4-0002JG-3H => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:06:40 1lQ5q4-0002JG-3H Completed
+2021-03-27 10:06:54 1lQ5qI-0002JK-Si <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2480 id=20210327100654.Horde.zywWPVqsIQqb695iHTEiX-O@smtp.acme.cyberrange.at
+2021-03-27 10:06:55 1lQ5qI-0002JK-Si => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5qJ-0005ui-48"
+2021-03-27 10:06:55 1lQ5qI-0002JK-Si Completed
+2021-03-27 10:08:26 1lQ5rm-0002Jc-Ac <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1011 id=20210327100826.Horde.Bpp8JAbnlU8DCsiDMGj3-un@smtp.acme.cyberrange.at
+2021-03-27 10:08:26 1lQ5rm-0002Jc-Ac => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5rm-0005vD-JP"
+2021-03-27 10:08:26 1lQ5rm-0002Jc-Ac Completed
+2021-03-27 10:15:59 1lQ5z5-0002L2-M1 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1097 id=20210327101559.Horde.W1GbH_qR7GyDGwbTue87k-h@smtp.acme.cyberrange.at
+2021-03-27 10:16:00 1lQ5z5-0002L2-M1 => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ5z5-0005xQ-Uy"
+2021-03-27 10:16:00 1lQ5z5-0002L2-M1 Completed
+2021-03-27 10:17:15 1lQ60J-0002LT-Gm <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1411 id=20210327101715.Horde.OHjGYH-RVIsY95KlhkchyyV@smtp.acme.cyberrange.at
+2021-03-27 10:17:15 1lQ60J-0002LT-Gm => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ60J-0005xv-Qm"
+2021-03-27 10:17:15 1lQ60J-0002LT-Gm Completed
+2021-03-27 10:18:26 1lQ61S-0002Li-5z <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=975 id=20210327101826.Horde.OOAwREmt5lGYPe_p-2uLBNn@smtp.acme.cyberrange.at
+2021-03-27 10:18:26 1lQ61S-0002Li-5z => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ61S-0005yU-FN"
+2021-03-27 10:18:26 1lQ61S-0002Li-5z Completed
+2021-03-27 10:20:38 1lQ63a-0002Ly-3Y <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1094 id=20210327102038.Horde.V-REEaNdO0BkzqZM-sJSzMG@smtp.acme.cyberrange.at
+2021-03-27 10:20:38 1lQ63a-0002Ly-3Y => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ63a-0005yn-CO"
+2021-03-27 10:20:38 1lQ63a-0002Ly-3Y Completed
+2021-03-27 10:20:45 Start queue run: pid=9062
+2021-03-27 10:20:45 End queue run: pid=9062
+2021-03-27 10:20:51 1lQ63n-0002MD-J0 <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1281 id=20210327102051.Horde.EgbxSp5o0hWawmCevmLnhTz@mail.dmz.company.cyberrange.at
+2021-03-27 10:20:51 1lQ63n-0002MD-J0 => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:20:51 1lQ63n-0002MD-J0 Completed
+2021-03-27 10:23:50 1lQ66g-0002Mc-Rw <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1645 id=20210327102350.Horde.unoDP94on6pRf4OTCC4kVwO@smtp.acme.cyberrange.at
+2021-03-27 10:23:51 1lQ66g-0002Mc-Rw => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ66h-0005zc-3P"
+2021-03-27 10:23:51 1lQ66g-0002Mc-Rw Completed
+2021-03-27 10:28:59 1lQ6Bf-0002NC-9k <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1273 id=20210327102859.Horde.y1UUrThmd72lZK5rJ4DlZKs@smtp.acme.cyberrange.at
+2021-03-27 10:28:59 1lQ6Bf-0002NC-9k => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6Bf-00060k-Gy"
+2021-03-27 10:28:59 1lQ6Bf-0002NC-9k Completed
+2021-03-27 10:32:35 1lQ6F9-0002Nl-Gb <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2129 id=20210327103235.Horde.PFPTKyI7cloAFbbpd8_l8dA@smtp.acme.cyberrange.at
+2021-03-27 10:32:35 1lQ6F9-0002Nl-Gb => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6F9-00061g-PQ"
+2021-03-27 10:32:35 1lQ6F9-0002Nl-Gb Completed
+2021-03-27 10:35:07 1lQ6Hb-0002O6-5D <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2146 id=20210327103506.Horde.R1RKe6WBEJWLbYODD_hUvEX@mail.dmz.company.cyberrange.at
+2021-03-27 10:35:07 1lQ6Hb-0002O6-5D => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:35:07 1lQ6Hb-0002O6-5D Completed
+2021-03-27 10:36:00 1lQ6IS-0002OB-Lr <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1311 id=20210327103600.Horde.9EUVK9QEDh7SFY1P15O5Qzq@smtp.acme.cyberrange.at
+2021-03-27 10:36:00 1lQ6IS-0002OB-Lr => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6IS-00062L-Tu"
+2021-03-27 10:36:00 1lQ6IS-0002OB-Lr Completed
+2021-03-27 10:39:23 1lQ6Lj-0002Oc-DK <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2118 id=20210327103923.Horde.OJpwo0kdqZPlE7KJljgivxe@mail.dmz.company.cyberrange.at
+2021-03-27 10:39:23 1lQ6Lj-0002Oc-DK => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:39:23 1lQ6Lj-0002Oc-DK Completed
+2021-03-27 10:41:36 1lQ6Ns-0002Pk-NL <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1533 id=20210327104136.Horde.VwaDxD-rc_EHMK3ffy4qEO0@mail.dmz.company.cyberrange.at
+2021-03-27 10:41:36 1lQ6Ns-0002Pk-NL => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 10:41:36 1lQ6Ns-0002Pk-NL Completed
+2021-03-27 10:41:52 1lQ6O8-0002Po-Iy <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1117 id=20210327104152.Horde.oWtjfLSlw1HynQ0BTvKLwW6@smtp.acme.cyberrange.at
+2021-03-27 10:41:52 1lQ6O8-0002Po-Iy => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6O8-00064i-Ql"
+2021-03-27 10:41:52 1lQ6O8-0002Po-Iy Completed
+2021-03-27 10:44:14 1lQ6QQ-0002QB-CZ <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2770 id=20210327104414.Horde.ygCRfaiWkPvGoIgEc9tpQei@smtp.acme.cyberrange.at
+2021-03-27 10:44:14 1lQ6QQ-0002QB-CZ => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6QQ-000650-Ko"
+2021-03-27 10:44:14 1lQ6QQ-0002QB-CZ Completed
+2021-03-27 10:45:30 1lQ6Re-0002QM-BG <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1024 id=20210327104530.Horde.dwrvZsGdejODkTWV8sCqTE5@smtp.acme.cyberrange.at
+2021-03-27 10:45:30 1lQ6Re-0002QM-BG => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6Re-000655-M4"
+2021-03-27 10:45:30 1lQ6Re-0002QM-BG Completed
+2021-03-27 10:48:32 1lQ6Ua-0002Qz-Kb <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1517 id=20210327104832.Horde.CZjlqHnHORFGdLfvMLIzJD4@smtp.acme.cyberrange.at
+2021-03-27 10:48:32 1lQ6Ua-0002Qz-Kb => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<konstantin.braun@company.cyberrange.at> acceptance"
+2021-03-27 10:48:32 1lQ6Ua-0002Qz-Kb -> naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<naomi.leithner@company.cyberrange.at> acceptance"
+2021-03-27 10:48:32 1lQ6Ua-0002Qz-Kb Completed
+2021-03-27 10:50:45 Start queue run: pid=9372
+2021-03-27 10:50:45 End queue run: pid=9372
+2021-03-27 10:51:16 1lQ6XE-0002RG-Hd <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1307 id=20210327105116.Horde.MC9ga5O7TtXDm8wKfBpE7BR@smtp.acme.cyberrange.at
+2021-03-27 10:51:16 1lQ6XE-0002RG-Hd => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6XE-00066U-QN"
+2021-03-27 10:51:16 1lQ6XE-0002RG-Hd Completed
+2021-03-27 10:52:10 1lQ6Y6-0002RW-Co <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=868 id=20210327105210.Horde.qEKZkvJIXXox6bqLMIzvFHl@smtp.acme.cyberrange.at
+2021-03-27 10:52:10 1lQ6Y6-0002RW-Co => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6Y6-00066x-Mo"
+2021-03-27 10:52:10 1lQ6Y6-0002RW-Co Completed
+2021-03-27 10:54:29 1lQ6aL-0002Rm-7h <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1159 id=20210327105429.Horde.0VcOIAhOJSa7eZiUA6uJYHC@smtp.acme.cyberrange.at
+2021-03-27 10:54:29 1lQ6aL-0002Rm-7h => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6aL-00067l-Fn"
+2021-03-27 10:54:29 1lQ6aL-0002Rm-7h Completed
+2021-03-27 10:56:52 1lQ6ce-0002SC-UL <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2947 id=20210327105652.Horde.H-VTPekPSRD6CTBUYHPzVTV@smtp.acme.cyberrange.at
+2021-03-27 10:56:53 1lQ6ce-0002SC-UL => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6cf-00068N-8M"
+2021-03-27 10:56:53 1lQ6ce-0002SC-UL => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ6cf-00022B-8l"
+2021-03-27 10:56:53 1lQ6ce-0002SC-UL Completed
+2021-03-27 10:58:58 1lQ6eg-0002SS-07 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1127 id=20210327105857.Horde.glIIIQFU62VNDgdzZsjkcaC@smtp.acme.cyberrange.at
+2021-03-27 10:58:58 1lQ6eg-0002SS-07 => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<felicitas.feichtner@company.cyberrange.at> acceptance"
+2021-03-27 10:58:58 1lQ6eg-0002SS-07 -> stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<stefanie.nowak@company.cyberrange.at> acceptance"
+2021-03-27 10:58:58 1lQ6eg-0002SS-07 Completed
+2021-03-27 10:59:47 1lQ6fT-0002Sb-Lm <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=860 id=20210327105947.Horde.TMPIbyfwsdHioWWOHW6_Xtz@smtp.acme.cyberrange.at
+2021-03-27 10:59:48 1lQ6fT-0002Sb-Lm => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6fT-000699-VV"
+2021-03-27 10:59:48 1lQ6fT-0002Sb-Lm Completed
+2021-03-27 11:02:18 1lQ6hu-0002Sh-9J <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1270 id=20210327110218.Horde.xjwoIpppFRbv1M13B2gHWMv@smtp.acme.cyberrange.at
+2021-03-27 11:02:18 1lQ6hu-0002Sh-9J => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6hu-00069q-Hq"
+2021-03-27 11:02:18 1lQ6hu-0002Sh-9J Completed
+2021-03-27 11:06:25 1lQ6lt-0002T3-IQ <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1255 id=20210327110625.Horde.NCEgzdxpfnl402fQXS97hZz@smtp.acme.cyberrange.at
+2021-03-27 11:06:25 1lQ6lt-0002T3-IQ => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6lt-0006B5-Qn"
+2021-03-27 11:06:25 1lQ6lt-0002T3-IQ Completed
+2021-03-27 11:09:09 1lQ6oX-0002Te-GS <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1113 id=20210327110909.Horde.jhu137GNJFcJHFU0i0X2RJG@smtp.acme.cyberrange.at
+2021-03-27 11:09:09 1lQ6oX-0002Te-GS => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6oX-0006Bd-PI"
+2021-03-27 11:09:09 1lQ6oX-0002Te-GS Completed
+2021-03-27 11:09:23 1lQ6ol-0002Uk-Ha <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=867 id=20210327110923.Horde.GmPjCZszTeaCRHmJ9aszk9G@smtp.acme.cyberrange.at
+2021-03-27 11:09:23 1lQ6ol-0002Uk-Ha => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6ol-0006Cc-P1"
+2021-03-27 11:09:23 1lQ6ol-0002Uk-Ha Completed
+2021-03-27 11:10:45 1lQ6q5-0002VM-Sr <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84654 id=20210327111045.Horde.fNM4K0itGPJNHpIpXVZ51OO@smtp.acme.cyberrange.at
+2021-03-27 11:10:46 1lQ6q5-0002VM-Sr => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6q6-0006Cy-46"
+2021-03-27 11:10:46 1lQ6q5-0002VM-Sr Completed
+2021-03-27 11:11:00 1lQ6qK-0002VZ-TG <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=921 id=20210327111100.Horde.hOqnEsHVf7f-cJ_bxSFBXpc@smtp.acme.cyberrange.at
+2021-03-27 11:11:01 1lQ6qK-0002VZ-TG => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6qL-0006DB-4m"
+2021-03-27 11:11:01 1lQ6qK-0002VZ-TG Completed
+2021-03-27 11:11:48 1lQ6r6-0002Vh-Ie <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2462 id=20210327111148.Horde.pX-NkYRRT5D_YQsKY3v8uMC@smtp.acme.cyberrange.at
+2021-03-27 11:11:48 1lQ6r6-0002Vh-Ie => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6r6-0006DG-Pv"
+2021-03-27 11:11:48 1lQ6r6-0002Vh-Ie Completed
+2021-03-27 11:12:51 1lQ6s7-0002Vx-PY <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=961 id=20210327111251.Horde.s5mlfu-e1UYur72Gab4vtWH@smtp.acme.cyberrange.at
+2021-03-27 11:12:52 1lQ6s7-0002Vx-PY => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6s8-0006DL-12"
+2021-03-27 11:12:52 1lQ6s7-0002Vx-PY Completed
+2021-03-27 11:13:05 1lQ6sL-0002W6-TT <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1602 id=20210327111305.Horde.6hDTq2oHoPPdFQtrv1Sv1Sz@smtp.acme.cyberrange.at
+2021-03-27 11:13:06 1lQ6sL-0002W6-TT => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6sM-0006DP-8R"
+2021-03-27 11:13:06 1lQ6sL-0002W6-TT Completed
+2021-03-27 11:14:27 1lQ6tf-0002WE-2f <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=960 id=20210327111426.Horde.g15VwHLwbvIcNsh87GOG1-u@smtp.acme.cyberrange.at
+2021-03-27 11:14:27 1lQ6tf-0002WE-2f => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6tf-0006DY-B6"
+2021-03-27 11:14:27 1lQ6tf-0002WE-2f Completed
+2021-03-27 11:14:37 1lQ6tp-0002WS-0O <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1111 id=20210327111436.Horde.VWxZGKKMpLWBg790Yzt0Sy-@smtp.acme.cyberrange.at
+2021-03-27 11:14:37 1lQ6tp-0002WS-0O => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6tp-0006Dc-7g"
+2021-03-27 11:14:37 1lQ6tp-0002WS-0O Completed
+2021-03-27 11:15:39 1lQ6up-0002Wl-0j <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2231 id=20210327111538.Horde.BNA5p44NcT35_eaDFpFy_pq@smtp.acme.cyberrange.at
+2021-03-27 11:15:39 1lQ6up-0002Wl-0j => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6up-0006Dh-9V"
+2021-03-27 11:15:39 1lQ6up-0002Wl-0j Completed
+2021-03-27 11:18:19 1lQ6xP-0002XK-Ij <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=942 id=20210327111819.Horde.H7b_gmqs_JYXV18FQzUYv0g@smtp.acme.cyberrange.at
+2021-03-27 11:18:19 1lQ6xP-0002XK-Ij => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6xP-0006Dt-RT"
+2021-03-27 11:18:19 1lQ6xP-0002XK-Ij Completed
+2021-03-27 11:18:32 1lQ6xc-0002XW-MH <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1314 id=20210327111832.Horde.7br7ZtN1RITighUVlFEAsAw@smtp.acme.cyberrange.at
+2021-03-27 11:18:33 1lQ6xc-0002XW-MH => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6xd-0006Dx-28"
+2021-03-27 11:18:33 1lQ6xc-0002XW-MH Completed
+2021-03-27 11:19:03 1lQ6y7-0002Xh-Cs <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=841 id=20210327111903.Horde.EhDIK_m3gnwN0yWE6Qrd7cI@smtp.acme.cyberrange.at
+2021-03-27 11:19:03 1lQ6y7-0002Xh-Cs => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6y7-0006E2-L1"
+2021-03-27 11:19:03 1lQ6y7-0002Xh-Cs Completed
+2021-03-27 11:20:11 1lQ6zD-0002Xu-D1 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1310 id=20210327112011.Horde.ZHHhczep5DzoHwKPa_Qd-9n@smtp.acme.cyberrange.at
+2021-03-27 11:20:11 1lQ6zD-0002Xu-D1 => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6zD-0006EB-Lh"
+2021-03-27 11:20:11 1lQ6zD-0002Xu-D1 Completed
+2021-03-27 11:20:28 1lQ6zU-0002Y1-TJ <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1039 id=20210327112028.Horde.Ns5NjKylNSfyJrezVIY7G6G@smtp.acme.cyberrange.at
+2021-03-27 11:20:29 1lQ6zU-0002Y1-TJ => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ6zV-0006EI-64"
+2021-03-27 11:20:29 1lQ6zU-0002Y1-TJ Completed
+2021-03-27 11:20:45 Start queue run: pid=9810
+2021-03-27 11:20:45 End queue run: pid=9810
+2021-03-27 11:21:05 1lQ705-0002YH-Je <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1128 id=20210327112105.Horde.1sEjBrxyo2bDf1wW5hM3EHZ@smtp.acme.cyberrange.at
+2021-03-27 11:21:05 1lQ705-0002YH-Je => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ705-0006EU-RJ"
+2021-03-27 11:21:05 1lQ705-0002YH-Je Completed
+2021-03-27 11:26:57 1lQ75l-0002Yw-PO <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2672 id=20210327112657.Horde.lPAesT1WxuegFg4pM3G0URh@smtp.acme.cyberrange.at
+2021-03-27 11:26:57 1lQ75l-0002Yw-PO => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 11:26:58 1lQ75l-0002Yw-PO => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<stefanie.nowak@company.cyberrange.at> acceptance"
+2021-03-27 11:26:58 1lQ75l-0002Yw-PO -> helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<helena.kern@company.cyberrange.at> acceptance"
+2021-03-27 11:26:58 1lQ75l-0002Yw-PO Completed
+2021-03-27 11:28:03 1lQ76p-0002ZW-Sh <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=988 id=20210327112803.Horde.fSlNeDr-2wGlDw83SEr9dak@smtp.acme.cyberrange.at
+2021-03-27 11:28:04 1lQ76p-0002ZW-Sh => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ76q-0006FL-3s"
+2021-03-27 11:28:04 1lQ76p-0002ZW-Sh Completed
+2021-03-27 11:28:55 1lQ77f-0002Zh-Qh <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=907 id=20210327112855.Horde.KAXF_dCV4oTnEaqOq_XEb7u@smtp.acme.cyberrange.at
+2021-03-27 11:28:56 1lQ77f-0002Zh-Qh => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ77g-0006Fa-3c"
+2021-03-27 11:28:56 1lQ77f-0002Zh-Qh Completed
+2021-03-27 11:30:42 1lQ79O-0002a1-E0 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2233 id=20210327113042.Horde.XhnkLTb_53IDQCddXOJyLe-@smtp.acme.cyberrange.at
+2021-03-27 11:30:42 1lQ79O-0002a1-E0 => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<naomi.leithner@company.cyberrange.at> acceptance"
+2021-03-27 11:30:42 1lQ79O-0002a1-E0 -> konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<konstantin.braun@company.cyberrange.at> acceptance"
+2021-03-27 11:30:42 1lQ79O-0002a1-E0 -> felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<felicitas.feichtner@company.cyberrange.at> acceptance"
+2021-03-27 11:30:42 1lQ79O-0002a1-E0 Completed
+2021-03-27 11:31:15 1lQ79v-0002aO-Kg <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2355 id=20210327113115.Horde.yQ3hwl_Gpi1ouBWAwg37LFe@smtp.acme.cyberrange.at
+2021-03-27 11:31:15 1lQ79v-0002aO-Kg => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ79v-0006G8-UP"
+2021-03-27 11:31:15 1lQ79v-0002aO-Kg => kayleigh.maier@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ79v-00026H-UT"
+2021-03-27 11:31:15 1lQ79v-0002aO-Kg Completed
+2021-03-27 11:32:27 1lQ7B5-0002ab-Ay <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1375 id=20210327113227.Horde.-5tvcLYuxBAaKWzKX0Wt4_v@smtp.acme.cyberrange.at
+2021-03-27 11:32:27 1lQ7B5-0002ab-Ay => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7B5-0006GC-K9"
+2021-03-27 11:32:27 1lQ7B5-0002ab-Ay Completed
+2021-03-27 11:32:59 1lQ7Bb-0002ar-5p <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1085 id=20210327113259.Horde.Cb0UGUiRNXH7BJqdoqydvp-@smtp.acme.cyberrange.at
+2021-03-27 11:32:59 1lQ7Bb-0002ar-5p => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7Bb-0006GU-EC"
+2021-03-27 11:32:59 1lQ7Bb-0002ar-5p Completed
+2021-03-27 11:34:25 1lQ7Cz-0002ax-3H <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2535 id=20210327113425.Horde.-gwPuuVkjuhDfErIhAebbqY@smtp.acme.cyberrange.at
+2021-03-27 11:34:25 1lQ7Cz-0002ax-3H => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7Cz-0006GZ-Bj"
+2021-03-27 11:34:25 1lQ7Cz-0002ax-3H Completed
+2021-03-27 11:34:43 1lQ7DH-0002b7-2b <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1059 id=20210327113443.Horde.FcYH-q1ICE2PSAlHRb3diTZ@smtp.acme.cyberrange.at
+2021-03-27 11:34:43 1lQ7DH-0002b7-2b => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7DH-0006Ge-9y"
+2021-03-27 11:34:43 1lQ7DH-0002b7-2b Completed
+2021-03-27 11:37:33 1lQ7G1-0002bM-9D <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2402 id=20210327113733.Horde.XdFOafFXYJNtAoV7b83mC6w@smtp.acme.cyberrange.at
+2021-03-27 11:37:33 1lQ7G1-0002bM-9D => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7G1-0006HU-IK"
+2021-03-27 11:37:33 1lQ7G1-0002bM-9D => kayleigh.maier@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ7G1-00027A-IJ"
+2021-03-27 11:37:33 1lQ7G1-0002bM-9D Completed
+2021-03-27 11:39:00 1lQ7HQ-0002ba-QK <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=978 id=20210327113900.Horde.T5WVf8rHAtF3XvlrhfwOPTQ@smtp.acme.cyberrange.at
+2021-03-27 11:39:01 1lQ7HQ-0002ba-QK => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7HR-0006Ha-2R"
+2021-03-27 11:39:01 1lQ7HQ-0002ba-QK Completed
+2021-03-27 11:39:36 1lQ7I0-0002cp-El <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=854 id=20210327113936.Horde.Nv5rzjJnwdRWM-MAPom3o3A@smtp.acme.cyberrange.at
+2021-03-27 11:39:36 1lQ7I0-0002cp-El => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7I0-0006Ij-NR"
+2021-03-27 11:39:36 1lQ7I0-0002cp-El Completed
+2021-03-27 11:41:09 1lQ7JV-0002dB-OD <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34163 id=20210327114109.Horde.lMykTkarAYtOrMGtx4b8VZP@smtp.acme.cyberrange.at
+2021-03-27 11:41:10 1lQ7JV-0002dB-OD => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7JW-0006J1-0I"
+2021-03-27 11:41:10 1lQ7JV-0002dB-OD Completed
+2021-03-27 11:43:01 1lQ7LJ-0002dQ-3V <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1096 id=20210327114301.Horde.303kCojQjC-zdPkV_XnhHC3@smtp.acme.cyberrange.at
+2021-03-27 11:43:01 1lQ7LJ-0002dQ-3V => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7LJ-0006JJ-Cq"
+2021-03-27 11:43:01 1lQ7LJ-0002dQ-3V Completed
+2021-03-27 11:44:00 1lQ7MG-0002de-4L <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1327 id=20210327114359.Horde.xqkHdQb2h2oFa6p0uNhomX8@mail.dmz.company.cyberrange.at
+2021-03-27 11:44:00 1lQ7MG-0002de-4L => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 11:44:00 1lQ7MG-0002de-4L Completed
+2021-03-27 11:46:19 1lQ7OV-0002dk-0L <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1047 id=20210327114618.Horde.67sR0QhC-xl3DaAPr9S7Zvo@smtp.acme.cyberrange.at
+2021-03-27 11:46:19 1lQ7OV-0002dk-0L => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7OV-0006K8-8d"
+2021-03-27 11:46:19 1lQ7OV-0002dk-0L Completed
+2021-03-27 11:46:38 1lQ7Oo-0002du-J1 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=252494 id=20210327114638.Horde.gIF_jqVYfSR70aBXuO2KYwv@smtp.acme.cyberrange.at
+2021-03-27 11:46:38 1lQ7Oo-0002du-J1 => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7Oo-0006KF-Qt"
+2021-03-27 11:46:38 1lQ7Oo-0002du-J1 Completed
+2021-03-27 11:47:43 1lQ7Pr-0002e4-Aq <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2155 id=20210327114742.Horde.NWoWOAjja_2YCPWT71ukyPH@mail.dmz.company.cyberrange.at
+2021-03-27 11:47:43 1lQ7Pr-0002e4-Aq => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 11:47:43 1lQ7Pr-0002e4-Aq Completed
+2021-03-27 11:47:45 1lQ7Pt-0002eC-1l <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1005 id=20210327114744.Horde.G_QBQfdF710R5gq-mJ8NEng@smtp.acme.cyberrange.at
+2021-03-27 11:47:45 1lQ7Pt-0002eC-1l => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7Pt-0006KT-9i"
+2021-03-27 11:47:45 1lQ7Pt-0002eC-1l Completed
+2021-03-27 11:50:45 Start queue run: pid=10211
+2021-03-27 11:50:45 End queue run: pid=10211
+2021-03-27 11:52:14 1lQ7UE-0002es-O3 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1227 id=20210327115214.Horde.7VlrdJBglyUgROCQN-yn2_t@smtp.acme.cyberrange.at
+2021-03-27 11:52:15 1lQ7UE-0002es-O3 => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7UE-0006Kq-WD"
+2021-03-27 11:52:15 1lQ7UE-0002es-O3 Completed
+2021-03-27 11:52:32 1lQ7UW-0002f5-9l <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=9331 id=20210327115232.Horde.bx_sTFrECHcl2ZN7U3HEfZP@smtp.acme.cyberrange.at
+2021-03-27 11:52:32 1lQ7UW-0002f5-9l => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7UW-0006Ky-Hc"
+2021-03-27 11:52:32 1lQ7UW-0002f5-9l Completed
+2021-03-27 11:53:24 1lQ7VM-0002fK-2P <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1196 id=20210327115323.Horde.tmvTUjGgIx8u-0HwefWU5If@smtp.acme.cyberrange.at
+2021-03-27 11:53:24 1lQ7VM-0002fK-2P => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7VM-0006L3-BA"
+2021-03-27 11:53:24 1lQ7VM-0002fK-2P Completed
+2021-03-27 11:54:08 1lQ7W4-0002fQ-0z <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34296 id=20210327115407.Horde.6D4nDzRB8RejBFQbOrBRhI5@smtp.acme.cyberrange.at
+2021-03-27 11:54:08 1lQ7W4-0002fQ-0z => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7W4-0006LF-92"
+2021-03-27 11:54:08 1lQ7W4-0002fQ-0z Completed
+2021-03-27 11:54:19 1lQ7WF-0002fY-4n <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=869 id=20210327115419.Horde.9dtDFQq3MTXeuACxEvgUH6_@smtp.acme.cyberrange.at
+2021-03-27 11:54:19 1lQ7WF-0002fY-4n => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7WF-0006LN-Fe"
+2021-03-27 11:54:19 1lQ7WF-0002fY-4n Completed
+2021-03-27 11:55:28 1lQ7XM-0002ft-S3 <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84375 id=20210327115528.Horde.t9iWsVjgKfqYUL5FD5MR1Jp@smtp.acme.cyberrange.at
+2021-03-27 11:55:29 1lQ7XM-0002ft-S3 => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7XN-0006Lj-5v"
+2021-03-27 11:55:29 1lQ7XM-0002ft-S3 Completed
+2021-03-27 11:57:27 1lQ7ZH-0002g5-MD <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2116 id=20210327115727.Horde.X6uUrhpfdTWmSFEQ5gZIo1x@smtp.acme.cyberrange.at
+2021-03-27 11:57:28 1lQ7ZH-0002g5-MD => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7ZI-0006MA-0Z"
+2021-03-27 11:57:28 1lQ7ZH-0002g5-MD => kayleigh.maier@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ7ZI-0002BC-0Q"
+2021-03-27 11:57:28 1lQ7ZH-0002g5-MD Completed
+2021-03-27 12:00:53 1lQ7cb-0002gN-VQ <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=874 id=20210327120053.Horde.rb-WL-AYjIZNFCW3sDC8t_D@smtp.acme.cyberrange.at
+2021-03-27 12:00:54 1lQ7cb-0002gN-VQ => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7cc-0006Mm-86"
+2021-03-27 12:00:54 1lQ7cb-0002gN-VQ Completed
+2021-03-27 12:03:58 1lQ7fa-0002gv-AH <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1865 id=20210327120358.Horde.fYuwUmPVVrGqKm0VtbjCC72@smtp.acme.cyberrange.at
+2021-03-27 12:03:58 1lQ7fa-0002gv-AH => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7fa-0006NG-In"
+2021-03-27 12:03:58 1lQ7fa-0002gv-AH Completed
+2021-03-27 12:05:28 1lQ7h2-0002h5-Gt <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1577 id=20210327120528.Horde.4bxRpEqqtfirrzRM2VGCzzx@mail.dmz.company.cyberrange.at
+2021-03-27 12:05:28 1lQ7h2-0002h5-Gt => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:05:28 1lQ7h2-0002h5-Gt Completed
+2021-03-27 12:08:19 1lQ7jn-0002hQ-T1 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=847 id=20210327120819.Horde.tPb96HiWE4wmw2a-dHiLGyI@smtp.acme.cyberrange.at
+2021-03-27 12:08:20 1lQ7jn-0002hQ-T1 => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7jo-0006OY-4m"
+2021-03-27 12:08:20 1lQ7jn-0002hQ-T1 Completed
+2021-03-27 12:08:24 1lQ7js-0002hZ-5D <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1542 id=20210327120823.Horde.gsx0peS5kWIq1fU0YbjnbFx@mail.dmz.company.cyberrange.at
+2021-03-27 12:08:24 1lQ7js-0002hZ-5D => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:08:24 1lQ7js-0002hZ-5D Completed
+2021-03-27 12:09:19 1lQ7kl-0002hi-7x <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1465 id=20210327120918.Horde.49FrBXxPAMjQkevtWZdNFLg@mail.dmz.company.cyberrange.at
+2021-03-27 12:09:19 1lQ7kl-0002hi-7x => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:09:19 1lQ7kl-0002hi-7x Completed
+2021-03-27 12:09:44 1lQ7l9-0002ie-VX <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1805 id=20210327120943.Horde.52dBgTwZasUrZZdkVWJeha-@mail.dmz.company.cyberrange.at
+2021-03-27 12:09:44 1lQ7l9-0002ie-VX => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:09:44 1lQ7l9-0002ie-VX Completed
+2021-03-27 12:10:55 1lQ7mJ-0002ii-5c <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1280 id=20210327121055.Horde._C7_bZrvR7EdUgg1sDZCq1V@smtp.acme.cyberrange.at
+2021-03-27 12:10:55 1lQ7mJ-0002ii-5c => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7mJ-0006Q8-CL"
+2021-03-27 12:10:55 1lQ7mJ-0002ii-5c Completed
+2021-03-27 12:11:57 1lQ7nJ-0002ix-H2 <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=924 id=20210327121157.Horde.UkNRnnUW26FBIt2OAOjqyms@smtp.acme.cyberrange.at
+2021-03-27 12:11:57 1lQ7nJ-0002ix-H2 => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7nJ-0006Qh-Og"
+2021-03-27 12:11:57 1lQ7nJ-0002ix-H2 Completed
+2021-03-27 12:13:55 1lQ7pD-0002jG-FF <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1064 id=20210327121355.Horde.17v0MTYyv4EU8L-Dij3G-SE@smtp.acme.cyberrange.at
+2021-03-27 12:13:55 1lQ7pD-0002jG-FF => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7pD-0006R7-Ln"
+2021-03-27 12:13:55 1lQ7pD-0002jG-FF Completed
+2021-03-27 12:16:18 1lQ7rW-0002jQ-1X <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1925 id=20210327121617.Horde._6RuI-u0xvcQDgKZooKkOs5@mail.dmz.company.cyberrange.at
+2021-03-27 12:16:18 1lQ7rW-0002jQ-1X => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:16:18 1lQ7rW-0002jQ-1X Completed
+2021-03-27 12:19:34 1lQ7ug-0002jx-2s <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=949 id=20210327121934.Horde.PdVB9acuyNixRq1AD7bm0Am@smtp.acme.cyberrange.at
+2021-03-27 12:19:34 1lQ7ug-0002jx-2s => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ7ug-0006Sn-9Y"
+2021-03-27 12:19:34 1lQ7ug-0002jx-2s Completed
+2021-03-27 12:20:45 Start queue run: pid=10547
+2021-03-27 12:20:45 End queue run: pid=10547
+2021-03-27 12:24:20 1lQ7zI-0002kJ-N0 <= stefanie.nowak@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1353 id=20210327122420.Horde.JmlMD6ySZ4MkQMc7zSbEHPI@mail.dmz.company.cyberrange.at
+2021-03-27 12:24:20 1lQ7zI-0002kJ-N0 => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:24:20 1lQ7zI-0002kJ-N0 Completed
+2021-03-27 12:34:33 1lQ89B-0002lC-4o <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2134 id=20210327123433.Horde.NUm3m_8E2TIosLS3dPm8cXF@smtp.acme.cyberrange.at
+2021-03-27 12:34:33 1lQ89B-0002lC-4o => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ89B-0006WS-Dr"
+2021-03-27 12:34:33 1lQ89B-0002lC-4o Completed
+2021-03-27 12:38:07 1lQ8Cd-0002ly-Pz <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=3131 id=20210327123807.Horde.bRiZptn1jiiKbWJjY0KtFQr@smtp.acme.cyberrange.at
+2021-03-27 12:38:08 1lQ8Cd-0002ly-Pz => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ8Ce-0002Ke-3e"
+2021-03-27 12:38:08 1lQ8Cd-0002ly-Pz => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Ce-0006XV-5D"
+2021-03-27 12:38:08 1lQ8Cd-0002ly-Pz Completed
+2021-03-27 12:40:14 1lQ8Eg-0002n5-Rb <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1172 id=20210327124014.Horde.tqGJcL06XduowU8ix0Dqd4h@smtp.acme.cyberrange.at
+2021-03-27 12:40:15 1lQ8Eg-0002n5-Rb => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Eh-0006Yz-4Q"
+2021-03-27 12:40:15 1lQ8Eg-0002n5-Rb Completed
+2021-03-27 12:41:47 1lQ8GB-0002nW-7h <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1743 id=20210327124147.Horde.eUgrRyXQHYH7J-Aes169yih@smtp.acme.cyberrange.at
+2021-03-27 12:41:47 1lQ8GB-0002nW-7h => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8GB-0006ZD-GU"
+2021-03-27 12:41:47 1lQ8GB-0002nW-7h Completed
+2021-03-27 12:42:01 1lQ8GP-0002nc-TT <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=3391 id=20210327124201.Horde.ggh5_Z9VT_bS7DoMnmRpkjn@smtp.acme.cyberrange.at
+2021-03-27 12:42:02 1lQ8GP-0002nc-TT => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8GQ-0006ZM-5I"
+2021-03-27 12:42:02 1lQ8GP-0002nc-TT => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ8GQ-0002MS-4o"
+2021-03-27 12:42:02 1lQ8GP-0002nc-TT Completed
+2021-03-27 12:44:13 1lQ8IX-0002oL-MR <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1077 id=20210327124413.Horde.1tYwAJBzOqg5WXDzg9g41g4@smtp.acme.cyberrange.at
+2021-03-27 12:44:13 1lQ8IX-0002oL-MR => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8IX-0006ZX-UU"
+2021-03-27 12:44:13 1lQ8IX-0002oL-MR Completed
+2021-03-27 12:44:24 1lQ8Ii-0002oT-6u <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1298 id=20210327124424.Horde.4Mfz5HBJ8QRSNo_nGxBYBsD@smtp.acme.cyberrange.at
+2021-03-27 12:44:24 1lQ8Ii-0002oT-6u => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Ii-0006Zc-EI"
+2021-03-27 12:44:24 1lQ8Ii-0002oT-6u Completed
+2021-03-27 12:46:35 1lQ8Kp-0002os-S6 <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1241 id=20210327124635.Horde.G5LVjqP438BLNk2ztKbUTMO@smtp.acme.cyberrange.at
+2021-03-27 12:46:36 1lQ8Kp-0002os-S6 => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Kq-0006aA-3P"
+2021-03-27 12:46:36 1lQ8Kp-0002os-S6 Completed
+2021-03-27 12:48:24 1lQ8Ma-0002pK-S5 <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=917 id=20210327124824.Horde.AVmyrH238RuVjeWuYxv2N5m@smtp.acme.cyberrange.at
+2021-03-27 12:48:25 1lQ8Ma-0002pK-S5 => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Mb-0006aQ-48"
+2021-03-27 12:48:25 1lQ8Ma-0002pK-S5 Completed
+2021-03-27 12:48:53 1lQ8N3-0002pR-2h <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=26196 id=20210327124852.Horde.Cvnm5_0f8AGiahNBSum4m3Y@smtp.acme.cyberrange.at
+2021-03-27 12:48:53 1lQ8N3-0002pR-2h => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8N3-0006aV-A4"
+2021-03-27 12:48:53 1lQ8N3-0002pR-2h Completed
+2021-03-27 12:49:16 1lQ8NQ-0002pc-GE <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1137 id=20210327124916.Horde.jRL6uBlNMDBiuA2m8oqALq9@smtp.acme.cyberrange.at
+2021-03-27 12:49:16 1lQ8NQ-0002pc-GE => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8NQ-0006ae-NG"
+2021-03-27 12:49:16 1lQ8NQ-0002pc-GE Completed
+2021-03-27 12:50:44 1lQ8Oq-0002pl-AX <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1575 id=20210327125044.Horde.njaVkSXJsifntGNJQTZ2m_i@smtp.acme.cyberrange.at
+2021-03-27 12:50:44 1lQ8Oq-0002pl-AX => caroline.rottensteiner@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ8Oq-0002NQ-Kh"
+2021-03-27 12:50:44 1lQ8Oq-0002pl-AX => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Oq-0006ar-Ku"
+2021-03-27 12:50:44 1lQ8Oq-0002pl-AX Completed
+2021-03-27 12:50:45 Start queue run: pid=10910
+2021-03-27 12:50:45 End queue run: pid=10910
+2021-03-27 12:51:13 1lQ8PJ-0002q0-JB <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1125 id=20210327125113.Horde.bAAiWkyrdyQDuZzsJpPtDkl@smtp.acme.cyberrange.at
+2021-03-27 12:51:13 1lQ8PJ-0002q0-JB => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8PJ-0006b4-QN"
+2021-03-27 12:51:13 1lQ8PJ-0002q0-JB Completed
+2021-03-27 12:53:33 1lQ8RZ-0002qH-11 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2992 id=20210327125332.Horde.ASBGvYUtHetILosAD4eloJV@smtp.acme.cyberrange.at
+2021-03-27 12:53:33 1lQ8RZ-0002qH-11 => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8RZ-0006bS-BA"
+2021-03-27 12:53:33 1lQ8RZ-0002qH-11 => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ8RZ-0002OE-B9"
+2021-03-27 12:53:33 1lQ8RZ-0002qH-11 Completed
+2021-03-27 12:56:07 1lQ8U3-0002qd-HP <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1290 id=20210327125607.Horde.FLBpvgBKTi6MM-0wvC1CdbX@smtp.acme.cyberrange.at
+2021-03-27 12:56:07 1lQ8U3-0002qd-HP => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8U3-0006cR-Q8"
+2021-03-27 12:56:07 1lQ8U3-0002qd-HP Completed
+2021-03-27 12:56:52 1lQ8Um-0002qn-4o <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34377 id=20210327125652.Horde.ohk_jEWzoxsoXgVyxYNayGb@smtp.acme.cyberrange.at
+2021-03-27 12:56:52 1lQ8Um-0002qn-4o => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Um-0006ch-D3"
+2021-03-27 12:56:52 1lQ8Um-0002qn-4o Completed
+2021-03-27 12:59:15 1lQ8X5-0002r5-2t <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1790 id=20210327125914.Horde.JWjmHClAPMSX1R_OCbBXrrl@mail.dmz.company.cyberrange.at
+2021-03-27 12:59:15 1lQ8X5-0002r5-2t => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 12:59:15 1lQ8X5-0002r5-2t Completed
+2021-03-27 13:01:58 1lQ8Zi-0002rA-Js <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2115 id=20210327130158.Horde.aLnEafH1t8p37PBjIJDgU9u@smtp.acme.cyberrange.at
+2021-03-27 13:01:58 1lQ8Zi-0002rA-Js => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8Zi-0006dt-TE"
+2021-03-27 13:01:58 1lQ8Zi-0002rA-Js Completed
+2021-03-27 13:03:19 1lQ8b1-0002rU-Ge <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1922 id=20210327130319.Horde.L_5d83-Hy9JrZcnZiokjR-D@mail.dmz.company.cyberrange.at
+2021-03-27 13:03:19 1lQ8b1-0002rU-Ge => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:03:19 1lQ8b1-0002rU-Ge Completed
+2021-03-27 13:07:50 1lQ8fO-0002re-Ln <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1071 id=20210327130750.Horde.T7trVqJrGkSDBNHqtV0f_xD@smtp.acme.cyberrange.at
+2021-03-27 13:07:50 1lQ8fO-0002re-Ln => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8fO-0006f8-Ug"
+2021-03-27 13:07:50 1lQ8fO-0002re-Ln Completed
+2021-03-27 13:09:50 1lQ8hK-0002su-Kq <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2825 id=20210327130950.Horde.LfJE1J1z0Gi8IqKp8xIxORb@smtp.acme.cyberrange.at
+2021-03-27 13:09:50 1lQ8hK-0002su-Kq => kayleigh.maier@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ8hK-0002S3-To"
+2021-03-27 13:09:51 1lQ8hK-0002su-Kq => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8hK-0006gD-TZ"
+2021-03-27 13:09:51 1lQ8hK-0002su-Kq Completed
+2021-03-27 13:12:43 1lQ8k7-0002tF-Rt <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1815 id=20210327131243.Horde.tbVF9UhGSmB76loYv_kXcF8@smtp.acme.cyberrange.at
+2021-03-27 13:12:44 1lQ8k7-0002tF-Rt => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8k8-0006gs-3f"
+2021-03-27 13:12:44 1lQ8k7-0002tF-Rt Completed
+2021-03-27 13:15:15 1lQ8mZ-0002ta-Rs <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1269 id=20210327131515.Horde.84xGlHZfsamRzA91yS4rCzg@smtp.acme.cyberrange.at
+2021-03-27 13:15:16 1lQ8mZ-0002ta-Rs => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<naomi.leithner@company.cyberrange.at> acceptance"
+2021-03-27 13:15:16 1lQ8mZ-0002ta-Rs -> emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<emmanuel.burger@company.cyberrange.at> acceptance"
+2021-03-27 13:15:16 1lQ8mZ-0002ta-Rs Completed
+2021-03-27 13:18:57 1lQ8q9-0002uH-1Q <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=10459 id=20210327131856.Horde.sSm94L91z6453TUfYnekvK2@smtp.acme.cyberrange.at
+2021-03-27 13:18:57 1lQ8q9-0002uH-1Q => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ8q9-0006hs-AH"
+2021-03-27 13:18:57 1lQ8q9-0002uH-1Q Completed
+2021-03-27 13:20:45 Start queue run: pid=11187
+2021-03-27 13:20:45 End queue run: pid=11187
+2021-03-27 13:21:22 1lQ8sU-0002uU-FV <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34474 id=20210327132122.Horde.R6b2YZZHM4p_10U5746RWoc@smtp.acme.cyberrange.at
+2021-03-27 13:21:22 1lQ8sU-0002uU-FV => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<felicitas.feichtner@company.cyberrange.at> acceptance"
+2021-03-27 13:21:22 1lQ8sU-0002uU-FV -> marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<marius.sperl@company.cyberrange.at> acceptance"
+2021-03-27 13:21:22 1lQ8sU-0002uU-FV Completed
+2021-03-27 13:27:23 1lQ8yJ-0002up-6b <= stefanie.nowak@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1558 id=20210327132722.Horde.--LBtZ3DRRfccdRiKFeQMdq@mail.dmz.company.cyberrange.at
+2021-03-27 13:27:23 1lQ8yJ-0002up-6b => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:27:23 1lQ8yJ-0002up-6b Completed
+2021-03-27 13:27:27 1lQ8yN-0002uu-3R <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1500 id=20210327132726.Horde.hRmNPvbhyBBjxqIBUmm8RDc@mail.dmz.company.cyberrange.at
+2021-03-27 13:27:27 1lQ8yN-0002uu-3R => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:27:27 1lQ8yN-0002uu-3R Completed
+2021-03-27 13:30:20 1lQ91A-0002v3-1T <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1591 id=20210327133019.Horde.9jV-RYzG-VW7zXs7xKpT7HC@mail.dmz.company.cyberrange.at
+2021-03-27 13:30:20 1lQ91A-0002v3-1T => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:30:20 1lQ91A-0002v3-1T Completed
+2021-03-27 13:33:27 1lQ94B-0002vN-KE <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1291 id=20210327133327.Horde.PQOnRstdRKWaQjc7lkucOSf@mail.dmz.company.cyberrange.at
+2021-03-27 13:33:27 1lQ94B-0002vN-KE => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:33:27 1lQ94B-0002vN-KE Completed
+2021-03-27 13:39:11 1lQ99j-0002ve-6z <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1344 id=20210327133910.Horde.IhzR1ekjsmyJdMAMqZ7UJCQ@mail.dmz.company.cyberrange.at
+2021-03-27 13:39:11 1lQ99j-0002ve-6z => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:39:11 1lQ99j-0002ve-6z Completed
+2021-03-27 13:40:39 1lQ9B9-0002wh-G7 <= caroline.rottensteiner@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=9749 id=20210327134039.Horde.s-2gYPdpb7idYw-ssTsQlgT@mailserver.umbrella.cyberrange.at
+2021-03-27 13:40:39 1lQ9B9-0002wh-G7 => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:40:39 1lQ9B9-0002wh-G7 Completed
+2021-03-27 13:50:45 Start queue run: pid=11378
+2021-03-27 13:50:45 End queue run: pid=11378
+2021-03-27 13:51:56 1lQ9M4-0002xb-0C <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1134 id=20210327135155.Horde.GwBFSnM8C_GJMknXGD6rjhE@smtp.acme.cyberrange.at
+2021-03-27 13:51:56 1lQ9M4-0002xb-0C => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9M4-0006ra-7x"
+2021-03-27 13:51:56 1lQ9M4-0002xb-0C Completed
+2021-03-27 13:53:54 1lQ9Ny-0002xy-US <= lorraine.mitteregger@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3397 id=20210327135354.Horde.VrZlh0aI4_jBm7GNhNnT5ks@mailserver.umbrella.cyberrange.at
+2021-03-27 13:53:55 1lQ9Ny-0002xy-US => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:53:55 1lQ9Ny-0002xy-US Completed
+2021-03-27 13:55:41 1lQ9Ph-0002yB-O2 <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1571 id=20210327135541.Horde.goEw5QOK-C7fdn6u_yMA3ow@mail.dmz.company.cyberrange.at
+2021-03-27 13:55:41 1lQ9Ph-0002yB-O2 => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:55:41 1lQ9Ph-0002yB-O2 Completed
+2021-03-27 13:56:33 1lQ9QX-0002yH-5D <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1057 id=20210327135633.Horde.-8wCBzq8SHWtpuv1e1U0bcn@smtp.acme.cyberrange.at
+2021-03-27 13:56:33 1lQ9QX-0002yH-5D => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9QX-0006sq-Dx"
+2021-03-27 13:56:33 1lQ9QX-0002yH-5D Completed
+2021-03-27 13:57:46 1lQ9Ri-0002yg-25 <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1207 id=20210327135745.Horde.PJghCTt_jwDmUu6qjfAo2DW@mail.dmz.company.cyberrange.at
+2021-03-27 13:57:46 1lQ9Ri-0002yg-25 => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 13:57:46 1lQ9Ri-0002yg-25 Completed
+2021-03-27 13:58:23 1lQ9SJ-0002yk-5R <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2166 id=20210327135823.Horde.u9J2Ji4fufboFqkExHjHGcH@smtp.acme.cyberrange.at
+2021-03-27 13:58:23 1lQ9SJ-0002yk-5R => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9SJ-0006tU-D9"
+2021-03-27 13:58:23 1lQ9SJ-0002yk-5R Completed
+2021-03-27 13:59:52 1lQ9Tk-0002yw-0D <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=948 id=20210327135951.Horde.MYg3d08wLMioerZLFVjIcs9@smtp.acme.cyberrange.at
+2021-03-27 13:59:52 1lQ9Tk-0002yw-0D => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9Tk-0006tn-9O"
+2021-03-27 13:59:52 1lQ9Tk-0002yw-0D Completed
+2021-03-27 14:06:59 1lQ9ad-0002zR-Rk <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1141 id=20210327140659.Horde.586Hxfov0HJT49RTpPCxyBM@smtp.acme.cyberrange.at
+2021-03-27 14:07:00 1lQ9ad-0002zR-Rk => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9ae-0006vg-58"
+2021-03-27 14:07:00 1lQ9ad-0002zR-Rk Completed
+2021-03-27 14:09:02 1lQ9cc-0002zm-TV <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1218 id=20210327140902.Horde.KZKQ070qPzx7_eC8NarDyAt@smtp.acme.cyberrange.at
+2021-03-27 14:09:03 1lQ9cc-0002zm-TV => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9cd-0006wF-6F"
+2021-03-27 14:09:03 1lQ9cc-0002zm-TV Completed
+2021-03-27 14:09:43 1lQ9dH-00031M-IS <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3367 id=20210327140943.Horde.DZKyeEgvvxMs931gJkCrtik@mail.dmz.company.cyberrange.at
+2021-03-27 14:09:43 1lQ9dH-00031M-IS => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:09:43 1lQ9dH-00031M-IS Completed
+2021-03-27 14:11:02 1lQ9eY-00031Y-AZ <= emma.geier@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1282 id=20210327141102.Horde.SScKkgULz0APTBR9lo-NVId@mail.dmz.company.cyberrange.at
+2021-03-27 14:11:02 1lQ9eY-00031Y-AZ => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:11:02 1lQ9eY-00031Y-AZ Completed
+2021-03-27 14:12:04 1lQ9fY-00031i-EK <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1572 id=20210327141204.Horde.OKMFIBMNEoLXxEewZQS6OkF@smtp.acme.cyberrange.at
+2021-03-27 14:12:04 1lQ9fY-00031i-EK => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9fY-0006yM-Na"
+2021-03-27 14:12:04 1lQ9fY-00031i-EK Completed
+2021-03-27 14:15:30 1lQ9is-000322-58 <= helena.kern@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1670 id=20210327141529.Horde.3iTbxWnKscS9jy-wCcqi6iX@mail.dmz.company.cyberrange.at
+2021-03-27 14:15:30 1lQ9is-000322-58 => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:15:30 1lQ9is-000322-58 Completed
+2021-03-27 14:18:30 1lQ9lm-00032R-Cr <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2878 id=20210327141830.Horde.7DAfJbJ17i2jQ-PiCaeBdix@smtp.acme.cyberrange.at
+2021-03-27 14:18:30 1lQ9lm-00032R-Cr => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ9lm-0002iD-MJ"
+2021-03-27 14:18:30 1lQ9lm-00032R-Cr => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9lm-000703-MX"
+2021-03-27 14:18:30 1lQ9lm-00032R-Cr Completed
+2021-03-27 14:19:54 1lQ9n8-00032o-Ke <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=3459 id=20210327141954.Horde.CthWPMoVT76d93R5YEHVN5t@smtp.acme.cyberrange.at
+2021-03-27 14:19:54 1lQ9n8-00032o-Ke => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQ9n8-0002iH-Sp"
+2021-03-27 14:19:54 1lQ9n8-00032o-Ke => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9n8-00070K-Sq"
+2021-03-27 14:19:54 1lQ9n8-00032o-Ke Completed
+2021-03-27 14:20:08 1lQ9nM-00032w-Ep <= emma.geier@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3156 id=20210327142008.Horde.WT0z7ghYlw6pYPFBIsZpuJR@mail.dmz.company.cyberrange.at
+2021-03-27 14:20:08 1lQ9nM-00032w-Ep => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:20:08 1lQ9nM-00032w-Ep Completed
+2021-03-27 14:20:45 Start queue run: pid=11718
+2021-03-27 14:20:45 End queue run: pid=11718
+2021-03-27 14:21:49 1lQ9oz-000333-Rk <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2612 id=20210327142149.Horde.sFdvVeT7rTJO30KRS2pfYrU@smtp.acme.cyberrange.at
+2021-03-27 14:21:50 1lQ9oz-000333-Rk => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<elliot.fletcher@company.cyberrange.at> acceptance"
+2021-03-27 14:21:50 1lQ9oz-000333-Rk -> emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<emmanuel.burger@company.cyberrange.at> acceptance"
+2021-03-27 14:21:50 1lQ9oz-000333-Rk Completed
+2021-03-27 14:25:19 1lQ9sN-00033a-Lw <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=967 id=20210327142519.Horde.VKWRHRuXeaqSrEtJeUa2X8C@smtp.acme.cyberrange.at
+2021-03-27 14:25:19 1lQ9sN-00033a-Lw => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQ9sN-000714-TI"
+2021-03-27 14:25:19 1lQ9sN-00033a-Lw Completed
+2021-03-27 14:30:57 1lQ9xp-00033v-Ot <= konstantin.braun@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2087 id=20210327143057.Horde.raPusFziG-S9s4SD1XC39rf@mail.dmz.company.cyberrange.at
+2021-03-27 14:30:57 1lQ9xp-00033v-Ot => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:30:57 1lQ9xp-00033v-Ot Completed
+2021-03-27 14:42:15 1lQA8l-00035H-OG <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1432 id=20210327144215.Horde._CYzxYGDaP6zzn0OmzUT2me@mail.dmz.company.cyberrange.at
+2021-03-27 14:42:15 1lQA8l-00035H-OG => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:42:15 1lQA8l-00035H-OG Completed
+2021-03-27 14:46:38 1lQAD0-00035c-JX <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1393 id=20210327144638.Horde.WQ_CoxETiSNusPmghagwUFt@mail.dmz.company.cyberrange.at
+2021-03-27 14:46:38 1lQAD0-00035c-JX => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:46:38 1lQAD0-00035c-JX Completed
+2021-03-27 14:46:44 1lQAD6-00035g-OT PRDR R=<rossmanne@acme.cyberrange.at> acceptance
+2021-03-27 14:46:44 1lQAD6-00035g-OT PRDR R=<kirkm@acme.cyberrange.at> acceptance
+2021-03-27 14:46:44 1lQAD6-00035g-OT <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no PRDR S=1557 id=20210327144644.Horde.P1B5TYBFab2TMS_or-oR1Jl@mail.dmz.company.cyberrange.at
+2021-03-27 14:46:44 1lQAD6-00035g-OT => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:46:44 1lQAD6-00035g-OT => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:46:44 1lQAD6-00035g-OT Completed
+2021-03-27 14:49:20 1lQAFc-00035v-K4 <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1709 id=20210327144920.Horde.5jUQlBZJmx3uLkKfPgMLto5@mail.dmz.company.cyberrange.at
+2021-03-27 14:49:20 1lQAFc-00035v-K4 => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:49:20 1lQAFc-00035v-K4 Completed
+2021-03-27 14:50:45 Start queue run: pid=11903
+2021-03-27 14:50:45 End queue run: pid=11903
+2021-03-27 14:54:33 1lQAKf-000366-A3 <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1243 id=20210327145432.Horde.fkC_l34EU7pUpst1_Ci_shF@mail.dmz.company.cyberrange.at
+2021-03-27 14:54:33 1lQAKf-000366-A3 => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:54:33 1lQAKf-000366-A3 Completed
+2021-03-27 14:58:22 1lQAOM-00036K-Dd <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1411 id=20210327145822.Horde.BlZjdMN6051lmnsE6WnReeS@mail.dmz.company.cyberrange.at
+2021-03-27 14:58:22 1lQAOM-00036K-Dd => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 14:58:22 1lQAOM-00036K-Dd Completed
+2021-03-27 15:01:21 1lQARF-00036X-8l <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3143 id=20210327150120.Horde.STFg6eKctCwHLQrxKXBE9b4@mail.dmz.company.cyberrange.at
+2021-03-27 15:01:21 1lQARF-00036X-8l => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:01:21 1lQARF-00036X-8l Completed
+2021-03-27 15:04:27 1lQAUF-00036l-Dh <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=83173 id=20210327150427.Horde.RdzDVqCBSC10KakCr42wtDF@mail.dmz.company.cyberrange.at
+2021-03-27 15:04:27 1lQAUF-00036l-Dh => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:04:27 1lQAUF-00036l-Dh Completed
+2021-03-27 15:08:02 1lQAXi-00036y-Ev <= ckreidl@xyz.cyberrange.at H=mail.xyz.cyberrange.at (xyz-mail.novalocal) [192.42.3.97] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1786 id=20210327150802.Horde.V76D__voKVLlg3TsTsd8y_z@mail.xyz.cyberrange.at
+2021-03-27 15:08:02 1lQAXi-00036y-Ev => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:08:02 1lQAXi-00036y-Ev Completed
+2021-03-27 15:14:39 1lQAe7-000388-0D <= ckreidl@xyz.cyberrange.at H=mail.xyz.cyberrange.at (xyz-mail.novalocal) [192.42.3.97] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1882 id=20210327151438.Horde.stqfa0X-fX1Ol-7bIeCp6-p@mail.xyz.cyberrange.at
+2021-03-27 15:14:39 1lQAe7-000388-0D => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:14:39 1lQAe7-000388-0D Completed
+2021-03-27 15:20:45 Start queue run: pid=12061
+2021-03-27 15:20:45 End queue run: pid=12061
+2021-03-27 15:21:31 1lQAkl-00038d-89 <= lorraine.mitteregger@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=4340 id=20210327152130.Horde.6yYtL-YSOhZhHerOkuUNJcG@mailserver.umbrella.cyberrange.at
+2021-03-27 15:21:31 1lQAkl-00038d-89 => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:21:31 1lQAkl-00038d-89 Completed
+2021-03-27 15:36:28 1lQAzE-00039Y-C9 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1035 id=20210327153628.Horde.7Pve2z1dHAAPyQSmDAe8afh@smtp.acme.cyberrange.at
+2021-03-27 15:36:28 1lQAzE-00039Y-C9 => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<marius.sperl@company.cyberrange.at> acceptance"
+2021-03-27 15:36:28 1lQAzE-00039Y-C9 -> stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<stefanie.nowak@company.cyberrange.at> acceptance"
+2021-03-27 15:36:28 1lQAzE-00039Y-C9 Completed
+2021-03-27 15:38:38 1lQB1K-00039r-Lt <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1181 id=20210327153838.Horde.Wj58Usrm8BEEX1Wopf00XEI@smtp.acme.cyberrange.at
+2021-03-27 15:38:38 1lQB1K-00039r-Lt => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQB1K-0007Jm-Ug"
+2021-03-27 15:38:38 1lQB1K-00039r-Lt Completed
+2021-03-27 15:39:24 1lQB24-0003A1-3C <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2032 id=20210327153924.Horde.nuNjc_nCUR8dHJEMbsPa5ok@smtp.acme.cyberrange.at
+2021-03-27 15:39:24 1lQB24-0003A1-3C => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQB24-0007Kz-9z"
+2021-03-27 15:39:24 1lQB24-0003A1-3C Completed
+2021-03-27 15:40:54 1lQB3W-0003B9-Tp <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2215 id=20210327154054.Horde.vaAeVlhJkOpOLIYjF0NmFZZ@smtp.acme.cyberrange.at
+2021-03-27 15:40:55 1lQB3W-0003B9-Tp => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQB3X-0007LF-5u"
+2021-03-27 15:40:55 1lQB3W-0003B9-Tp Completed
+2021-03-27 15:41:04 1lQB3g-0003BN-UH <= caroline.rottensteiner@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3373 id=20210327154104.Horde.FQH9wi4PWK1eOjXdZT0Ob3D@mailserver.umbrella.cyberrange.at
+2021-03-27 15:41:05 1lQB3g-0003BN-UH => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:41:05 1lQB3g-0003BN-UH Completed
+2021-03-27 15:42:51 1lQB5P-0003BW-CN <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1169 id=20210327154251.Horde.dAj_QbJdYjjRvfkbIvLPvNO@smtp.acme.cyberrange.at
+2021-03-27 15:42:51 1lQB5P-0003BW-CN => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQB5P-0007Lf-L1"
+2021-03-27 15:42:51 1lQB5P-0003BW-CN Completed
+2021-03-27 15:50:45 Start queue run: pid=12286
+2021-03-27 15:50:45 End queue run: pid=12286
+2021-03-27 15:50:49 1lQBD7-0003CF-6o <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=997 id=20210327155049.Horde.Q3J_JW2P4yUYMrRYKFfeyeH@smtp.acme.cyberrange.at
+2021-03-27 15:50:49 1lQBD7-0003CF-6o => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBD7-0007Mh-E3"
+2021-03-27 15:50:49 1lQBD7-0003CF-6o Completed
+2021-03-27 15:53:01 1lQBFF-0003Ce-Cz <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1102 id=20210327155301.Horde.gksIrU9I4v707XZv1RUmUsY@smtp.acme.cyberrange.at
+2021-03-27 15:53:01 1lQBFF-0003Ce-Cz => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBFF-0007NI-Kg"
+2021-03-27 15:53:01 1lQBFF-0003Ce-Cz Completed
+2021-03-27 15:55:17 1lQBHR-0003D5-8q <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1137 id=20210327155517.Horde.N071r7KVVezfHqkIkIP5gdn@smtp.acme.cyberrange.at
+2021-03-27 15:55:17 1lQBHR-0003D5-8q => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBHR-0007Nn-HL"
+2021-03-27 15:55:17 1lQBHR-0003D5-8q Completed
+2021-03-27 15:56:01 1lQBI9-0003DF-9O <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=887 id=20210327155601.Horde.n5WkSa2vcR4UHeDBrvj1g_B@smtp.acme.cyberrange.at
+2021-03-27 15:56:01 1lQBI9-0003DF-9O => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBI9-0007O8-Ho"
+2021-03-27 15:56:01 1lQBI9-0003DF-9O Completed
+2021-03-27 15:58:32 1lQBKa-0003DT-IY <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1292 id=20210327155832.Horde.CeMeDdX8cMhp-4eog9GlFt0@mail.dmz.company.cyberrange.at
+2021-03-27 15:58:32 1lQBKa-0003DT-IY => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 15:58:32 1lQBKa-0003DT-IY Completed
+2021-03-27 16:01:29 1lQBNR-0003Dd-1g <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2404 id=20210327160128.Horde.bf2awYj-69eZvhucmQowKma@mail.dmz.company.cyberrange.at
+2021-03-27 16:01:29 1lQBNR-0003Dd-1g => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 16:01:29 1lQBNR-0003Dd-1g Completed
+2021-03-27 16:03:36 1lQBPU-0003Dt-GV <= naomi.leithner@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1735 id=20210327160336.Horde.DLZn_k3kigpEGnNm57j1xK8@mail.dmz.company.cyberrange.at
+2021-03-27 16:03:36 1lQBPU-0003Dt-GV => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 16:03:36 1lQBPU-0003Dt-GV Completed
+2021-03-27 16:03:50 1lQBPi-0003Dy-RE <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1281 id=20210327160350.Horde.2bJ7eqpvWactkWUBjVXUUEL@smtp.acme.cyberrange.at
+2021-03-27 16:03:51 1lQBPi-0003Dy-RE => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBPj-0007Pm-2u"
+2021-03-27 16:03:51 1lQBPi-0003Dy-RE Completed
+2021-03-27 16:06:35 1lQBSN-0003EF-LG <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84849 id=20210327160635.Horde.BIEtGRpGcY4cud3AjTrgng1@smtp.acme.cyberrange.at
+2021-03-27 16:06:35 1lQBSN-0003EF-LG => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBSN-0007Q5-UD"
+2021-03-27 16:06:35 1lQBSN-0003EF-LG Completed
+2021-03-27 16:07:22 1lQBT8-0003ER-Gv <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=903 id=20210327160722.Horde.KS8jXyEaAcb3ZC_hbi7uxC1@smtp.acme.cyberrange.at
+2021-03-27 16:07:22 1lQBT8-0003ER-Gv => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBT8-0007Q9-Og"
+2021-03-27 16:07:22 1lQBT8-0003ER-Gv Completed
+2021-03-27 16:08:55 1lQBUd-0003Eq-FS <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=856 id=20210327160855.Horde.78x3hRjmiXzlkLPY0hRSJp4@smtp.acme.cyberrange.at
+2021-03-27 16:08:55 1lQBUd-0003Eq-FS => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBUd-0007QI-Mx"
+2021-03-27 16:08:55 1lQBUd-0003Eq-FS Completed
+2021-03-27 16:10:27 1lQBW7-0003Fz-H8 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1002 id=20210327161027.Horde.Ngh7ISm8zQUsPWZq809TKBt@smtp.acme.cyberrange.at
+2021-03-27 16:10:27 1lQBW7-0003Fz-H8 => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBW7-0007RT-Pk"
+2021-03-27 16:10:27 1lQBW7-0003Fz-H8 Completed
+2021-03-27 16:10:47 1lQBWR-0003G9-8P <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1182 id=20210327161047.Horde.9jScD5UWv-NtkBeMWf6Yhfo@smtp.acme.cyberrange.at
+2021-03-27 16:10:47 1lQBWR-0003G9-8P => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBWR-0007RY-Ga"
+2021-03-27 16:10:47 1lQBWR-0003G9-8P Completed
+2021-03-27 16:11:27 1lQBX5-0003GS-Iz <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2214 id=20210327161127.Horde.-zd0VdfnYwNgKAK9Z4XNqsh@smtp.acme.cyberrange.at
+2021-03-27 16:11:27 1lQBX5-0003GS-Iz => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBX5-0007Rl-Qp"
+2021-03-27 16:11:27 1lQBX5-0003GS-Iz Completed
+2021-03-27 16:13:53 1lQBZR-0003Gq-8d <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=237294 id=20210327161353.Horde.yCZm4J_rngyc6M2M2gYLoAb@smtp.acme.cyberrange.at
+2021-03-27 16:13:53 1lQBZR-0003Gq-8d => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQBZR-000321-HZ"
+2021-03-27 16:13:53 1lQBZR-0003Gq-8d => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBZR-0007Rq-Hc"
+2021-03-27 16:13:53 1lQBZR-0003Gq-8d Completed
+2021-03-27 16:14:05 1lQBZd-0003H7-GV <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1194 id=20210327161405.Horde.FJSe8mzDx_yKR055J8Qiu9k@smtp.acme.cyberrange.at
+2021-03-27 16:14:05 1lQBZd-0003H7-GV => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBZd-0007Ry-NF"
+2021-03-27 16:14:05 1lQBZd-0003H7-GV Completed
+2021-03-27 16:14:42 1lQBaE-0003HH-I2 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=924 id=20210327161442.Horde.rhxyRt1a1Mr7ks7sf0rNJFY@smtp.acme.cyberrange.at
+2021-03-27 16:14:42 1lQBaE-0003HH-I2 => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBaE-0007S2-R5"
+2021-03-27 16:14:42 1lQBaE-0003HH-I2 Completed
+2021-03-27 16:16:34 1lQBc2-0003HW-Ta <= eichhornm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1242 id=20210327161634.Horde.TcJk8S-jz6uCUwRBVGKfIwX@smtp.acme.cyberrange.at
+2021-03-27 16:16:35 1lQBc2-0003HW-Ta => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBc3-0007SB-5C"
+2021-03-27 16:16:35 1lQBc2-0003HW-Ta Completed
+2021-03-27 16:19:36 1lQBey-0003I3-0p <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=3129 id=20210327161935.Horde.DA9kKvgMkPzzoBfvehBgpmY@smtp.acme.cyberrange.at
+2021-03-27 16:19:36 1lQBey-0003I3-0p => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQBey-00032L-A9"
+2021-03-27 16:19:36 1lQBey-0003I3-0p => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBey-0007SM-AT"
+2021-03-27 16:19:36 1lQBey-0003I3-0p Completed
+2021-03-27 16:20:45 Start queue run: pid=12658
+2021-03-27 16:20:45 End queue run: pid=12658
+2021-03-27 16:21:29 1lQBgn-0003IE-BQ <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1173 id=20210327162129.Horde.BErDxwyVYgV4PAOOveQo48x@smtp.acme.cyberrange.at
+2021-03-27 16:21:29 1lQBgn-0003IE-BQ => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBgn-0007SY-Ji"
+2021-03-27 16:21:29 1lQBgn-0003IE-BQ Completed
+2021-03-27 16:23:37 1lQBir-0003IS-Jo <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1233 id=20210327162337.Horde.Drv8ojeAEtYXLw-BNtjfz4-@smtp.acme.cyberrange.at
+2021-03-27 16:23:37 1lQBir-0003IS-Jo => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBir-0007Sz-Td"
+2021-03-27 16:23:37 1lQBir-0003IS-Jo Completed
+2021-03-27 16:25:23 1lQBkZ-0003Id-29 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1141 id=20210327162522.Horde.zYk7JKcEa1BL4HhUEFL2XYn@smtp.acme.cyberrange.at
+2021-03-27 16:25:23 1lQBkZ-0003Id-29 => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQBkZ-0007T5-BV"
+2021-03-27 16:25:23 1lQBkZ-0003Id-29 Completed
+2021-03-27 16:48:34 1lQC70-0003LM-3S <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=912 id=20210327164834.Horde.8hSv6kzBBSSyirhZpbZzsWH@smtp.acme.cyberrange.at
+2021-03-27 16:48:34 1lQC70-0003LM-3S => naomi.leithner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQC70-0007WO-Bz"
+2021-03-27 16:48:34 1lQC70-0003LM-3S Completed
+2021-03-27 16:50:34 1lQC8w-0003Ld-PS <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2027 id=20210327165034.Horde.NQFs3EqxUlAn2Wg8QFsbUF-@smtp.acme.cyberrange.at
+2021-03-27 16:50:35 1lQC8w-0003Ld-PS => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQC8x-0007WW-1u"
+2021-03-27 16:50:35 1lQC8w-0003Ld-PS Completed
+2021-03-27 16:50:45 Start queue run: pid=12885
+2021-03-27 16:50:45 End queue run: pid=12885
+2021-03-27 16:52:13 1lQCAX-0003M0-31 <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=954 id=20210327165213.Horde.DZaamb44IO84rTKM-0WzTcs@smtp.acme.cyberrange.at
+2021-03-27 16:52:13 1lQCAX-0003M0-31 => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCAX-0007Wv-BK"
+2021-03-27 16:52:13 1lQCAX-0003M0-31 Completed
+2021-03-27 16:52:19 1lQCAd-0003MF-3D <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=890 id=20210327165219.Horde.HnUKKVNOyYT7xhDL83vcdkz@smtp.acme.cyberrange.at
+2021-03-27 16:52:19 1lQCAd-0003MF-3D => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCAd-0007X0-Bu"
+2021-03-27 16:52:19 1lQCAd-0003MF-3D Completed
+2021-03-27 16:54:16 1lQCCW-0003MX-Di <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1193 id=20210327165416.Horde.bC4uvzmr-nIS-Tt8_fDoftM@smtp.acme.cyberrange.at
+2021-03-27 16:54:16 1lQCCW-0003MX-Di => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCCW-0007X9-Mw"
+2021-03-27 16:54:16 1lQCCW-0003MX-Di Completed
+2021-03-27 16:56:33 1lQCEj-0003Mw-Vp <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1094 id=20210327165633.Horde.-C63u8VlvS4AZd-19uSiOfH@smtp.acme.cyberrange.at
+2021-03-27 16:56:34 1lQCEj-0003Mw-Vp => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCEk-0007XN-8A"
+2021-03-27 16:56:34 1lQCEj-0003Mw-Vp Completed
+2021-03-27 16:58:04 1lQCGC-0003NM-IN <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1069 id=20210327165804.Horde.1kVkV0RRA6wSuGfTkgBnlNl@smtp.acme.cyberrange.at
+2021-03-27 16:58:04 1lQCGC-0003NM-IN => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<felicitas.feichtner@company.cyberrange.at> acceptance"
+2021-03-27 16:58:04 1lQCGC-0003NM-IN -> emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<emmanuel.burger@company.cyberrange.at> acceptance"
+2021-03-27 16:58:04 1lQCGC-0003NM-IN Completed
+2021-03-27 16:59:01 1lQCH7-0003NT-KE <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=925 id=20210327165901.Horde.2R_AA2tD4DNeGsF2cuIqOp-@smtp.acme.cyberrange.at
+2021-03-27 16:59:01 1lQCH7-0003NT-KE => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCH7-0007Xh-Tl"
+2021-03-27 16:59:01 1lQCH7-0003NT-KE Completed
+2021-03-27 17:00:55 1lQCIx-0003Nc-2f <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1331 id=20210327170054.Horde.Diqbn6Z8SS10XRT-MM215eG@mail.dmz.company.cyberrange.at
+2021-03-27 17:00:55 1lQCIx-0003Nc-2f => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:00:55 1lQCIx-0003Nc-2f Completed
+2021-03-27 17:03:59 1lQCLv-0003OI-Sz <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=12047 id=20210327170359.Horde.A-baNrbR622O1CWRnUxTFFj@smtp.acme.cyberrange.at
+2021-03-27 17:04:00 1lQCLv-0003OI-Sz => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQCLw-000363-6e"
+2021-03-27 17:04:00 1lQCLv-0003OI-Sz => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCLw-0007Yg-6h"
+2021-03-27 17:04:00 1lQCLv-0003OI-Sz Completed
+2021-03-27 17:05:00 1lQCMt-0003Oc-Vn <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1355 id=20210327170459.Horde.liYYrtYjCHFcm4grf475m57@smtp.acme.cyberrange.at
+2021-03-27 17:05:00 1lQCMt-0003Oc-Vn => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCMu-0007Yq-96"
+2021-03-27 17:05:00 1lQCMt-0003Oc-Vn Completed
+2021-03-27 17:06:20 1lQCOC-0003Or-2L <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2671 id=20210327170619.Horde.gQEk_0D9Hth7WiiqVnwy0cv@smtp.acme.cyberrange.at
+2021-03-27 17:06:20 1lQCOC-0003Or-2L => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQCOC-00036F-Di"
+2021-03-27 17:06:20 1lQCOC-0003Or-2L => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCOC-0007Yy-Dl"
+2021-03-27 17:06:20 1lQCOC-0003Or-2L Completed
+2021-03-27 17:07:29 1lQCPJ-0003P2-Pb <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1194 id=20210327170729.Horde.KH68xud6DZVbG8kgP9Zafg2@smtp.acme.cyberrange.at
+2021-03-27 17:07:30 1lQCPJ-0003P2-Pb => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCPK-0007Z7-1E"
+2021-03-27 17:07:30 1lQCPJ-0003P2-Pb Completed
+2021-03-27 17:08:30 1lQCQI-0003PF-0S <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=34262 id=20210327170829.Horde.1S4qEze1wFdw7voqST3Dml3@smtp.acme.cyberrange.at
+2021-03-27 17:08:30 1lQCQI-0003PF-0S => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCQI-0007ZC-9O"
+2021-03-27 17:08:30 1lQCQI-0003PF-0S Completed
+2021-03-27 17:10:16 1lQCS0-0003QK-S7 <= reynoldse@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1104 id=20210327171016.Horde.YwQySRHyioXGYN3hR-oGjJR@smtp.acme.cyberrange.at
+2021-03-27 17:10:17 1lQCS0-0003QK-S7 => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCS1-0007b6-5E"
+2021-03-27 17:10:17 1lQCS0-0003QK-S7 Completed
+2021-03-27 17:12:12 1lQCTs-0003QZ-O3 <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2607 id=20210327171212.Horde.NF1DBluVsgz_-oTHxCeQGPH@smtp.acme.cyberrange.at
+2021-03-27 17:12:13 1lQCTs-0003QZ-O3 => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCTs-0007bZ-W3"
+2021-03-27 17:12:13 1lQCTs-0003QZ-O3 Completed
+2021-03-27 17:14:10 1lQCVm-0003R4-5p <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1034 id=20210327171410.Horde.m6ke4vGPxaovHXLHQOO_5lI@smtp.acme.cyberrange.at
+2021-03-27 17:14:10 1lQCVm-0003R4-5p => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCVm-0007cO-F6"
+2021-03-27 17:14:10 1lQCVm-0003R4-5p Completed
+2021-03-27 17:18:27 1lQCZv-0003S4-BR <= ckreidl@xyz.cyberrange.at H=mail.xyz.cyberrange.at (xyz-mail.novalocal) [192.42.3.97] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1882 id=20210327171826.Horde.CccqVeXbN2D9v33EDfdGgq_@mail.xyz.cyberrange.at
+2021-03-27 17:18:27 1lQCZv-0003S4-BR => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:18:27 1lQCZv-0003S4-BR Completed
+2021-03-27 17:20:12 1lQCbc-0003SH-PF <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1281 id=20210327172012.Horde.230TFXx9kejf64S11e3Mode@smtp.acme.cyberrange.at
+2021-03-27 17:20:13 1lQCbc-0003SH-PF => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCbd-0007eG-0m"
+2021-03-27 17:20:13 1lQCbc-0003SH-PF Completed
+2021-03-27 17:20:45 Start queue run: pid=13300
+2021-03-27 17:20:45 End queue run: pid=13300
+2021-03-27 17:21:14 1lQCcc-0003Sk-IA <= caroline.rottensteiner@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3182 id=20210327172114.Horde.pjkoDpBHcQrChLDUntXE3ZS@mailserver.umbrella.cyberrange.at
+2021-03-27 17:21:14 1lQCcc-0003Sk-IA => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:21:14 1lQCcc-0003Sk-IA Completed
+2021-03-27 17:21:54 1lQCdG-0003Su-Sf <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1426 id=20210327172154.Horde.2QSWY42uskOdLuN58Ps55au@mail.dmz.company.cyberrange.at
+2021-03-27 17:21:54 1lQCdG-0003Su-Sf => kirkm <kirkm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:21:54 1lQCdG-0003Su-Sf Completed
+2021-03-27 17:22:28 1lQCdo-0003T3-8v <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=2805 id=20210327172228.Horde.nz3liQKb4ERJ8WagCXGwKdQ@smtp.acme.cyberrange.at
+2021-03-27 17:22:28 1lQCdo-0003T3-8v => emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCdo-0007fM-Gj"
+2021-03-27 17:22:28 1lQCdo-0003T3-8v => lorraine.mitteregger@umbrella.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.umbrella.cyberrange.at [192.42.0.42] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=DE,ST=Bavaria,L=Munich,O=Umbrella Corporation,CN=mailserver.umbrella.cyberrange.at" C="250 OK id=1lQCdo-00039H-Gp"
+2021-03-27 17:22:28 1lQCdo-0003T3-8v Completed
+2021-03-27 17:22:51 1lQCeB-0003TA-Bf <= elliot.fletcher@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1837 id=20210327172251.Horde.SsMLAsK1CLkAi0ZAoC4Ee51@mail.dmz.company.cyberrange.at
+2021-03-27 17:22:51 1lQCeB-0003TA-Bf => reynoldse <reynoldse@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:22:51 1lQCeB-0003TA-Bf Completed
+2021-03-27 17:23:44 1lQCf2-0003TF-Gl <= emmanuel.burger@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=2647 id=20210327172344.Horde.DKKd-cYTnvpmdo9g_T775c-@mail.dmz.company.cyberrange.at
+2021-03-27 17:23:44 1lQCf2-0003TF-Gl => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:23:44 1lQCf2-0003TF-Gl Completed
+2021-03-27 17:24:18 1lQCfa-0003TJ-KO <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1130 id=20210327172418.Horde.5fQd2hEuuYFHnW3tkeIeNko@smtp.acme.cyberrange.at
+2021-03-27 17:24:18 1lQCfa-0003TJ-KO => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCfa-0007ft-SE"
+2021-03-27 17:24:18 1lQCfa-0003TJ-KO Completed
+2021-03-27 17:26:07 1lQChL-0003TT-Bv <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1083 id=20210327172607.Horde.94C5-CM60ytZg2cXXrlHcmB@smtp.acme.cyberrange.at
+2021-03-27 17:26:07 1lQChL-0003TT-Bv => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQChL-0007gK-KV"
+2021-03-27 17:26:07 1lQChL-0003TT-Bv Completed
+2021-03-27 17:27:11 1lQCiN-0003Ta-7z <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=203119 id=20210327172711.Horde.Wo8_SskJrC8UaMapZcl8_QV@smtp.acme.cyberrange.at
+2021-03-27 17:27:11 1lQCiN-0003Ta-7z => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCiN-0007gY-Is"
+2021-03-27 17:27:11 1lQCiN-0003Ta-7z Completed
+2021-03-27 17:29:22 1lQCkU-0003Ts-2Y <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1206 id=20210327172921.Horde.UyF131sWcsaoR1gseE9zF1d@smtp.acme.cyberrange.at
+2021-03-27 17:29:22 1lQCkU-0003Ts-2Y => felicitas.feichtner@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCkU-0007hJ-CD"
+2021-03-27 17:29:22 1lQCkU-0003Ts-2Y Completed
+2021-03-27 17:30:49 1lQClt-0003UG-0Q <= lewis.wood@company.cyberrange.at H=company.cyberrange.at (mail.novalocal) [192.42.165.180] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=1344 id=20210327173048.Horde.1FgM3Cc9ZuPIRQfPAWK069_@mail.dmz.company.cyberrange.at
+2021-03-27 17:30:49 1lQClt-0003UG-0Q => rossmanne <rossmanne@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:30:49 1lQClt-0003UG-0Q Completed
+2021-03-27 17:31:47 1lQCmp-0003UN-QD <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=863 id=20210327173147.Horde._yoKvCyXA9MI5gYipMFv6Th@smtp.acme.cyberrange.at
+2021-03-27 17:31:48 1lQCmp-0003UN-QD => emma.geier@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<emma.geier@company.cyberrange.at> acceptance"
+2021-03-27 17:31:48 1lQCmp-0003UN-QD -> emmanuel.burger@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" PRDR C="250 PRDR R=<emmanuel.burger@company.cyberrange.at> acceptance"
+2021-03-27 17:31:48 1lQCmp-0003UN-QD Completed
+2021-03-27 17:33:39 1lQCod-0003Uj-CT <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1399 id=20210327173339.Horde.u5r6kxEb7m9SalId3WRU9Zx@smtp.acme.cyberrange.at
+2021-03-27 17:33:39 1lQCod-0003Uj-CT => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCod-0007ig-Kk"
+2021-03-27 17:33:39 1lQCod-0003Uj-CT Completed
+2021-03-27 17:34:56 1lQCps-0003Uq-EY <= caroline.rottensteiner@umbrella.cyberrange.at H=mailserver.umbrella.cyberrange.at (umbrella-mail.novalocal) [192.42.0.42] P=esmtps X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=no S=3276 id=20210327173456.Horde.w4QXZCZsyTz4CIhzxzr2i22@mailserver.umbrella.cyberrange.at
+2021-03-27 17:34:56 1lQCps-0003Uq-EY => eichhornm <eichhornm@acme.cyberrange.at> R=local_user T=maildir_home
+2021-03-27 17:34:56 1lQCps-0003Uq-EY Completed
+2021-03-27 17:40:49 1lQCvZ-0003W8-Gs <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=936 id=20210327174049.Horde.B4SLS0rcPmM04vYrr6IhPKv@smtp.acme.cyberrange.at
+2021-03-27 17:40:49 1lQCvZ-0003W8-Gs => lewis.wood@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCvZ-0007kd-P4"
+2021-03-27 17:40:49 1lQCvZ-0003W8-Gs Completed
+2021-03-27 17:42:20 1lQCx2-0003Wa-Mt <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1060 id=20210327174220.Horde.s0O6ML4mEzJlfekREnEzp59@smtp.acme.cyberrange.at
+2021-03-27 17:42:20 1lQCx2-0003Wa-Mt => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCx2-0007l4-Uk"
+2021-03-27 17:42:20 1lQCx2-0003Wa-Mt Completed
+2021-03-27 17:44:17 1lQCyv-0003Wt-UV <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1573 id=20210327174417.Horde.GRiyakQirSOrjQGGpss8tg2@smtp.acme.cyberrange.at
+2021-03-27 17:44:18 1lQCyv-0003Wt-UV => elliot.fletcher@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCyw-0007lH-5S"
+2021-03-27 17:44:18 1lQCyv-0003Wt-UV Completed
+2021-03-27 17:44:32 1lQCzA-0003X9-Hg <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=84205 id=20210327174432.Horde.W8hAKrHIFMM_K1XTMk52xQd@smtp.acme.cyberrange.at
+2021-03-27 17:44:32 1lQCzA-0003X9-Hg => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQCzA-0007lL-Oq"
+2021-03-27 17:44:32 1lQCzA-0003X9-Hg Completed
+2021-03-27 17:48:56 1lQD3Q-0003Xq-Ub <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=164133 id=20210327174856.Horde.KBbdhuD7EtmCl1FAD439S4G@smtp.acme.cyberrange.at
+2021-03-27 17:48:57 1lQD3Q-0003Xq-Ub => marius.sperl@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQD3R-0007lV-7E"
+2021-03-27 17:48:57 1lQD3Q-0003Xq-Ub Completed
+2021-03-27 17:49:09 1lQD3d-0003Y0-Ic <= kirkm@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1792 id=20210327174909.Horde.ZA7Wabmgf8YVSJ1BjwOyFeD@smtp.acme.cyberrange.at
+2021-03-27 17:49:09 1lQD3d-0003Y0-Ic => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQD3d-0007la-Rd"
+2021-03-27 17:49:09 1lQD3d-0003Y0-Ic Completed
+2021-03-27 17:50:45 Start queue run: pid=13651
+2021-03-27 17:50:45 End queue run: pid=13651
+2021-03-27 17:50:55 1lQD5L-0003YD-1E <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1175 id=20210327175054.Horde.CTru4899DY4KhdY4Zvyi9Ml@smtp.acme.cyberrange.at
+2021-03-27 17:50:55 1lQD5L-0003YD-1E => konstantin.braun@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQD5L-0007ll-9c"
+2021-03-27 17:50:55 1lQD5L-0003YD-1E Completed
+2021-03-27 17:53:19 1lQD7f-0003YZ-3H <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1233 id=20210327175319.Horde.4w-Leduf8Vgz89uyauiJDjq@smtp.acme.cyberrange.at
+2021-03-27 17:53:19 1lQD7f-0003YZ-3H => helena.kern@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQD7f-0007lt-CL"
+2021-03-27 17:53:19 1lQD7f-0003YZ-3H Completed
+2021-03-27 17:55:11 1lQD9T-0003Yx-Hi <= rossmanne@acme.cyberrange.at H=smtp.acme.cyberrange.at (acme-mail) [192.42.2.175] P=esmtps X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 CV=no S=1113 id=20210327175511.Horde.PPJzoKjRZ0viAdFScfO6Gzr@smtp.acme.cyberrange.at
+2021-03-27 17:55:11 1lQD9T-0003Yx-Hi => stefanie.nowak@company.cyberrange.at R=dnslookup T=remote_smtp H=mailserver.company.cyberrange.at [192.42.165.180] X=TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256 CV=yes DN="C=AT,ST=Vienna,L=Vienna,O=Company,CN=mailserver.company.cyberrange.at" C="250 OK id=1lQD9T-0007m2-QF"
+2021-03-27 17:55:11 1lQD9T-0003Yx-Hi Completed
+2021-03-27 18:20:45 Start queue run: pid=13858
+2021-03-27 18:20:45 End queue run: pid=13858
+2021-03-27 18:50:45 Start queue run: pid=14036
+2021-03-27 18:50:45 End queue run: pid=14036
+2021-03-27 19:20:45 Start queue run: pid=14161
+2021-03-27 19:20:45 End queue run: pid=14161
+2021-03-27 19:50:45 Start queue run: pid=14275
+2021-03-27 19:50:45 End queue run: pid=14275
+2021-03-27 20:20:45 Start queue run: pid=14399
+2021-03-27 20:20:45 End queue run: pid=14399
+2021-03-27 20:50:45 Start queue run: pid=14542
+2021-03-27 20:50:45 End queue run: pid=14542
+2021-03-27 20:58:44 1lQG16-0003mt-T9 <= root@smtp.acme.cyberrange.at U=root P=local S=605595
+2021-03-27 20:58:44 1lQG16-0003mt-T9 => /var/mail/mail <root@smtp.acme.cyberrange.at> R=mail4root T=address_file
+2021-03-27 20:58:44 1lQG16-0003mt-T9 Completed
+2021-03-27 21:20:45 Start queue run: pid=14689
+2021-03-27 21:20:45 End queue run: pid=14689
+2021-03-27 21:50:45 Start queue run: pid=14808
+2021-03-27 21:50:45 End queue run: pid=14808
+2021-03-27 22:20:45 Start queue run: pid=14933
+2021-03-27 22:20:45 End queue run: pid=14933
+2021-03-27 22:50:45 Start queue run: pid=15063
+2021-03-27 22:50:45 End queue run: pid=15063
+2021-03-27 23:20:45 Start queue run: pid=15184
+2021-03-27 23:20:45 End queue run: pid=15184
+2021-03-27 23:50:45 Start queue run: pid=15306
+2021-03-27 23:50:45 End queue run: pid=15306
