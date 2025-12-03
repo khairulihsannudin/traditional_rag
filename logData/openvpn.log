@@ -1,0 +1,336 @@
+{"line": 719, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 720, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 721, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 722, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 723, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 724, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 725, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 726, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 727, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 728, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 729, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 730, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 731, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 732, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 733, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 734, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 735, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 736, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 737, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 738, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 740, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 741, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 742, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 743, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 744, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 745, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 746, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 747, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 777, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 778, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 779, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 780, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 781, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 782, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 783, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 784, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 785, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 786, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 787, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 788, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 789, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 790, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 791, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 792, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 793, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 794, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 795, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 796, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 798, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 799, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 800, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 801, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 802, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 803, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 804, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 805, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 835, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 836, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 837, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 838, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 839, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 840, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 841, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 842, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 843, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 844, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 845, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 846, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 847, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 848, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 849, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 850, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 851, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 852, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 853, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 854, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 856, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 857, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 858, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 859, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 860, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 861, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 862, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 863, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 893, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 894, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 895, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 896, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 897, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 898, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 899, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 900, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 901, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 902, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 903, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 904, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 905, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 906, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 907, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 908, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 909, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 910, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 911, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 912, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 914, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 915, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 916, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 917, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 918, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 919, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 920, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 921, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 951, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 952, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 953, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 954, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 955, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 956, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 957, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 958, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 959, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 960, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 961, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 962, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 963, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 964, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 965, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 966, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 967, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 968, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 969, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 970, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 972, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 973, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 974, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 975, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 976, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 977, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 978, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 979, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1009, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1010, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1011, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1012, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1013, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1014, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1015, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1016, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1017, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1018, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1019, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1020, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1021, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1022, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1023, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1024, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1025, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1026, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1027, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1028, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1030, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1031, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1032, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1033, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1034, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1035, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1036, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1037, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1067, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1068, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1069, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1070, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1071, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1072, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1073, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1074, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1075, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1076, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1077, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1078, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1079, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1080, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1081, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1082, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1083, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1084, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1085, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1086, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1088, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1089, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1090, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1091, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1092, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1093, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1094, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1095, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1125, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1126, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1127, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1128, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1129, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1130, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1131, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1132, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1133, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1134, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1135, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1136, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1137, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1138, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1139, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1140, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1141, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1142, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1143, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1144, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1146, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1147, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1148, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1149, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1150, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1151, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1152, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1153, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1183, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1184, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1185, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1186, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1187, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1188, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1189, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1190, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1191, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1192, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1193, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1194, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1195, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1196, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1197, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1198, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1199, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1200, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1201, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1202, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1204, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1205, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1206, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1207, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1208, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1209, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1210, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1211, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1241, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1242, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1243, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1244, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1245, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1246, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1247, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1248, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1249, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1250, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1251, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1252, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1253, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1254, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1255, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1256, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1257, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1258, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1259, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1260, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1262, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1263, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1264, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1265, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1266, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1267, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1268, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1269, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1299, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1300, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1301, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1302, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1303, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1304, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1305, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1306, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1307, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1308, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1309, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1310, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1311, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1312, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1313, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1314, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1315, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1316, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1317, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1318, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1320, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1321, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.ip", "attacker.foothold.vpn.duplicate"]}}
+{"line": 1322, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1323, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1324, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1325, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.duplicate"], "foothold": ["attacker.foothold.vpn.duplicate"]}}
+{"line": 1326, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 1327, "labels": ["attacker_vpn", "foothold"], "rules": {"attacker_vpn": ["attacker.foothold.vpn.ip"], "foothold": ["attacker.foothold.vpn.ip"]}}
+{"line": 2666, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2667, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2668, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2669, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2670, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2671, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2672, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2673, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2674, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2675, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2676, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2677, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2678, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2679, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2680, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2681, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2682, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2683, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2684, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"]}}
+{"line": 2685, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.duplicate"]}}
+{"line": 2687, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"]}}
+{"line": 2688, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.ip", "attacker.escalate.vpn.duplicate"]}}
+{"line": 2689, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.duplicate"]}}
+{"line": 2690, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.duplicate"]}}
+{"line": 2691, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.duplicate"]}}
+{"line": 2692, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.duplicate"], "escalate": ["attacker.escalate.vpn.duplicate"]}}
+{"line": 2693, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}
+{"line": 2694, "labels": ["attacker_vpn", "escalate"], "rules": {"attacker_vpn": ["attacker.escalate.vpn.ip"], "escalate": ["attacker.escalate.vpn.ip"]}}

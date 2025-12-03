@@ -1,0 +1,1248 @@
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Linux version 4.15.0-139-generic (buildd@lgw01-amd64-035) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #143-Ubuntu SMP Tue Mar 16 01:30:17 UTC 2021 (Ubuntu 4.15.0-139.143-generic 4.15.18)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-139-generic root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyS0
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] KERNEL supported cpus:
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   Intel GenuineIntel
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   AMD AuthenticAMD
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   Centaur CentaurHauls
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffdbfff] usable
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffdc000-0x000000007fffffff] reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] SMBIOS 2.8 present.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] DMI: OpenStack Foundation OpenStack Nova, BIOS 1.10.2-1ubuntu1 04/01/2014
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Hypervisor detected: KVM
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] e820: last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] MTRR default type: write-back
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] MTRR fixed ranges enabled:
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   00000-9FFFF write-back
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   A0000-BFFFF uncachable
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   C0000-FFFFF write-protect
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] MTRR variable ranges enabled:
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   1 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   2 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   3 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   4 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   5 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   6 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   7 disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] found SMP MP-table at [mem 0x000f6a80-0x000f6a8f]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Using GB pages for direct mapping
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] RAMDISK: [mem 0x35a63000-0x36d28fff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: RSDP 0x00000000000F6880 000014 (v00 BOCHS )
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: RSDT 0x000000007FFE1504 00002C (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: FACP 0x000000007FFE1418 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: DSDT 0x000000007FFE0040 0013D8 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: FACS 0x000000007FFE0000 000040
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: APIC 0x000000007FFE148C 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] No NUMA configuration found
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffdbfff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x7ffb1000-0x7ffdbfff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] kvm-clock: cpu 0, msr 0:7ff30001, primary cpu clock
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] kvm-clock: using sched offset of 12857330768 cycles
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Zone ranges:
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000007ffdbfff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   Normal   empty
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   Device   empty
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Movable zone start for each node
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Early memory node ranges
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000007ffdbfff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Reserved but unavailable: 98 pages
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffdbfff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] On node 0 totalpages: 524154
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA zone: 21 pages reserved
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA32 zone: 8128 pages used for memmap
+Mar 22 20:22:20 inet-dns kernel: [    0.000000]   DMA32 zone: 520156 pages, LIFO batch:31
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x608
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: IRQ0 used by override.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: IRQ5 used by override.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: IRQ9 used by override.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: IRQ10 used by override.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ACPI: IRQ11 used by override.
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] TSC deadline timer available
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] e820: [mem 0x80000000-0xfeffbfff] available for PCI devices
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x99/0x500 with crng_init=0
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] percpu: Embedded 45 pages/cpu s147456 r8192 d28672 u2097152
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] pcpu-alloc: s147456 r8192 d28672 u2097152 alloc=1*2097152
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] pcpu-alloc: [0] 0 
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] KVM setup async PF for cpu 0
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] kvm-stealtime: cpu 0, msr 7fc23040
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 515941
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Policy zone: DMA32
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-139-generic root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyS0
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Memory: 2015320K/2096616K available (12300K kernel code, 2483K rwdata, 4276K rodata, 2440K init, 2724K bss, 81296K reserved, 0K cma-reserved)
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.000000] ftrace: allocating 39429 entries in 155 pages
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Hierarchical RCU implementation.
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] 	Tasks RCU enabled.
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Console: colour VGA+ 80x25
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] console [tty1] enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] console [ttyS0] enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] ACPI: Core revision 20170831
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] APIC: Switch to symmetric I/O mode setup
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] x2apic enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Switched APIC routing to physical x2apic.
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] tsc: Detected 2099.988 MHz processor
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Calibrating delay loop (skipped) preset value.. 4199.97 BogoMIPS (lpj=8399952)
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Security Framework initialized
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Yama: becoming mindful.
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] AppArmor: AppArmor initialized
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Spectre V2 : Mitigation: Full generic retpoline
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Spectre V2 : Enabling Restricted Speculation for firmware calls
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] TAA: Mitigation: Clear CPU buffers
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] SRBDS: Unknown: Dependent on hypervisor status
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] MDS: Mitigation: Clear CPU buffers
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] Freeing SMP alternatives memory: 36K
+Mar 22 20:22:20 inet-dns kernel: [    0.004000] smpboot: CPU0: Intel Core Processor (Skylake, IBRS) (family: 0x6, model: 0x5e, stepping: 0x3)
+Mar 22 20:22:20 inet-dns kernel: [    0.004076] Performance Events: unsupported p6 CPU model 94 no PMU driver, software events only.
+Mar 22 20:22:20 inet-dns kernel: [    0.008050] Hierarchical SRCU implementation.
+Mar 22 20:22:20 inet-dns kernel: [    0.010877] NMI watchdog: Perf event create on CPU 0 failed with -2
+Mar 22 20:22:20 inet-dns kernel: [    0.012006] NMI watchdog: Perf NMI watchdog permanently disabled
+Mar 22 20:22:20 inet-dns kernel: [    0.015183] smp: Bringing up secondary CPUs ...
+Mar 22 20:22:20 inet-dns kernel: [    0.016007] smp: Brought up 1 node, 1 CPU
+Mar 22 20:22:20 inet-dns kernel: [    0.018222] smpboot: Max logical packages: 1
+Mar 22 20:22:20 inet-dns kernel: [    0.020007] smpboot: Total of 1 processors activated (4199.97 BogoMIPS)
+Mar 22 20:22:20 inet-dns kernel: [    0.023626] devtmpfs: initialized
+Mar 22 20:22:20 inet-dns kernel: [    0.024075] x86/mm: Memory block size: 128MB
+Mar 22 20:22:20 inet-dns kernel: [    0.026200] evm: security.selinux
+Mar 22 20:22:20 inet-dns kernel: [    0.027750] evm: security.SMACK64
+Mar 22 20:22:20 inet-dns kernel: [    0.028007] evm: security.SMACK64EXEC
+Mar 22 20:22:20 inet-dns kernel: [    0.029611] evm: security.SMACK64TRANSMUTE
+Mar 22 20:22:20 inet-dns kernel: [    0.031386] evm: security.SMACK64MMAP
+Mar 22 20:22:20 inet-dns kernel: [    0.032005] evm: security.apparmor
+Mar 22 20:22:20 inet-dns kernel: [    0.033555] evm: security.ima
+Mar 22 20:22:20 inet-dns kernel: [    0.035954] evm: security.capability
+Mar 22 20:22:20 inet-dns kernel: [    0.036283] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Mar 22 20:22:20 inet-dns kernel: [    0.040024] futex hash table entries: 256 (order: 2, 16384 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.042400] pinctrl core: initialized pinctrl subsystem
+Mar 22 20:22:20 inet-dns kernel: [    0.044234] RTC time: 20:21:43, date: 03/22/21
+Mar 22 20:22:20 inet-dns kernel: [    0.046455] NET: Registered protocol family 16
+Mar 22 20:22:20 inet-dns kernel: [    0.048115] audit: initializing netlink subsys (disabled)
+Mar 22 20:22:20 inet-dns kernel: [    0.051663] cpuidle: using governor ladder
+Mar 22 20:22:20 inet-dns kernel: [    0.052007] cpuidle: using governor menu
+Mar 22 20:22:20 inet-dns kernel: [    0.054532] ACPI: bus type PCI registered
+Mar 22 20:22:20 inet-dns kernel: [    0.056007] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 22 20:22:20 inet-dns kernel: [    0.059048] audit: type=2000 audit(1616444503.083:1): state=initialized audit_enabled=0 res=1
+Mar 22 20:22:20 inet-dns kernel: [    0.060315] PCI: Using configuration type 1 for base access
+Mar 22 20:22:20 inet-dns kernel: [    0.064884] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Mar 22 20:22:20 inet-dns kernel: [    0.068013] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Mar 22 20:22:20 inet-dns kernel: [    0.071705] ACPI: Added _OSI(Module Device)
+Mar 22 20:22:20 inet-dns kernel: [    0.072014] ACPI: Added _OSI(Processor Device)
+Mar 22 20:22:20 inet-dns kernel: [    0.074793] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 22 20:22:20 inet-dns kernel: [    0.076007] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 22 20:22:20 inet-dns kernel: [    0.079249] ACPI: Added _OSI(Linux-Dell-Video)
+Mar 22 20:22:20 inet-dns kernel: [    0.080033] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Mar 22 20:22:20 inet-dns kernel: [    0.083098] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Mar 22 20:22:20 inet-dns kernel: [    0.086524] ACPI: Interpreter enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.088029] ACPI: (supports S0 S3 S4 S5)
+Mar 22 20:22:20 inet-dns kernel: [    0.090133] ACPI: Using IOAPIC for interrupt routing
+Mar 22 20:22:20 inet-dns kernel: [    0.092028] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 22 20:22:20 inet-dns kernel: [    0.096193] ACPI: Enabled 2 GPEs in block 00 to 0F
+Mar 22 20:22:20 inet-dns kernel: [    0.102518] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 22 20:22:20 inet-dns kernel: [    0.104013] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 22 20:22:20 inet-dns kernel: [    0.108017] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar 22 20:22:20 inet-dns kernel: [    0.112036] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 22 20:22:20 inet-dns kernel: [    0.116447] acpiphp: Slot [3] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.118866] acpiphp: Slot [4] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.120147] acpiphp: Slot [5] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.122865] acpiphp: Slot [6] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.124089] acpiphp: Slot [7] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.126851] acpiphp: Slot [8] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.128064] acpiphp: Slot [9] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.130435] acpiphp: Slot [10] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.132078] acpiphp: Slot [11] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.134202] acpiphp: Slot [12] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.136064] acpiphp: Slot [13] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.138134] acpiphp: Slot [14] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.139994] acpiphp: Slot [15] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.140062] acpiphp: Slot [16] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.141831] acpiphp: Slot [17] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.143640] acpiphp: Slot [18] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.144063] acpiphp: Slot [19] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.146304] acpiphp: Slot [20] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.148071] acpiphp: Slot [21] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.150866] acpiphp: Slot [22] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.152082] acpiphp: Slot [23] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.154615] acpiphp: Slot [24] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.156106] acpiphp: Slot [25] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.158373] acpiphp: Slot [26] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.160087] acpiphp: Slot [27] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.162136] acpiphp: Slot [28] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.164114] acpiphp: Slot [29] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.167027] acpiphp: Slot [30] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.168122] acpiphp: Slot [31] registered
+Mar 22 20:22:20 inet-dns kernel: [    0.170446] PCI host bridge to bus 0000:00
+Mar 22 20:22:20 inet-dns kernel: [    0.172014] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar 22 20:22:20 inet-dns kernel: [    0.175798] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.176008] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.180014] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.184016] pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.187483] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 22 20:22:20 inet-dns kernel: [    0.188071] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Mar 22 20:22:20 inet-dns kernel: [    0.188859] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Mar 22 20:22:20 inet-dns kernel: [    0.189823] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Mar 22 20:22:20 inet-dns kernel: [    0.193005] pci 0000:00:01.1: reg 0x20: [io  0xc0c0-0xc0cf]
+Mar 22 20:22:20 inet-dns kernel: [    0.194487] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar 22 20:22:20 inet-dns kernel: [    0.196007] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar 22 20:22:20 inet-dns kernel: [    0.200007] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar 22 20:22:20 inet-dns kernel: [    0.204012] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar 22 20:22:20 inet-dns kernel: [    0.207678] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Mar 22 20:22:20 inet-dns kernel: [    0.210424] pci 0000:00:01.2: reg 0x20: [io  0xc080-0xc09f]
+Mar 22 20:22:20 inet-dns kernel: [    0.212192] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Mar 22 20:22:20 inet-dns kernel: [    0.213013] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Mar 22 20:22:20 inet-dns kernel: [    0.216022] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Mar 22 20:22:20 inet-dns kernel: [    0.219786] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Mar 22 20:22:20 inet-dns kernel: [    0.220590] pci 0000:00:02.0: reg 0x10: [mem 0xfc000000-0xfdffffff pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.221740] pci 0000:00:02.0: reg 0x14: [mem 0xfeb90000-0xfeb90fff]
+Mar 22 20:22:20 inet-dns kernel: [    0.228626] pci 0000:00:02.0: reg 0x30: [mem 0xfeb80000-0xfeb8ffff pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.229245] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+Mar 22 20:22:20 inet-dns kernel: [    0.230782] pci 0000:00:03.0: reg 0x10: [io  0xc000-0xc03f]
+Mar 22 20:22:20 inet-dns kernel: [    0.232008] pci 0000:00:03.0: reg 0x14: [mem 0xfeb91000-0xfeb91fff]
+Mar 22 20:22:20 inet-dns kernel: [    0.239175] pci 0000:00:03.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.240008] pci 0000:00:03.0: reg 0x30: [mem 0xfeb00000-0xfeb7ffff pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.240989] pci 0000:00:04.0: [1af4:1001] type 00 class 0x010000
+Mar 22 20:22:20 inet-dns kernel: [    0.242961] pci 0000:00:04.0: reg 0x10: [io  0xc040-0xc07f]
+Mar 22 20:22:20 inet-dns kernel: [    0.244013] pci 0000:00:04.0: reg 0x14: [mem 0xfeb92000-0xfeb92fff]
+Mar 22 20:22:20 inet-dns kernel: [    0.250502] pci 0000:00:04.0: reg 0x20: [mem 0xfe004000-0xfe007fff 64bit pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.253406] pci 0000:00:05.0: [1af4:1002] type 00 class 0x00ff00
+Mar 22 20:22:20 inet-dns kernel: [    0.254978] pci 0000:00:05.0: reg 0x10: [io  0xc0a0-0xc0bf]
+Mar 22 20:22:20 inet-dns kernel: [    0.260727] pci 0000:00:05.0: reg 0x20: [mem 0xfe008000-0xfe00bfff 64bit pref]
+Mar 22 20:22:20 inet-dns kernel: [    0.264438] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Mar 22 20:22:20 inet-dns kernel: [    0.268297] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Mar 22 20:22:20 inet-dns kernel: [    0.272292] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Mar 22 20:22:20 inet-dns kernel: [    0.275873] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Mar 22 20:22:20 inet-dns kernel: [    0.276108] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Mar 22 20:22:20 inet-dns kernel: [    0.279055] SCSI subsystem initialized
+Mar 22 20:22:20 inet-dns kernel: [    0.280158] libata version 3.00 loaded.
+Mar 22 20:22:20 inet-dns kernel: [    0.280260] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Mar 22 20:22:20 inet-dns kernel: [    0.283164] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Mar 22 20:22:20 inet-dns kernel: [    0.284010] pci 0000:00:02.0: vgaarb: bridge control possible
+Mar 22 20:22:20 inet-dns kernel: [    0.287491] vgaarb: loaded
+Mar 22 20:22:20 inet-dns kernel: [    0.288089] ACPI: bus type USB registered
+Mar 22 20:22:20 inet-dns kernel: [    0.290799] usbcore: registered new interface driver usbfs
+Mar 22 20:22:20 inet-dns kernel: [    0.292055] usbcore: registered new interface driver hub
+Mar 22 20:22:20 inet-dns kernel: [    0.295137] usbcore: registered new device driver usb
+Mar 22 20:22:20 inet-dns kernel: [    0.296146] EDAC MC: Ver: 3.0.0
+Mar 22 20:22:20 inet-dns kernel: [    0.298500] PCI: Using ACPI for IRQ routing
+Mar 22 20:22:20 inet-dns kernel: [    0.300012] PCI: pci_cache_line_size set to 64 bytes
+Mar 22 20:22:20 inet-dns kernel: [    0.300320] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.300325] e820: reserve RAM buffer [mem 0x7ffdc000-0x7fffffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.300562] NetLabel: Initializing
+Mar 22 20:22:20 inet-dns kernel: [    0.302588] NetLabel:  domain hash size = 128
+Mar 22 20:22:20 inet-dns kernel: [    0.304006] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Mar 22 20:22:20 inet-dns kernel: [    0.307093] NetLabel:  unlabeled traffic allowed by default
+Mar 22 20:22:20 inet-dns kernel: [    0.308160] clocksource: Switched to clocksource kvm-clock
+Mar 22 20:22:20 inet-dns kernel: [    0.325620] VFS: Disk quotas dquot_6.6.0
+Mar 22 20:22:20 inet-dns kernel: [    0.328901] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.333693] AppArmor: AppArmor Filesystem Enabled
+Mar 22 20:22:20 inet-dns kernel: [    0.336969] pnp: PnP ACPI init
+Mar 22 20:22:20 inet-dns kernel: [    0.339039] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 22 20:22:20 inet-dns kernel: [    0.339089] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Mar 22 20:22:20 inet-dns kernel: [    0.339172] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Mar 22 20:22:20 inet-dns kernel: [    0.339198] pnp 00:03: [dma 2]
+Mar 22 20:22:20 inet-dns kernel: [    0.339222] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Mar 22 20:22:20 inet-dns kernel: [    0.339355] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 22 20:22:20 inet-dns kernel: [    0.339728] pnp: PnP ACPI: found 5 devices
+Mar 22 20:22:20 inet-dns kernel: [    0.348501] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Mar 22 20:22:20 inet-dns kernel: [    0.353550] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Mar 22 20:22:20 inet-dns kernel: [    0.353552] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.353553] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.353554] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.353556] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Mar 22 20:22:20 inet-dns kernel: [    0.353628] NET: Registered protocol family 2
+Mar 22 20:22:20 inet-dns kernel: [    0.356526] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.359635] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.362533] TCP: Hash tables configured (established 16384 bind 16384)
+Mar 22 20:22:20 inet-dns kernel: [    0.366352] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.369707] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Mar 22 20:22:20 inet-dns kernel: [    0.372912] NET: Registered protocol family 1
+Mar 22 20:22:20 inet-dns kernel: [    0.375236] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar 22 20:22:20 inet-dns kernel: [    0.378202] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Mar 22 20:22:20 inet-dns kernel: [    0.381397] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar 22 20:22:20 inet-dns kernel: [    0.412354] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Mar 22 20:22:20 inet-dns kernel: [    0.445518] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Mar 22 20:22:20 inet-dns kernel: [    0.449931] PCI: CLS 0 bytes, default 64
+Mar 22 20:22:20 inet-dns kernel: [    0.450012] Unpacking initramfs...
+Mar 22 20:22:20 inet-dns kernel: [    0.864339] Freeing initrd memory: 19224K
+Mar 22 20:22:20 inet-dns kernel: [    0.867523] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1e452540f37, max_idle_ns: 440795264677 ns
+Mar 22 20:22:20 inet-dns kernel: [    0.873756] Scanning for low memory corruption every 60 seconds
+Mar 22 20:22:20 inet-dns kernel: [    0.877958] Initialise system trusted keyrings
+Mar 22 20:22:20 inet-dns kernel: [    0.879736] Key type blacklist registered
+Mar 22 20:22:20 inet-dns kernel: [    0.881645] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Mar 22 20:22:20 inet-dns kernel: [    0.885739] zbud: loaded
+Mar 22 20:22:20 inet-dns kernel: [    0.888004] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Mar 22 20:22:20 inet-dns kernel: [    0.891967] fuse init (API version 7.26)
+Mar 22 20:22:20 inet-dns kernel: [    0.895719] Key type asymmetric registered
+Mar 22 20:22:20 inet-dns kernel: [    0.899097] Asymmetric key parser 'x509' registered
+Mar 22 20:22:20 inet-dns kernel: [    0.902368] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Mar 22 20:22:20 inet-dns kernel: [    0.907196] io scheduler noop registered
+Mar 22 20:22:20 inet-dns kernel: [    0.909696] io scheduler deadline registered
+Mar 22 20:22:20 inet-dns kernel: [    0.912622] io scheduler cfq registered (default)
+Mar 22 20:22:20 inet-dns kernel: [    0.915880] intel_idle: Please enable MWAIT in BIOS SETUP
+Mar 22 20:22:20 inet-dns kernel: [    0.916040] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 22 20:22:20 inet-dns kernel: [    0.919474] ACPI: Power Button [PWRF]
+Mar 22 20:22:20 inet-dns kernel: [    0.950596] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Mar 22 20:22:20 inet-dns kernel: [    1.022193] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Mar 22 20:22:20 inet-dns kernel: [    1.028385] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 22 20:22:20 inet-dns kernel: [    1.060229] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Mar 22 20:22:20 inet-dns kernel: [    1.069561] Linux agpgart interface v0.103
+Mar 22 20:22:20 inet-dns kernel: [    1.073545] loop: module loaded
+Mar 22 20:22:20 inet-dns kernel: [    1.075553] ata_piix 0000:00:01.1: version 2.13
+Mar 22 20:22:20 inet-dns kernel: [    1.076593] scsi host0: ata_piix
+Mar 22 20:22:20 inet-dns kernel: [    1.078508] scsi host1: ata_piix
+Mar 22 20:22:20 inet-dns kernel: [    1.080893] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc0c0 irq 14
+Mar 22 20:22:20 inet-dns kernel: [    1.084638] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc0c8 irq 15
+Mar 22 20:22:20 inet-dns kernel: [    1.089085] libphy: Fixed MDIO Bus: probed
+Mar 22 20:22:20 inet-dns kernel: [    1.090928] tun: Universal TUN/TAP device driver, 1.6
+Mar 22 20:22:20 inet-dns kernel: [    1.093008] PPP generic driver version 2.4.2
+Mar 22 20:22:20 inet-dns kernel: [    1.094699] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 22 20:22:20 inet-dns kernel: [    1.097075] ehci-pci: EHCI PCI platform driver
+Mar 22 20:22:20 inet-dns kernel: [    1.098778] ehci-platform: EHCI generic platform driver
+Mar 22 20:22:20 inet-dns kernel: [    1.101362] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 22 20:22:20 inet-dns kernel: [    1.104966] ohci-pci: OHCI PCI platform driver
+Mar 22 20:22:20 inet-dns kernel: [    1.107844] ohci-platform: OHCI generic platform driver
+Mar 22 20:22:20 inet-dns kernel: [    1.111011] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 22 20:22:20 inet-dns kernel: [    1.143337] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Mar 22 20:22:20 inet-dns kernel: [    1.146340] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Mar 22 20:22:20 inet-dns kernel: [    1.151095] uhci_hcd 0000:00:01.2: detected 2 ports
+Mar 22 20:22:20 inet-dns kernel: [    1.154578] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c080
+Mar 22 20:22:20 inet-dns kernel: [    1.158079] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Mar 22 20:22:20 inet-dns kernel: [    1.162240] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 22 20:22:20 inet-dns kernel: [    1.166185] usb usb1: Product: UHCI Host Controller
+Mar 22 20:22:20 inet-dns kernel: [    1.168814] usb usb1: Manufacturer: Linux 4.15.0-139-generic uhci_hcd
+Mar 22 20:22:20 inet-dns kernel: [    1.172761] usb usb1: SerialNumber: 0000:00:01.2
+Mar 22 20:22:20 inet-dns kernel: [    1.175537] hub 1-0:1.0: USB hub found
+Mar 22 20:22:20 inet-dns kernel: [    1.178259] hub 1-0:1.0: 2 ports detected
+Mar 22 20:22:20 inet-dns kernel: [    1.181654] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Mar 22 20:22:20 inet-dns kernel: [    1.187486] serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar 22 20:22:20 inet-dns kernel: [    1.189433] serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar 22 20:22:20 inet-dns kernel: [    1.191438] mousedev: PS/2 mouse device common for all mice
+Mar 22 20:22:20 inet-dns kernel: [    1.194081] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Mar 22 20:22:20 inet-dns kernel: [    1.197720] rtc_cmos 00:00: RTC can wake from S4
+Mar 22 20:22:20 inet-dns kernel: [    1.201161] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Mar 22 20:22:20 inet-dns kernel: [    1.204755] rtc_cmos 00:00: alarms up to one day, y3k, 114 bytes nvram
+Mar 22 20:22:20 inet-dns kernel: [    1.208205] i2c /dev entries driver
+Mar 22 20:22:20 inet-dns kernel: [    1.210127] device-mapper: uevent: version 1.0.3
+Mar 22 20:22:20 inet-dns kernel: [    1.212726] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Mar 22 20:22:20 inet-dns kernel: [    1.217707] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 22 20:22:20 inet-dns kernel: [    1.221026] NET: Registered protocol family 10
+Mar 22 20:22:20 inet-dns kernel: [    1.228348] Segment Routing with IPv6
+Mar 22 20:22:20 inet-dns kernel: [    1.230086] NET: Registered protocol family 17
+Mar 22 20:22:20 inet-dns kernel: [    1.232662] Key type dns_resolver registered
+Mar 22 20:22:20 inet-dns kernel: [    1.235149] mce: Using 10 MCE banks
+Mar 22 20:22:20 inet-dns kernel: [    1.237168] RAS: Correctable Errors collector initialized.
+Mar 22 20:22:20 inet-dns kernel: [    1.241253] sched_clock: Marking stable (1241208394, 0)->(1829874653, -588666259)
+Mar 22 20:22:20 inet-dns kernel: [    1.244756] registered taskstats version 1
+Mar 22 20:22:20 inet-dns kernel: [    1.246651] Loading compiled-in X.509 certificates
+Mar 22 20:22:20 inet-dns kernel: [    1.253055] Loaded X.509 cert 'Build time autogenerated kernel key: 9b9955b80c271df2d4651fb935031a2c1666e8fa'
+Mar 22 20:22:20 inet-dns kernel: [    1.258662] zswap: loaded using pool lzo/zbud
+Mar 22 20:22:20 inet-dns kernel: [    1.266309] Key type big_key registered
+Mar 22 20:22:20 inet-dns kernel: [    1.268881] Key type trusted registered
+Mar 22 20:22:20 inet-dns kernel: [    1.273860] Key type encrypted registered
+Mar 22 20:22:20 inet-dns kernel: [    1.276630] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 22 20:22:20 inet-dns kernel: [    1.280270] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Mar 22 20:22:20 inet-dns kernel: [    1.305922] ima: Allocated hash algorithm: sha1
+Mar 22 20:22:20 inet-dns kernel: [    1.308545] evm: HMAC attrs: 0x1
+Mar 22 20:22:20 inet-dns kernel: [    1.311328]   Magic number: 13:579:397
+Mar 22 20:22:20 inet-dns kernel: [    1.313872] mem random: hash matches
+Mar 22 20:22:20 inet-dns kernel: [    1.316588] rtc_cmos 00:00: setting system clock to 2021-03-22 20:21:44 UTC (1616444504)
+Mar 22 20:22:20 inet-dns kernel: [    1.322337] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Mar 22 20:22:20 inet-dns kernel: [    1.326534] EDD information not available.
+Mar 22 20:22:20 inet-dns kernel: [    1.332393] Freeing unused kernel image memory: 2440K
+Mar 22 20:22:20 inet-dns kernel: [    1.340066] Write protecting the kernel read-only data: 20480k
+Mar 22 20:22:20 inet-dns kernel: [    1.347464] Freeing unused kernel image memory: 2008K
+Mar 22 20:22:20 inet-dns kernel: [    1.351006] Freeing unused kernel image memory: 1868K
+Mar 22 20:22:20 inet-dns kernel: [    1.368199] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar 22 20:22:20 inet-dns kernel: [    1.371247] x86/mm: Checking user space page tables
+Mar 22 20:22:20 inet-dns kernel: [    1.381511] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar 22 20:22:20 inet-dns kernel: [    1.532998] FDC 0 is a S82078B
+Mar 22 20:22:20 inet-dns kernel: [    1.536110] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Mar 22 20:22:20 inet-dns kernel: [    1.551729] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Mar 22 20:22:20 inet-dns kernel: [    1.559553] GPT:Primary header thinks Alt. header is not at the end of the disk.
+Mar 22 20:22:20 inet-dns kernel: [    1.562897] GPT:4612095 != 41943039
+Mar 22 20:22:20 inet-dns kernel: [    1.564802] GPT:Alternate GPT header not at the end of the disk.
+Mar 22 20:22:20 inet-dns kernel: [    1.568878] GPT:4612095 != 41943039
+Mar 22 20:22:20 inet-dns kernel: [    1.571478] GPT: Use GNU Parted to correct GPT errors.
+Mar 22 20:22:20 inet-dns kernel: [    1.574232]  vda: vda1 vda14 vda15
+Mar 22 20:22:20 inet-dns kernel: [    1.576768] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Mar 22 20:22:20 inet-dns kernel: [    1.631466] AVX2 version of gcm_enc/dec engaged.
+Mar 22 20:22:20 inet-dns kernel: [    1.635143] AES CTR mode by8 optimization enabled
+Mar 22 20:22:20 inet-dns kernel: [    1.654801] virtio_net virtio0 ens3: renamed from eth0
+Mar 22 20:22:20 inet-dns kernel: [    1.725093] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Mar 22 20:22:20 inet-dns kernel: [    1.729040] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Mar 22 20:22:20 inet-dns kernel: [    1.732447] usb 1-1: Product: QEMU USB Tablet
+Mar 22 20:22:20 inet-dns kernel: [    1.735647] usb 1-1: Manufacturer: QEMU
+Mar 22 20:22:20 inet-dns kernel: [    1.738193] usb 1-1: SerialNumber: 42
+Mar 22 20:22:20 inet-dns kernel: [    1.751889] hidraw: raw HID events driver (C) Jiri Kosina
+Mar 22 20:22:20 inet-dns kernel: [    1.765494] usbcore: registered new interface driver usbhid
+Mar 22 20:22:20 inet-dns kernel: [    1.769194] usbhid: USB HID core driver
+Mar 22 20:22:20 inet-dns kernel: [    1.775147] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+Mar 22 20:22:20 inet-dns kernel: [    1.782900] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Mar 22 20:22:20 inet-dns kernel: [    3.484036] raid6: sse2x1   gen()  6325 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.532023] raid6: sse2x1   xor()  2801 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.580030] raid6: sse2x2   gen()  7143 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.628024] raid6: sse2x2   xor()  4071 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.676019] raid6: sse2x4   gen()  9389 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.724017] raid6: sse2x4   xor()  5451 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.772021] raid6: avx2x1   gen() 13255 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.820020] raid6: avx2x1   xor()  8864 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.868014] raid6: avx2x2   gen() 16053 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.916023] raid6: avx2x2   xor()  9609 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    3.968029] raid6: avx2x4   gen() 18429 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    4.016017] raid6: avx2x4   xor() 11692 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    4.018624] raid6: using algorithm avx2x4 gen() 18429 MB/s
+Mar 22 20:22:20 inet-dns kernel: [    4.021167] raid6: .... xor() 11692 MB/s, rmw enabled
+Mar 22 20:22:20 inet-dns kernel: [    4.024703] raid6: using avx2x2 recovery algorithm
+Mar 22 20:22:20 inet-dns kernel: [    4.031041] xor: automatically using best checksumming function   avx       
+Mar 22 20:22:20 inet-dns kernel: [    4.038136] async_tx: api initialized (async)
+Mar 22 20:22:20 inet-dns kernel: [    4.137040] Btrfs loaded, crc32c=crc32c-intel
+Mar 22 20:22:20 inet-dns kernel: [    4.209482] random: fast init done
+Mar 22 20:22:20 inet-dns kernel: [    4.247275] random: wait-for-root: uninitialized urandom read (16 bytes read)
+Mar 22 20:22:20 inet-dns kernel: [    4.251035] random: wait-for-root: uninitialized urandom read (16 bytes read)
+Mar 22 20:22:20 inet-dns kernel: [    4.254573] random: wait-for-root: uninitialized urandom read (16 bytes read)
+Mar 22 20:22:20 inet-dns kernel: [    4.382349] EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 22 20:22:20 inet-dns kernel: [    5.067671] ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 22 20:22:20 inet-dns kernel: [    5.159600] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Mar 22 20:22:20 inet-dns kernel: [    5.172050] systemd[1]: Detected virtualization kvm.
+Mar 22 20:22:20 inet-dns kernel: [    5.174508] systemd[1]: Detected architecture x86-64.
+Mar 22 20:22:20 inet-dns kernel: [    5.186709] systemd[1]: Set hostname to <ubuntu>.
+Mar 22 20:22:20 inet-dns kernel: [    5.207564] systemd[1]: Initializing machine ID from KVM UUID.
+Mar 22 20:22:20 inet-dns kernel: [    5.211235] systemd[1]: Installed transient /etc/machine-id file.
+Mar 22 20:22:20 inet-dns kernel: [    6.086371] systemd[1]: Reached target User and Group Name Lookups.
+Mar 22 20:22:20 inet-dns kernel: [    6.092679] systemd[1]: Reached target Swap.
+Mar 22 20:22:20 inet-dns kernel: [    6.097190] systemd[1]: Created slice User and Session Slice.
+Mar 22 20:22:20 inet-dns kernel: [    6.101242] systemd[1]: Created slice System Slice.
+Mar 22 20:22:20 inet-dns kernel: [    6.213467] Loading iSCSI transport class v2.0-870.
+Mar 22 20:22:20 inet-dns kernel: [    6.258211] iscsi: registered transport (tcp)
+Mar 22 20:22:20 inet-dns kernel: [    6.356856] EXT4-fs (vda1): re-mounted. Opts: (null)
+Mar 22 20:22:20 inet-dns kernel: [    6.424271] iscsi: registered transport (iser)
+Mar 22 20:22:20 inet-dns kernel: [    6.564411] systemd-journald[395]: Received request to flush runtime journal from PID 1
+Mar 22 20:22:20 inet-dns kernel: [    9.127529] audit: type=1400 audit(1616444512.304:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=595 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.128452] audit: type=1400 audit(1616444512.308:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=595 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.131423] audit: type=1400 audit(1616444512.308:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=595 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.132321] audit: type=1400 audit(1616444512.312:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=595 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.378711] audit: type=1400 audit(1616444512.556:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=598 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.379725] audit: type=1400 audit(1616444512.556:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=598 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.380567] audit: type=1400 audit(1616444512.560:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=598 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.381199] audit: type=1400 audit(1616444512.560:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=598 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.403754] audit: type=1400 audit(1616444512.580:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=600 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [    9.508000] audit: type=1400 audit(1616444512.684:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=602 comm="apparmor_parser"
+Mar 22 20:22:20 inet-dns kernel: [   35.806860] EXT4-fs (vda1): resizing filesystem from 548091 to 5214459 blocks
+Mar 22 20:22:20 inet-dns kernel: [   35.867405] random: crng init done
+Mar 22 20:22:20 inet-dns kernel: [   35.867408] random: 7 urandom warning(s) missed due to ratelimiting
+Mar 22 20:22:20 inet-dns kernel: [   35.883812] EXT4-fs (vda1): resized filesystem to 5214459
+Mar 22 20:22:20 inet-dns kernel: [   37.501821] new mount options do not match the existing superblock, will be ignored
+Mar 22 20:22:20 inet-dns systemd-modules-load[387]: Inserted module 'iscsi_tcp'
+Mar 22 20:22:20 inet-dns systemd-modules-load[387]: Inserted module 'ib_iser'
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 22 20:22:20 inet-dns systemd-fsck[390]: cloudimg-rootfs: clean, 67926/274176 files, 295508/548091 blocks
+Mar 22 20:22:20 inet-dns systemd[1]: Started udev Kernel Device Manager.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Apply Kernel Variables.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 22 20:22:20 inet-dns systemd[1]: Started udev Coldplug all Devices.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Set the console keyboard layout.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Local File Systems (Pre).
+Mar 22 20:22:20 inet-dns systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Local Encrypted Volumes.
+Mar 22 20:22:20 inet-dns systemd-udevd[431]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 22 20:22:20 inet-dns systemd[1]: Found device /dev/ttyS0.
+Mar 22 20:22:20 inet-dns systemd-udevd[423]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Mar 22 20:22:20 inet-dns systemd[1]: Found device /dev/disk/by-label/UEFI.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting File System Check on /dev/disk/by-label/UEFI...
+Mar 22 20:22:20 inet-dns systemd-fsck[486]: fsck.fat 4.1 (2017-01-24)
+Mar 22 20:22:20 inet-dns systemd-fsck[486]: /dev/vda15: 11 files, 12340/213716 clusters
+Mar 22 20:22:20 inet-dns systemd[1]: Started File System Check on /dev/disk/by-label/UEFI.
+Mar 22 20:22:20 inet-dns systemd[1]: Mounting /boot/efi...
+Mar 22 20:22:20 inet-dns systemd[1]: Mounted /boot/efi.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Local File Systems.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Commit a transient machine-id on disk...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Set console font and keymap...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting AppArmor initialization...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Create Volatile Files and Directories...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting ebtables ruleset management...
+Mar 22 20:22:20 inet-dns systemd[1]: Started Set console font and keymap.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Commit a transient machine-id on disk.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Create Volatile Files and Directories.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Network Time Synchronization...
+Mar 22 20:22:20 inet-dns systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 22 20:22:20 inet-dns apparmor[525]:  * Starting AppArmor profiles
+Mar 22 20:22:20 inet-dns systemd[1]: Started ebtables ruleset management.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Network Time Synchronization.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target System Time Synchronized.
+Mar 22 20:22:20 inet-dns apparmor[525]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Mar 22 20:22:20 inet-dns apparmor[525]:    ...done.
+Mar 22 20:22:20 inet-dns systemd[1]: Started AppArmor initialization.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Mar 22 20:22:20 inet-dns snapd-apparmor[609]: find: ‘/var/lib/snapd/apparmor/profiles/’: No such file or directory
+Mar 22 20:22:20 inet-dns systemd[1]: Started Load AppArmor profiles managed internally by snapd.
+Mar 22 20:22:20 inet-dns dhclient[644]: Internet Systems Consortium DHCP Client 4.3.5
+Mar 22 20:22:20 inet-dns dhclient[644]: Copyright 2004-2016 Internet Systems Consortium.
+Mar 22 20:22:20 inet-dns dhclient[644]: All rights reserved.
+Mar 22 20:22:20 inet-dns dhclient[644]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 22 20:22:20 inet-dns dhclient[644]: 
+Mar 22 20:22:20 inet-dns dhclient[644]: Listening on LPF/ens3/fa:16:3e:8e:62:ab
+Mar 22 20:22:20 inet-dns dhclient[644]: Sending on   LPF/ens3/fa:16:3e:8e:62:ab
+Mar 22 20:22:20 inet-dns dhclient[644]: Sending on   Socket/fallback
+Mar 22 20:22:20 inet-dns dhclient[644]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3 (xid=0x992b5829)
+Mar 22 20:22:20 inet-dns dhclient[644]: DHCPREQUEST of 192.42.52.58 on ens3 to 255.255.255.255 port 67 (xid=0x29582b99)
+Mar 22 20:22:20 inet-dns dhclient[644]: DHCPOFFER of 192.42.52.58 from 192.42.0.2
+Mar 22 20:22:20 inet-dns dhclient[644]: DHCPACK of 192.42.52.58 from 192.42.0.2
+Mar 22 20:22:20 inet-dns dhclient[644]: bound to 192.42.52.58 -- renewal in 35960 seconds.
+Mar 22 20:22:20 inet-dns cloud-init[619]: Cloud-init v. 20.4.1-0ubuntu1~18.04.1 running 'init-local' at Mon, 22 Mar 2021 20:21:56 +0000. Up 13.19 seconds.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Initial cloud-init job (pre-networking).
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Network (Pre).
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Network Service...
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: Enumeration completed
+Mar 22 20:22:20 inet-dns systemd[1]: Started Network Service.
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Link UP
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Gained carrier
+Mar 22 20:22:20 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Network Name Resolution...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Wait for Network to be Configured...
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Gained IPv6LL
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Link DOWN
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Lost carrier
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: IPv6 successfully enabled
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: lo: Link is not managed by us
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: ignoring: lo
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: message repeated 3 times: [ ignoring: lo]
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Link UP
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Gained carrier
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: ignoring: lo
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: DHCPv4 address 192.42.52.58/16 via 192.42.0.1
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: Not connected to system bus, not setting hostname.
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: ignoring: lo
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: ignoring: lo
+Mar 22 20:22:20 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:22:20 inet-dns systemd-resolved[683]: Positive Trust Anchors:
+Mar 22 20:22:20 inet-dns systemd-resolved[683]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Mar 22 20:22:20 inet-dns systemd-resolved[683]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Mar 22 20:22:20 inet-dns systemd-resolved[683]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Mar 22 20:22:20 inet-dns systemd-resolved[683]: Using system hostname 'inet-dns'.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Network Name Resolution.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Network.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Host and Network Name Lookups.
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Gained IPv6LL
+Mar 22 20:22:20 inet-dns systemd-networkd[667]: ens3: Configured
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: ignoring: lo
+Mar 22 20:22:20 inet-dns systemd-networkd-wait-online[684]: managing: ens3
+Mar 22 20:22:20 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Wait for Network to be Configured.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Mar 22 20:22:20 inet-dns cloud-init[698]: Cloud-init v. 20.4.1-0ubuntu1~18.04.1 running 'init' at Mon, 22 Mar 2021 20:22:18 +0000. Up 34.95 seconds.
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +--------+------+------------------------------+-------------+--------+-------------------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: | Device |  Up  |           Address            |     Mask    | Scope  |     Hw-Address    |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +--------+------+------------------------------+-------------+--------+-------------------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |  ens3  | True |         192.42.52.58         | 255.255.0.0 | global | fa:16:3e:8e:62:ab |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |  ens3  | True | fe80::f816:3eff:fe8e:62ab/64 |      .      |  link  | fa:16:3e:8e:62:ab |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   lo   | True |          127.0.0.1           |  255.0.0.0  |  host  |         .         |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   lo   | True |           ::1/128            |      .      |  host  |         .         |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +--------+------+------------------------------+-------------+--------+-------------------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++++
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-----------------+------------+-----------------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: | Route |   Destination   |  Gateway   |     Genmask     | Interface | Flags |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-----------------+------------+-----------------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   0   |     0.0.0.0     | 192.42.0.1 |     0.0.0.0     |    ens3   |   UG  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   1   | 169.254.169.254 | 192.42.0.2 | 255.255.255.255 |    ens3   |  UGH  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   2   |    192.42.0.0   |  0.0.0.0   |   255.255.0.0   |    ens3   |   U   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-----------------+------------+-----------------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   1   |  fe80::/64  |    ::   |    ens3   |   U   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   3   |    local    |    ::   |    ens3   |   U   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: |   4   |   ff00::/8  |    ::   |    ens3   |   U   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar 22 20:22:20 inet-dns cloud-init[698]: Generating public/private rsa key pair.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key fingerprint is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: SHA256:iK93zYS24QHBRckXAOyP+5AG9w3p/zS3ooAmyi4947Q root@inet-dns
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key's randomart image is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: +---[RSA 2048]----+
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     o.=+o..     |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |      + o .      |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     . . .       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     .o. .       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |    o o+S.       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     +.=*o.      |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | .. . B++B. o .  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |.o+o =o.+oo..o . |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | +Eo.. o. oo...  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: +----[SHA256]-----+
+Mar 22 20:22:20 inet-dns cloud-init[698]: Generating public/private dsa key pair.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key fingerprint is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: SHA256:JximxUS/unK4YmkF76Qa0y9bKZDZ95+qI+CoVTvJ/jY root@inet-dns
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key's randomart image is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: +---[DSA 1024]----+
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     .o          |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     o .         |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |      = .        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | +.  + o .       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |+ .o+ . S .      |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |.o ++= . o       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |=.+*B.o          |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |.=O==.Eo .       |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |++.==O+oo        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: +----[SHA256]-----+
+Mar 22 20:22:20 inet-dns cloud-init[698]: Generating public/private ecdsa key pair.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key fingerprint is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: SHA256:gJdiShMtL71vYs1iZ8B2LaYyik7RV0Y7FsRkaY43gGc root@inet-dns
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key's randomart image is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: +---[ECDSA 256]---+
+Mar 22 20:22:20 inet-dns cloud-init[698]: |  ... +*.        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |  .o.Eo=o        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |  o+* O*         |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | .o+o++=.        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | ..+ o..S        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |  . * + .        |
+Mar 22 20:22:20 inet-dns cloud-init[698]: | . . O .         |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |o o * B          |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |+o = *           |
+Mar 22 20:22:20 inet-dns cloud-init[698]: +----[SHA256]-----+
+Mar 22 20:22:20 inet-dns cloud-init[698]: Generating public/private ed25519 key pair.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Mar 22 20:22:20 inet-dns cloud-init[698]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key fingerprint is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: SHA256:Zf37l4Zp/m+DJoFXKbUc2sHA6oYniaSbV5hoaCwqNUs root@inet-dns
+Mar 22 20:22:20 inet-dns cloud-init[698]: The key's randomart image is:
+Mar 22 20:22:20 inet-dns cloud-init[698]: +--[ED25519 256]--+
+Mar 22 20:22:20 inet-dns cloud-init[698]: |          ..o    |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |           o =   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |          + * =  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |     .   + o B   |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |. . + + S . o .  |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |.+E+ + = = o   . |
+Mar 22 20:22:20 inet-dns cloud-init[698]: |+o.oo . + . . = .|
+Mar 22 20:22:20 inet-dns cloud-init[698]: |o .o .     . * =o|
+Mar 22 20:22:20 inet-dns cloud-init[698]: |.   .       =.oo*|
+Mar 22 20:22:20 inet-dns systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Mar 22 20:22:20 inet-dns /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Mar 22 20:22:20 inet-dns cloud-init[698]: +----[SHA256]-----+
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target System Initialization.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting LXD - unix socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Started ACPI Events Check.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Paths.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Message of the Day.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Socket activation for snappy daemon.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on ACPID Listen Socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on UUID daemon activation socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Discard unused blocks once a week.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Daily apt download activities.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Timers.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Cloud-config availability.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Network is Online.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Availability of block devices...
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Remote File Systems (Pre).
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Remote File Systems.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on LXD - unix socket.
+Mar 22 20:22:20 inet-dns systemd[1]: Listening on Socket activation for snappy daemon.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Availability of block devices.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Sockets.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Basic System.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Deferred execution scheduler.
+Mar 22 20:22:20 inet-dns systemd[1]: Started irqbalance daemon.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Pollinate to seed the pseudo random number generator...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Accounts Service...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Permit User Sessions...
+Mar 22 20:22:20 inet-dns systemd[1]: Started D-Bus System Message Bus.
+Mar 22 20:22:20 inet-dns pollinate[826]: client sent challenge to [https://entropy.ubuntu.com/]
+Mar 22 20:22:20 inet-dns dbus-daemon[829]: [system] AppArmor D-Bus mediation is enabled
+Mar 22 20:22:20 inet-dns dbus-daemon[829]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=667 comm="/lib/systemd/systemd-networkd " label="unconfined")
+Mar 22 20:22:20 inet-dns systemd[1]: Starting LSB: Record successful boot for GRUB...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting LSB: automatic crash report generation...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting System Logging Service...
+Mar 22 20:22:20 inet-dns dbus-daemon[829]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=827 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Login Service...
+Mar 22 20:22:20 inet-dns systemd[1]: Started FUSE filesystem for LXC.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Mar 22 20:22:20 inet-dns systemd[1]: Started Regular background program processing daemon.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Snap Daemon...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting LXD - container startup/shutdown...
+Mar 22 20:22:20 inet-dns systemd[1]: Started Permit User Sessions.
+Mar 22 20:22:20 inet-dns grub-common[863]:  * Recording successful boot for GRUB
+Mar 22 20:22:20 inet-dns apport[865]:  * Starting automatic crash report generation: apport
+Mar 22 20:22:20 inet-dns cron[895]: (CRON) INFO (pidfile fd = 3)
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Authorization Manager...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Hostname Service...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Hold until boot process finishes up...
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar 22 20:22:20 inet-dns systemd[1]: Started Hold until boot process finishes up.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Serial Getty on ttyS0.
+Mar 22 20:22:20 inet-dns systemd[1]: Starting Set console scheme...
+Mar 22 20:22:20 inet-dns lxcfs[869]: mount namespace: 5
+Mar 22 20:22:20 inet-dns lxcfs[869]: hierarchies:
+Mar 22 20:22:20 inet-dns lxcfs[869]:   0: fd:   6: rdma
+Mar 22 20:22:20 inet-dns lxcfs[869]:   1: fd:   7: blkio
+Mar 22 20:22:20 inet-dns lxcfs[869]:   2: fd:   8: freezer
+Mar 22 20:22:20 inet-dns lxcfs[869]:   3: fd:   9: perf_event
+Mar 22 20:22:20 inet-dns lxcfs[869]:   4: fd:  10: devices
+Mar 22 20:22:20 inet-dns lxcfs[869]:   5: fd:  11: hugetlb
+Mar 22 20:22:20 inet-dns lxcfs[869]:   6: fd:  12: cpu,cpuacct
+Mar 22 20:22:20 inet-dns lxcfs[869]:   7: fd:  13: net_cls,net_prio
+Mar 22 20:22:20 inet-dns lxcfs[869]:   8: fd:  14: memory
+Mar 22 20:22:20 inet-dns lxcfs[869]:   9: fd:  15: cpuset
+Mar 22 20:22:20 inet-dns lxcfs[869]:  10: fd:  16: pids
+Mar 22 20:22:20 inet-dns lxcfs[869]:  11: fd:  17: name=systemd
+Mar 22 20:22:20 inet-dns lxcfs[869]:  12: fd:  18: unified
+Mar 22 20:22:20 inet-dns systemd[1]: Started Terminate Plymouth Boot Screen.
+Mar 22 20:22:20 inet-dns cron[895]: (CRON) INFO (Running @reboot jobs)
+Mar 22 20:22:20 inet-dns systemd[1]: Started Login Service.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Unattended Upgrades Shutdown.
+Mar 22 20:22:20 inet-dns grub-common[863]:    ...done.
+Mar 22 20:22:20 inet-dns apport[865]:    ...done.
+Mar 22 20:22:20 inet-dns systemd[1]: Started LSB: Record successful boot for GRUB.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Set console scheme.
+Mar 22 20:22:20 inet-dns systemd[1]: Created slice system-getty.slice.
+Mar 22 20:22:20 inet-dns systemd[1]: Started Getty on tty1.
+Mar 22 20:22:20 inet-dns systemd[1]: Reached target Login Prompts.
+Mar 22 20:22:20 inet-dns systemd[1]: Started LSB: automatic crash report generation.
+Mar 22 20:22:20 inet-dns systemd[1]: Started System Logging Service.
+Mar 22 20:22:20 inet-dns rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Mar 22 20:22:20 inet-dns rsyslogd: rsyslogd's groupid changed to 106
+Mar 22 20:22:20 inet-dns rsyslogd: rsyslogd's userid changed to 102
+Mar 22 20:22:20 inet-dns rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="866" x-info="http://www.rsyslog.com"] start
+Mar 22 20:22:20 inet-dns dbus-daemon[829]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 22 20:22:20 inet-dns systemd[1]: Started Hostname Service.
+Mar 22 20:22:20 inet-dns polkitd[904]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Mar 22 20:22:20 inet-dns dbus-daemon[829]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Mar 22 20:22:20 inet-dns systemd[1]: Started Authorization Manager.
+Mar 22 20:22:21 inet-dns systemd-hostnamed[905]: Changed host name to 'host-192-42-52-58'
+Mar 22 20:22:21 inet-dns accounts-daemon[827]: started daemon version 0.6.45
+Mar 22 20:22:21 inet-dns systemd[1]: Started Accounts Service.
+Mar 22 20:22:21 inet-dns networkd-dispatcher[882]: No valid path found for iwconfig
+Mar 22 20:22:21 inet-dns networkd-dispatcher[882]: No valid path found for iw
+Mar 22 20:22:21 inet-dns systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Mar 22 20:22:21 inet-dns systemd-resolved[683]: Using degraded feature set (UDP) for DNS server 192.42.52.58.
+Mar 22 20:22:21 inet-dns snapd[896]: AppArmor status: apparmor is enabled and all features are available
+Mar 22 20:22:21 inet-dns snapd[896]: daemon.go:347: started snapd/2.48.3+18.04 (series 16; classic) ubuntu/18.04 (amd64) linux/4.15.0-139-generic.
+Mar 22 20:22:21 inet-dns snapd[896]: daemon.go:440: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+Mar 22 20:22:21 inet-dns systemd[1]: Started LXD - container startup/shutdown.
+Mar 22 20:22:21 inet-dns snapd[896]: helpers.go:105: error trying to compare the snap system key: system-key missing on disk
+Mar 22 20:22:22 inet-dns systemd[1]: Started Snap Daemon.
+Mar 22 20:22:22 inet-dns systemd[1]: Starting Wait until snapd is fully seeded...
+Mar 22 20:22:22 inet-dns systemd-resolved[683]: Using degraded feature set (TCP) for DNS server 192.42.52.58.
+Mar 22 20:22:32 inet-dns pollinate[826]: WARNING: Network communication failed [0]   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current#012                                 Dload  Upload   Total   Spent    Left  Speed#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     020:22:32.943888 * Resolving timed
+Mar 22 20:22:32 inet-dns systemd[1]: Started Pollinate to seed the pseudo random number generator.
+Mar 22 20:22:32 inet-dns systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 22 20:22:32 inet-dns systemd[1]: Started OpenBSD Secure Shell server.
+Mar 22 20:23:01 inet-dns snapd[896]: stateengine.go:150: state ensure error: Get https://api.snapcraft.io/api/v1/snaps/sections: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+Mar 22 20:23:01 inet-dns systemd[1]: Started Wait until snapd is fully seeded.
+Mar 22 20:23:01 inet-dns systemd[1]: Starting Apply the settings specified in cloud-config...
+Mar 22 20:23:01 inet-dns systemd[1]: Reached target Multi-User System.
+Mar 22 20:23:01 inet-dns systemd[1]: Reached target Graphical Interface.
+Mar 22 20:23:01 inet-dns systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 22 20:23:01 inet-dns systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 22 20:23:25 inet-dns cloud-init[1095]: Cloud-init v. 20.4.1-0ubuntu1~18.04.1 running 'modules:config' at Mon, 22 Mar 2021 20:23:01 +0000. Up 78.66 seconds.
+Mar 22 20:23:25 inet-dns systemd[1]: Started Apply the settings specified in cloud-config.
+Mar 22 20:23:25 inet-dns systemd[1]: Starting Execute cloud user/final scripts...
+Mar 22 20:23:27 inet-dns systemd[1]: Stopped Wait for Network to be Configured.
+Mar 22 20:23:27 inet-dns systemd[1]: Stopping Network Service...
+Mar 22 20:23:27 inet-dns systemd[1]: Stopped Network Service.
+Mar 22 20:23:27 inet-dns systemd[1]: Starting Network Service...
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: ens3: Gained IPv6LL
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: Enumeration completed
+Mar 22 20:23:27 inet-dns systemd[1]: Started Network Service.
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: ens3: IPv6 successfully enabled
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: lo: Link is not managed by us
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: message repeated 2 times: [ Network configuration changed, trying to establish connection.]
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: ens3: DHCPv4 address 192.42.52.58/16 via 192.42.0.1
+Mar 22 20:23:27 inet-dns dbus-daemon[829]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.9' (uid=100 pid=1206 comm="/lib/systemd/systemd-networkd " label="unconfined")
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd[1]: Starting Hostname Service...
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns systemd-networkd[1206]: ens3: Configured
+Mar 22 20:23:27 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 22 20:23:27 inet-dns dbus-daemon[829]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 22 20:23:27 inet-dns systemd[1]: Started Hostname Service.
+Mar 22 20:23:27 inet-dns systemd-hostnamed[1221]: Changed host name to 'host-192-42-52-58'
+Mar 22 20:23:29 inet-dns systemd-resolved[683]: Using degraded feature set (UDP) for DNS server 192.42.52.58.
+Mar 22 20:23:34 inet-dns systemd-resolved[683]: Using degraded feature set (TCP) for DNS server 192.42.52.58.
+Mar 22 20:23:37 inet-dns snapd[896]: daemon.go:589: gracefully waiting for running hooks
+Mar 22 20:23:37 inet-dns snapd[896]: daemon.go:591: done waiting for running hooks
+Mar 22 20:23:37 inet-dns snapd[896]: daemon stop requested to wait for socket activation
+Mar 22 20:23:49 inet-dns cloud-init[1135]: Err:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Mar 22 20:23:49 inet-dns cloud-init[1135]:   Temporary failure resolving 'security.ubuntu.com'
+Mar 22 20:23:49 inet-dns cloud-init[1135]: Err:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Mar 22 20:23:49 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:09 inet-dns cloud-init[1135]: Err:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Mar 22 20:24:09 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:30 inet-dns cloud-init[1135]: Err:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Mar 22 20:24:30 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:34 inet-dns cloud-init[1135]: Reading package lists...
+Mar 22 20:24:34 inet-dns cloud-init[1135]: W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:34 inet-dns cloud-init[1135]: W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:34 inet-dns cloud-init[1135]: W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-backports/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:24:34 inet-dns cloud-init[1135]: W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/bionic-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+Mar 22 20:24:34 inet-dns cloud-init[1135]: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Mar 22 20:24:34 inet-dns cloud-init[1135]: Reading package lists...
+Mar 22 20:24:35 inet-dns cloud-init[1135]: Building dependency tree...
+Mar 22 20:24:35 inet-dns cloud-init[1135]: Reading state information...
+Mar 22 20:24:35 inet-dns cloud-init[1135]: The following additional packages will be installed:
+Mar 22 20:24:35 inet-dns cloud-init[1135]:   libpython-stdlib libpython2.7-minimal libpython2.7-stdlib python-minimal
+Mar 22 20:24:35 inet-dns cloud-init[1135]:   python2.7 python2.7-minimal
+Mar 22 20:24:35 inet-dns cloud-init[1135]: Suggested packages:
+Mar 22 20:24:35 inet-dns cloud-init[1135]:   python-doc python-tk python2.7-doc binutils binfmt-support
+Mar 22 20:24:35 inet-dns cloud-init[1135]: The following NEW packages will be installed:
+Mar 22 20:24:35 inet-dns cloud-init[1135]:   libpython-stdlib libpython2.7-minimal libpython2.7-stdlib python
+Mar 22 20:24:35 inet-dns cloud-init[1135]:   python-minimal python2.7 python2.7-minimal
+Mar 22 20:24:55 inet-dns cloud-init[1135]: 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Mar 22 20:24:55 inet-dns cloud-init[1135]: Need to get 3967 kB of archives.
+Mar 22 20:24:55 inet-dns cloud-init[1135]: After this operation, 16.8 MB of additional disk space will be used.
+Mar 22 20:24:55 inet-dns cloud-init[1135]: Ign:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:25:15 inet-dns cloud-init[1135]: Ign:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:25:15 inet-dns cloud-init[1135]: Err:1 http://security.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:25:15 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:25:35 inet-dns cloud-init[1135]: Err:3 http://archive.ubuntu.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1
+Mar 22 20:25:35 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:25:35 inet-dns cloud-init[1135]: Err:2 http://security.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:25:35 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:25:55 inet-dns cloud-init[1135]: Ign:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:26:15 inet-dns cloud-init[1135]: Err:4 http://security.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:26:15 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:15 inet-dns cloud-init[1135]: Ign:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:26:35 inet-dns cloud-init[1135]: Err:5 http://security.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.17-1~18.04ubuntu1.6
+Mar 22 20:26:35 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:35 inet-dns cloud-init[1135]: Err:6 http://archive.ubuntu.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1
+Mar 22 20:26:35 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:55 inet-dns cloud-init[1135]: Err:7 http://archive.ubuntu.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1
+Mar 22 20:26:56 inet-dns cloud-init[1135]:   Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/python2.7/libpython2.7-minimal_2.7.17-1~18.04ubuntu1.6_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7-minimal_2.7.17-1~18.04ubuntu1.6_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/python-defaults/python-minimal_2.7.15~rc1-1_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/python2.7/libpython2.7-stdlib_2.7.17-1~18.04ubuntu1.6_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.17-1~18.04ubuntu1.6_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/python-defaults/libpython-stdlib_2.7.15~rc1-1_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/python-defaults/python_2.7.15~rc1-1_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+Mar 22 20:26:56 inet-dns cloud-init[1135]: E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+Mar 22 20:26:56 inet-dns cloud-init[1135]: Cloud-init v. 20.4.1-0ubuntu1~18.04.1 running 'modules:final' at Mon, 22 Mar 2021 20:23:26 +0000. Up 103.27 seconds.
+Mar 22 20:26:56 inet-dns cloud-init[1135]: 2021-03-22 20:26:55,650 - cc_scripts_user.py[WARNING]: Failed to run module scripts-user (scripts in /var/lib/cloud/instance/scripts)
+Mar 22 20:26:56 inet-dns cloud-init[1135]: 2021-03-22 20:26:55,651 - util.py[WARNING]: Running module scripts-user (<module 'cloudinit.config.cc_scripts_user' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_user.py'>) failed
+Mar 22 20:26:56 inet-dns ec2: 
+Mar 22 20:26:56 inet-dns cloud-init[1135]: Cloud-init v. 20.4.1-0ubuntu1~18.04.1 finished at Mon, 22 Mar 2021 20:26:56 +0000. Datasource DataSourceOpenStackLocal [net,ver=2].  Up 313.20 seconds
+Mar 22 20:26:56 inet-dns ec2: #############################################################
+Mar 22 20:26:56 inet-dns ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+Mar 22 20:26:56 inet-dns ec2: 1024 SHA256:JximxUS/unK4YmkF76Qa0y9bKZDZ95+qI+CoVTvJ/jY root@inet-dns (DSA)
+Mar 22 20:26:56 inet-dns ec2: 256 SHA256:gJdiShMtL71vYs1iZ8B2LaYyik7RV0Y7FsRkaY43gGc root@inet-dns (ECDSA)
+Mar 22 20:26:56 inet-dns ec2: 256 SHA256:Zf37l4Zp/m+DJoFXKbUc2sHA6oYniaSbV5hoaCwqNUs root@inet-dns (ED25519)
+Mar 22 20:26:56 inet-dns ec2: 2048 SHA256:iK93zYS24QHBRckXAOyP+5AG9w3p/zS3ooAmyi4947Q root@inet-dns (RSA)
+Mar 22 20:26:56 inet-dns ec2: -----END SSH HOST KEY FINGERPRINTS-----
+Mar 22 20:26:56 inet-dns ec2: #############################################################
+Mar 22 20:26:56 inet-dns systemd[1]: cloud-final.service: Main process exited, code=exited, status=1/FAILURE
+Mar 22 20:26:56 inet-dns systemd[1]: cloud-final.service: Failed with result 'exit-code'.
+Mar 22 20:26:56 inet-dns systemd[1]: Failed to start Execute cloud user/final scripts.
+Mar 22 20:26:56 inet-dns systemd[1]: Reached target Cloud-init target.
+Mar 22 20:26:56 inet-dns systemd[1]: Startup finished in 4.912s (kernel) + 5min 8.471s (userspace) = 5min 13.384s.
+Mar 22 20:33:55 inet-dns systemd[1]: Created slice User Slice of ait.
+Mar 22 20:33:55 inet-dns systemd[1]: Starting User Manager for UID 1000...
+Mar 22 20:33:55 inet-dns systemd[1]: Started Session 1 of user ait.
+Mar 22 20:33:56 inet-dns systemd[1312]: Reached target Paths.
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 20:33:56 inet-dns systemd[1312]: Reached target Timers.
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on REST API socket for snapd user session agent.
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on GnuPG network certificate management daemon.
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 20:33:56 inet-dns systemd[1312]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 20:33:56 inet-dns systemd[1312]: Reached target Sockets.
+Mar 22 20:33:56 inet-dns systemd[1312]: Reached target Basic System.
+Mar 22 20:33:56 inet-dns systemd[1]: Started User Manager for UID 1000.
+Mar 22 20:33:56 inet-dns systemd[1312]: Reached target Default.
+Mar 22 20:33:56 inet-dns systemd[1312]: Startup finished in 501ms.
+Mar 22 20:34:08 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar 22 20:34:33 inet-dns systemd[1]: Reloading.
+Mar 22 20:34:34 inet-dns systemd[1]: message repeated 2 times: [ Reloading.]
+Mar 22 20:34:34 inet-dns systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+Mar 22 20:34:34 inet-dns dnsmasq[1954]: dnsmasq: syntax check OK.
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: started, version 2.79 cachesize 150
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth nettlehash DNSSEC loop-detect inotify
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: LOUD WARNING: listening on 192.42.52.58 may accept requests via interfaces other than ens3
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: LOUD WARNING: use --bind-dynamic rather than --bind-interfaces to avoid DNS amplification attacks via these interface(s)
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: reading /etc/resolv.conf
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: using nameserver 8.8.8.8#53
+Mar 22 20:34:34 inet-dns dnsmasq[1975]: read /etc/hosts - 7 addresses
+Mar 22 20:34:34 inet-dns systemd[1]: Started dnsmasq - A lightweight DHCP and caching DNS server.
+Mar 22 20:34:34 inet-dns systemd[1]: Reloading.
+Mar 22 20:35:08 inet-dns systemd[1]: Reloading.
+Mar 22 20:35:09 inet-dns systemd[1]: Reloading.
+Mar 22 20:35:09 inet-dns systemd[1]: Starting LSB: Start and stop maradns...
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: etc_maradns_mararc process starting up
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: THIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS OR
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: POSSIBILITY OF SUCH DAMAGE.
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: 
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: To not display this message, add the follwing to your mararc file:
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: 
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: hide_disclaimer = "YES"
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: 
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]:  Log: Root directory changed
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]:  Log: Binding to address 127.0.0.3
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]:  Log: Socket opened on UDP port 53
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]:  Log: Root privileges dropped
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]: MaraDNS maximum memory allocation set to 2621440 bytes
+Mar 22 20:35:09 inet-dns etc_maradns_mararc[2727]:  Log: All RRs have been loaded
+Mar 22 20:35:12 inet-dns systemd[1]: Started LSB: Start and stop maradns.
+Mar 22 20:35:13 inet-dns systemd[1]: Reloading.
+Mar 22 20:35:14 inet-dns systemd[1]: Reloading.
+Mar 22 20:35:14 inet-dns systemd[1]: Starting LSB: Start and stop maradns zoneserver...
+Mar 22 20:35:14 inet-dns etc_maradns_mararc-zs[2832]: etc_maradns_mararc-zs process starting up
+Mar 22 20:35:17 inet-dns systemd[1]: Started LSB: Start and stop maradns zoneserver.
+Mar 22 20:35:17 inet-dns systemd[1]: Reloading.
+Mar 22 20:36:10 inet-dns dnsmasq[1975]: reading /etc/resolv.conf
+Mar 22 20:36:10 inet-dns dnsmasq[1975]: using nameserver 127.0.0.53#53
+Mar 22 20:36:13 inet-dns systemd[1]: Stopping dnsmasq - A lightweight DHCP and caching DNS server...
+Mar 22 20:36:13 inet-dns dnsmasq[1975]: exiting on receipt of SIGTERM
+Mar 22 20:36:13 inet-dns systemd[1]: Stopped dnsmasq - A lightweight DHCP and caching DNS server.
+Mar 22 20:36:13 inet-dns systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+Mar 22 20:36:13 inet-dns dnsmasq[3353]: dnsmasq: syntax check OK.
+Mar 22 20:36:13 inet-dns systemd[1]: Started dnsmasq - A lightweight DHCP and caching DNS server.
+Mar 22 20:36:15 inet-dns systemd[1]: Stopping LSB: Start and stop maradns...
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[2725]: got term signal, terminating
+Mar 22 20:36:15 inet-dns systemd[1]: Stopped LSB: Start and stop maradns.
+Mar 22 20:36:15 inet-dns systemd[1]: Starting LSB: Start and stop maradns...
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: etc_maradns_mararc process starting up
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: THIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS OR
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: POSSIBILITY OF SUCH DAMAGE.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: 
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: To not display this message, add the follwing to your mararc file:
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: 
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: hide_disclaimer = "YES"
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: 
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]:  Log: Root directory changed
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]:  Log: Binding to address 127.0.0.1
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]:  Log: Socket opened on UDP port 53
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]:  Log: Root privileges dropped
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Processing zone acme.cyberrange.at. right now.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Filename: acme.cyberrange.at
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Processing zone umbrella.cyberrange.at. right now.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Filename: umbrella.cyberrange.at
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Processing zone cyberrange.at. right now.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Filename: cyberrange.at
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Processing zone company.cyberrange.at. right now.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Filename: company.cyberrange.at
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Processing zone xyz.cyberrange.at. right now.
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: Filename: xyz.cyberrange.at
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: MaraDNS proudly serves you 34 DNS records
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]: MaraDNS maximum memory allocation set to 2673664 bytes
+Mar 22 20:36:15 inet-dns etc_maradns_mararc[3452]:  Log: All RRs have been loaded
+Mar 22 20:36:18 inet-dns systemd[1]: Started LSB: Start and stop maradns.
+Mar 22 20:36:27 inet-dns systemd-timesyncd[556]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Mar 22 20:36:37 inet-dns systemd-timesyncd[556]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Mar 22 20:36:38 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Mar 22 20:36:57 inet-dns systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 22 20:36:57 inet-dns systemd[1]: Started Cleanup of Temporary Directories.
+Mar 22 20:37:19 inet-dns systemd[1]: Stopping User Manager for UID 1000...
+Mar 22 20:37:19 inet-dns systemd[1312]: Stopped target Default.
+Mar 22 20:37:19 inet-dns systemd[1312]: Stopped target Basic System.
+Mar 22 20:37:19 inet-dns systemd[1312]: Stopped target Sockets.
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed GnuPG network certificate management daemon.
+Mar 22 20:37:19 inet-dns systemd[1312]: Stopped target Timers.
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 22 20:37:19 inet-dns systemd[1312]: Stopped target Paths.
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed REST API socket for snapd user session agent.
+Mar 22 20:37:19 inet-dns systemd[1312]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 20:37:19 inet-dns systemd[1312]: Reached target Shutdown.
+Mar 22 20:37:19 inet-dns systemd[1312]: Starting Exit the Session...
+Mar 22 20:37:19 inet-dns systemd[1312]: Received SIGRTMIN+24 from PID 3483 (kill).
+Mar 22 20:37:19 inet-dns systemd[1]: user@1000.service: Killing process 3483 (kill) with signal SIGKILL.
+Mar 22 20:37:19 inet-dns systemd[1]: Stopped User Manager for UID 1000.
+Mar 22 20:37:19 inet-dns systemd[1]: Removed slice User Slice of ait.
+Mar 22 20:42:20 inet-dns systemd[1]: Created slice User Slice of ait.
+Mar 22 20:42:20 inet-dns systemd[1]: Started Session 3 of user ait.
+Mar 22 20:42:20 inet-dns systemd[1]: Starting User Manager for UID 1000...
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 20:42:20 inet-dns systemd[3500]: Reached target Timers.
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on REST API socket for snapd user session agent.
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 20:42:20 inet-dns systemd[3500]: Reached target Paths.
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on GnuPG network certificate management daemon.
+Mar 22 20:42:20 inet-dns systemd[3500]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 22 20:42:20 inet-dns systemd[3500]: Reached target Sockets.
+Mar 22 20:42:20 inet-dns systemd[3500]: Reached target Basic System.
+Mar 22 20:42:20 inet-dns systemd[1]: Started User Manager for UID 1000.
+Mar 22 20:42:20 inet-dns systemd[3500]: Reached target Default.
+Mar 22 20:42:20 inet-dns systemd[3500]: Startup finished in 51ms.
+Mar 22 20:44:31 inet-dns systemd[1]: Stopping User Manager for UID 1000...
+Mar 22 20:44:31 inet-dns systemd[3500]: Stopped target Default.
+Mar 22 20:44:31 inet-dns systemd[3500]: Stopped target Basic System.
+Mar 22 20:44:31 inet-dns systemd[3500]: Stopped target Timers.
+Mar 22 20:44:31 inet-dns systemd[3500]: Stopped target Sockets.
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed REST API socket for snapd user session agent.
+Mar 22 20:44:31 inet-dns systemd[3500]: Stopped target Paths.
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 20:44:31 inet-dns systemd[3500]: Closed GnuPG network certificate management daemon.
+Mar 22 20:44:31 inet-dns systemd[3500]: Reached target Shutdown.
+Mar 22 20:44:31 inet-dns systemd[3500]: Starting Exit the Session...
+Mar 22 20:44:31 inet-dns systemd[3500]: Received SIGRTMIN+24 from PID 3676 (kill).
+Mar 22 20:44:31 inet-dns systemd[1]: user@1000.service: Killing process 3676 (kill) with signal SIGKILL.
+Mar 22 20:44:31 inet-dns systemd[1]: Stopped User Manager for UID 1000.
+Mar 22 20:44:31 inet-dns systemd[1]: Removed slice User Slice of ait.
+Mar 22 20:54:25 inet-dns systemd-timesyncd[556]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Mar 22 21:00:13 inet-dns systemd[1]: Created slice User Slice of ait.
+Mar 22 21:00:13 inet-dns systemd[1]: Started Session 5 of user ait.
+Mar 22 21:00:13 inet-dns systemd[1]: Starting User Manager for UID 1000...
+Mar 22 21:00:13 inet-dns systemd[3682]: Reached target Timers.
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 21:00:13 inet-dns systemd[3682]: Reached target Paths.
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on REST API socket for snapd user session agent.
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 22 21:00:13 inet-dns systemd[3682]: Listening on GnuPG network certificate management daemon.
+Mar 22 21:00:13 inet-dns systemd[3682]: Reached target Sockets.
+Mar 22 21:00:13 inet-dns systemd[3682]: Reached target Basic System.
+Mar 22 21:00:13 inet-dns systemd[1]: Started User Manager for UID 1000.
+Mar 22 21:00:13 inet-dns systemd[3682]: Reached target Default.
+Mar 22 21:00:13 inet-dns systemd[3682]: Startup finished in 40ms.
+Mar 22 21:02:58 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar 22 21:04:07 inet-dns systemd[1]: Stopping User Manager for UID 1000...
+Mar 22 21:04:07 inet-dns systemd[3682]: Stopped target Default.
+Mar 22 21:04:07 inet-dns systemd[3682]: Stopped target Basic System.
+Mar 22 21:04:07 inet-dns systemd[3682]: Stopped target Timers.
+Mar 22 21:04:07 inet-dns systemd[3682]: Stopped target Paths.
+Mar 22 21:04:07 inet-dns systemd[3682]: Stopped target Sockets.
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed GnuPG network certificate management daemon.
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 21:04:07 inet-dns systemd[3682]: Closed REST API socket for snapd user session agent.
+Mar 22 21:04:07 inet-dns systemd[3682]: Reached target Shutdown.
+Mar 22 21:04:07 inet-dns systemd[3682]: Starting Exit the Session...
+Mar 22 21:04:07 inet-dns systemd[3682]: Received SIGRTMIN+24 from PID 9473 (kill).
+Mar 22 21:04:07 inet-dns systemd[1]: user@1000.service: Killing process 9473 (kill) with signal SIGKILL.
+Mar 22 21:04:07 inet-dns systemd[1]: Stopped User Manager for UID 1000.
+Mar 22 21:04:07 inet-dns systemd[1]: Removed slice User Slice of ait.
+Mar 22 21:04:40 inet-dns systemd[1]: Created slice User Slice of ait.
+Mar 22 21:04:40 inet-dns systemd[1]: Started Session 7 of user ait.
+Mar 22 21:04:40 inet-dns systemd[1]: Starting User Manager for UID 1000...
+Mar 22 21:04:40 inet-dns systemd[9476]: Reached target Paths.
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 22 21:04:40 inet-dns systemd[9476]: Reached target Timers.
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on GnuPG network certificate management daemon.
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on REST API socket for snapd user session agent.
+Mar 22 21:04:40 inet-dns systemd[9476]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 21:04:40 inet-dns systemd[9476]: Reached target Sockets.
+Mar 22 21:04:40 inet-dns systemd[9476]: Reached target Basic System.
+Mar 22 21:04:40 inet-dns systemd[1]: Started User Manager for UID 1000.
+Mar 22 21:04:40 inet-dns systemd[9476]: Reached target Default.
+Mar 22 21:04:40 inet-dns systemd[9476]: Startup finished in 53ms.
+Mar 22 21:07:55 inet-dns systemd[1]: Stopping User Manager for UID 1000...
+Mar 22 21:07:55 inet-dns systemd[9476]: Stopped target Default.
+Mar 22 21:07:55 inet-dns systemd[9476]: Stopped target Basic System.
+Mar 22 21:07:55 inet-dns systemd[9476]: Stopped target Paths.
+Mar 22 21:07:55 inet-dns systemd[9476]: Stopped target Sockets.
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed REST API socket for snapd user session agent.
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed GnuPG network certificate management daemon.
+Mar 22 21:07:55 inet-dns systemd[9476]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 21:07:55 inet-dns systemd[9476]: Reached target Shutdown.
+Mar 22 21:07:55 inet-dns systemd[9476]: Stopped target Timers.
+Mar 22 21:07:55 inet-dns systemd[9476]: Starting Exit the Session...
+Mar 22 21:07:55 inet-dns systemd[9476]: Received SIGRTMIN+24 from PID 10704 (kill).
+Mar 22 21:07:55 inet-dns systemd[1]: user@1000.service: Killing process 10704 (kill) with signal SIGKILL.
+Mar 22 21:07:55 inet-dns systemd[1]: Stopped User Manager for UID 1000.
+Mar 22 21:07:55 inet-dns systemd[1]: Removed slice User Slice of ait.
+Mar 22 21:17:01 inet-dns CRON[10713]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 22 22:14:55 inet-dns systemd[1]: Created slice User Slice of ait.
+Mar 22 22:14:55 inet-dns systemd[1]: Started Session 10 of user ait.
+Mar 22 22:14:55 inet-dns systemd[1]: Starting User Manager for UID 1000...
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 22 22:14:55 inet-dns systemd[10721]: Reached target Paths.
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 22:14:55 inet-dns systemd[10721]: Reached target Timers.
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on REST API socket for snapd user session agent.
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 22:14:55 inet-dns systemd[10721]: Listening on GnuPG network certificate management daemon.
+Mar 22 22:14:55 inet-dns systemd[10721]: Reached target Sockets.
+Mar 22 22:14:55 inet-dns systemd[10721]: Reached target Basic System.
+Mar 22 22:14:55 inet-dns systemd[1]: Started User Manager for UID 1000.
+Mar 22 22:14:55 inet-dns systemd[10721]: Reached target Default.
+Mar 22 22:14:55 inet-dns systemd[10721]: Startup finished in 43ms.
+Mar 22 22:17:01 inet-dns CRON[10876]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 22 22:53:14 inet-dns systemd[1]: Stopping User Manager for UID 1000...
+Mar 22 22:53:14 inet-dns systemd[10721]: Stopped target Default.
+Mar 22 22:53:14 inet-dns systemd[10721]: Stopped target Basic System.
+Mar 22 22:53:14 inet-dns systemd[10721]: Stopped target Timers.
+Mar 22 22:53:14 inet-dns systemd[10721]: Stopped target Sockets.
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed GnuPG network certificate management daemon.
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed REST API socket for snapd user session agent.
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 22 22:53:14 inet-dns systemd[10721]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 22 22:53:14 inet-dns systemd[10721]: Stopped target Paths.
+Mar 22 22:53:14 inet-dns systemd[10721]: Reached target Shutdown.
+Mar 22 22:53:14 inet-dns systemd[10721]: Starting Exit the Session...
+Mar 22 22:53:14 inet-dns systemd[10721]: Received SIGRTMIN+24 from PID 10883 (kill).
+Mar 22 22:53:14 inet-dns systemd[1]: user@1000.service: Killing process 10883 (kill) with signal SIGKILL.
+Mar 22 22:53:14 inet-dns systemd[1]: Stopped User Manager for UID 1000.
+Mar 22 22:53:14 inet-dns systemd[1]: Removed slice User Slice of ait.
+Mar 22 23:17:02 inet-dns CRON[10887]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 00:17:01 inet-dns CRON[10891]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 00:20:14 inet-dns systemd[1]: Starting Message of the Day...
+Mar 23 00:20:15 inet-dns systemd-resolved[683]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.42.52.58.
+Mar 23 00:20:15 inet-dns 50-motd-news[10893]:  * Introducing self-healing high availability clusters in MicroK8s.
+Mar 23 00:20:15 inet-dns 50-motd-news[10893]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Mar 23 00:20:15 inet-dns 50-motd-news[10893]:      https://microk8s.io/high-availability
+Mar 23 00:20:15 inet-dns systemd[1]: Started Message of the Day.
+Mar 23 01:17:01 inet-dns CRON[10950]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 02:17:01 inet-dns CRON[10954]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 03:17:01 inet-dns CRON[10958]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 04:17:01 inet-dns CRON[10962]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 05:17:01 inet-dns CRON[10966]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 06:03:14 inet-dns systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 23 06:03:19 inet-dns systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 23 06:17:01 inet-dns CRON[11074]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 06:25:01 inet-dns CRON[11078]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 23 07:07:01 inet-dns CRON[11237]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Mar 23 07:17:01 inet-dns CRON[11241]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 08:17:01 inet-dns CRON[11245]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 08:23:28 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 23 08:23:28 inet-dns systemd-networkd[1206]: ens3: Configured
+Mar 23 08:23:28 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar 23 09:17:01 inet-dns CRON[11251]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 10:17:01 inet-dns CRON[11255]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 11:17:01 inet-dns CRON[11259]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 12:17:01 inet-dns CRON[11263]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 13:17:01 inet-dns CRON[11268]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 14:16:57 inet-dns systemd[1]: Starting Daily apt download activities...
+Mar 23 14:17:01 inet-dns CRON[11577]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 14:17:08 inet-dns systemd[1]: Started Daily apt download activities.
+Mar 23 15:17:01 inet-dns CRON[11616]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 16:17:01 inet-dns CRON[11620]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 17:17:01 inet-dns CRON[11624]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 18:17:01 inet-dns CRON[11628]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 18:32:57 inet-dns systemd[1]: Starting Daily apt download activities...
+Mar 23 18:32:58 inet-dns systemd[1]: Started Daily apt download activities.
+Mar 23 19:17:01 inet-dns CRON[11703]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 19:18:09 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 23 19:18:09 inet-dns systemd-networkd[1206]: ens3: Configured
+Mar 23 19:18:09 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar 23 20:17:01 inet-dns CRON[11709]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 20:37:57 inet-dns systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 23 20:37:57 inet-dns systemd[1]: Started Cleanup of Temporary Directories.
+Mar 23 21:17:01 inet-dns CRON[11732]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 21:20:14 inet-dns systemd[1]: Starting Message of the Day...
+Mar 23 21:20:15 inet-dns 50-motd-news[11734]:  * Introducing self-healing high availability clusters in MicroK8s.
+Mar 23 21:20:15 inet-dns 50-motd-news[11734]:    Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+Mar 23 21:20:15 inet-dns 50-motd-news[11734]:      https://microk8s.io/high-availability
+Mar 23 21:20:15 inet-dns systemd[1]: Started Message of the Day.
+Mar 23 22:17:01 inet-dns CRON[11790]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 23:17:01 inet-dns CRON[11794]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 00:17:02 inet-dns CRON[11798]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 01:17:01 inet-dns CRON[11802]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 02:17:01 inet-dns CRON[11806]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 03:17:01 inet-dns CRON[11811]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 04:17:01 inet-dns CRON[11815]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 05:17:01 inet-dns CRON[11819]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 06:17:01 inet-dns CRON[11823]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 24 06:22:46 inet-dns systemd-timesyncd[556]: Network configuration changed, trying to establish connection.
+Mar 24 06:22:46 inet-dns systemd-networkd[1206]: ens3: Configured
+Mar 24 06:22:46 inet-dns systemd-timesyncd[556]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar 24 06:25:01 inet-dns CRON[11828]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))

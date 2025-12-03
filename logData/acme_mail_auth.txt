@@ -1,0 +1,1245 @@
+Mar 22 20:27:25 acme-mail useradd[467]: new group: name=ait, GID=1001
+Mar 22 20:27:25 acme-mail useradd[467]: new user: name=ait, UID=1001, GID=1001, home=/home/ait, shell=/bin/bash
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'adm'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'dialout'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'cdrom'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'floppy'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'sudo'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'audio'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'dip'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'video'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'plugdev'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to group 'netdev'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'adm'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'dialout'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'cdrom'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'floppy'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'sudo'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'audio'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'dip'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'video'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'plugdev'
+Mar 22 20:27:25 acme-mail useradd[467]: add 'ait' to shadow group 'netdev'
+Mar 22 20:27:25 acme-mail chpasswd[472]: pam_unix(chpasswd:chauthtok): password changed for ait
+Mar 22 20:27:25 acme-mail systemd-logind[492]: New seat seat0.
+Mar 22 20:27:25 acme-mail systemd-logind[492]: Watching system buttons on /dev/input/event4 (Power Button)
+Mar 22 20:27:25 acme-mail sshd[534]: Server listening on 0.0.0.0 port 22.
+Mar 22 20:27:25 acme-mail sshd[534]: Server listening on :: port 22.
+Mar 22 20:32:35 acme-mail sshd[618]: Accepted publickey for ait from 192.42.3.82 port 52052 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 20:32:35 acme-mail sshd[618]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 20:32:35 acme-mail systemd-logind[492]: New session 1 of user ait.
+Mar 22 20:32:36 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 20:33:43 acme-mail sshd[629]: Received disconnect from 192.42.3.82 port 52052:11: disconnected by user
+Mar 22 20:33:43 acme-mail sshd[629]: Disconnected from 192.42.3.82 port 52052
+Mar 22 20:33:43 acme-mail sshd[618]: pam_unix(sshd:session): session closed for user ait
+Mar 22 20:33:43 acme-mail systemd-logind[492]: Removed session 1.
+Mar 22 20:33:43 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 20:38:41 acme-mail sshd[1321]: Accepted publickey for ait from 192.42.3.82 port 55866 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 20:38:41 acme-mail sshd[1321]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 20:38:41 acme-mail systemd-logind[492]: New session 3 of user ait.
+Mar 22 20:38:41 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 20:38:44 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ohvttjxdozfxiesantkpkgrgedhecwvt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445523.0667098-13087-199582784409649/AnsiballZ_apt.py
+Mar 22 20:38:44 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:39:28 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:40:29 acme-mail sshd[1332]: Received disconnect from 192.42.3.82 port 55866:11: disconnected by user
+Mar 22 20:40:29 acme-mail sshd[1332]: Disconnected from 192.42.3.82 port 55866
+Mar 22 20:40:29 acme-mail sshd[1321]: pam_unix(sshd:session): session closed for user ait
+Mar 22 20:40:29 acme-mail systemd-logind[492]: Removed session 3.
+Mar 22 20:40:29 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 20:42:30 acme-mail sshd[1745]: Accepted publickey for ait from 192.42.3.82 port 55948 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 20:42:30 acme-mail sshd[1745]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 20:42:30 acme-mail systemd-logind[492]: New session 5 of user ait.
+Mar 22 20:42:30 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 20:42:33 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-okgdjvwwpxsztkbiwmudvmlsbpzfoefm ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445751.9942746-14151-20006933560100/AnsiballZ_file.py
+Mar 22 20:42:33 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:42:33 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:06 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hxpnedvyffloqxqwgortpdcsddfrljci ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445784.9054801-14645-266073362298497/AnsiballZ_stat.py
+Mar 22 20:43:06 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:43:06 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:08 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gcnnmiyupavyzwbbxepunefkytobbfra ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445784.9054801-14645-266073362298497/AnsiballZ_copy.py
+Mar 22 20:43:08 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:43:08 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:43:33 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-euhsuzrsnwjzumhcnzjyckatztkcbzvm ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616445812.9995387-15401-52114094109559/AnsiballZ_apt.py
+Mar 22 20:43:33 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 20:47:10 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:48:20 acme-mail sshd[1745]: pam_unix(sshd:session): session closed for user ait
+Mar 22 20:48:20 acme-mail systemd-logind[492]: Removed session 5.
+Mar 22 20:48:20 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 21:03:11 acme-mail sshd[3271]: Accepted publickey for ait from 192.42.3.82 port 56070 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 21:03:11 acme-mail sshd[3271]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 21:03:11 acme-mail systemd-logind[492]: New session 7 of user ait.
+Mar 22 21:03:11 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 21:03:13 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ckirflvmlkvlcbnnbxmvgjdzujkqfhez ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616446992.495359-18015-109747419944368/AnsiballZ_pip.py
+Mar 22 21:03:13 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:03:15 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:03:17 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-awqsemwaspqtdwbeqnktzhxynfdsvsuz ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616446996.5645018-18015-144261438387386/AnsiballZ_pip.py
+Mar 22 21:03:17 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:03:20 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:04:21 acme-mail sshd[3271]: pam_unix(sshd:session): session closed for user ait
+Mar 22 21:04:21 acme-mail systemd-logind[492]: Removed session 7.
+Mar 22 21:04:21 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 21:04:54 acme-mail sshd[3357]: Accepted publickey for ait from 192.42.3.82 port 56146 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 21:04:54 acme-mail sshd[3357]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 21:04:54 acme-mail systemd-logind[492]: New session 9 of user ait.
+Mar 22 21:04:54 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 21:04:56 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-anmwggqphpsfrdfakulquphihdifwogd ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447095.7706065-18972-109871522142509/AnsiballZ_command.py
+Mar 22 21:04:56 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:04:57 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:04:59 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-idmibjrxectcnsflldgulekhcmlrpozp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447098.4683383-18972-201785347965299/AnsiballZ_command.py
+Mar 22 21:04:59 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:04:59 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:05:49 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-knnyzvserjlukounavktbjfgrxpkvtcz ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447148.7292101-19894-63453652411642/AnsiballZ_blockinfile.py
+Mar 22 21:05:49 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:05:50 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:05:51 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ruqezbcenimyipyzipifwzkitrpxveut ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447150.921976-19894-68316010453720/AnsiballZ_blockinfile.py
+Mar 22 21:05:51 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:05:52 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:06:15 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sgrirdsmehveornqyjhtorswiwocktvx ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616447174.920008-20459-178651735359683/AnsiballZ_command.py
+Mar 22 21:06:15 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:06:23 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:07:23 acme-mail sshd[3366]: Received disconnect from 192.42.3.82 port 56146:11: disconnected by user
+Mar 22 21:07:23 acme-mail sshd[3366]: Disconnected from 192.42.3.82 port 56146
+Mar 22 21:07:23 acme-mail sshd[3357]: pam_unix(sshd:session): session closed for user ait
+Mar 22 21:07:23 acme-mail systemd-logind[492]: Removed session 9.
+Mar 22 21:07:23 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 21:17:01 acme-mail CRON[4961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 21:17:02 acme-mail CRON[4961]: pam_unix(cron:session): session closed for user root
+Mar 22 21:40:09 acme-mail sshd[5042]: Accepted publickey for ait from 192.42.3.82 port 56212 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 22 21:40:09 acme-mail sshd[5042]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 22 21:40:09 acme-mail systemd-logind[492]: New session 12 of user ait.
+Mar 22 21:40:09 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 22 21:40:11 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-akgjjtkskdoedkytyqlooerkfxjoofpa ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449211.0989954-28765-228547390184860/AnsiballZ_command.py
+Mar 22 21:40:11 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:12 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:16 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lgeemudmfhrafbpxkahzlvjlcsmqklfp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449215.6850972-28844-138918481037758/AnsiballZ_apt.py
+Mar 22 21:40:16 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:17 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:19 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pqhqbnjmjqvwpwyevrpwfrjgradsowtg ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449218.416962-28880-125756800852595/AnsiballZ_apt.py
+Mar 22 21:40:19 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:38 acme-mail groupadd[5454]: group added to /etc/group: name=Debian-exim, GID=113
+Mar 22 21:40:38 acme-mail groupadd[5454]: group added to /etc/gshadow: name=Debian-exim
+Mar 22 21:40:38 acme-mail groupadd[5454]: new group: name=Debian-exim, GID=113
+Mar 22 21:40:38 acme-mail useradd[5460]: new user: name=Debian-exim, UID=109, GID=113, home=/var/spool/exim4, shell=/bin/false
+Mar 22 21:40:38 acme-mail chage[5468]: changed password expiry for Debian-exim
+Mar 22 21:40:41 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:43 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pegbaceckmddsqihhuetvvcbpybumwls ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449242.3120027-28880-40000672576496/AnsiballZ_apt.py
+Mar 22 21:40:43 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:44 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:46 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oxubmiiegzwyzunqkrqegcjdocokrpwj ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449245.328294-28880-8901805285583/AnsiballZ_apt.py
+Mar 22 21:40:46 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:50 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:52 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rpybmmgdlvdyjchnneirafjrmfujtbhn ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449251.3133442-28978-103628592936319/AnsiballZ_stat.py
+Mar 22 21:40:52 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:52 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:54 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aaqqkolsybsichpqfypozlovxdqxdful ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449251.3133442-28978-103628592936319/AnsiballZ_copy.py
+Mar 22 21:40:54 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:54 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:56 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uwrwqiywepegauqhoqyabilvchwrhres ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449255.1366308-29042-150916299645295/AnsiballZ_stat.py
+Mar 22 21:40:56 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:56 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:57 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qytjrglahxlackvocdnpgshbgruvshtp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449255.1366308-29042-150916299645295/AnsiballZ_copy.py
+Mar 22 21:40:57 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:57 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:40:59 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-enyodkrwuzcbnpyqizwmcljipholrgke ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449258.5807812-29042-100197047787861/AnsiballZ_stat.py
+Mar 22 21:40:59 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:40:59 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:01 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bdfxvkinwmdfhvkmpjazumylodlumpet ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449258.5807812-29042-100197047787861/AnsiballZ_copy.py
+Mar 22 21:41:01 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:01 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:02 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rtlvfckduwoneufomysosaxedctzqduj ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449261.9290404-29167-206325116751466/AnsiballZ_stat.py
+Mar 22 21:41:02 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:03 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:04 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dbelidlvbfcuadoxihwgjcrdpeqpfzal ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449261.9290404-29167-206325116751466/AnsiballZ_copy.py
+Mar 22 21:41:04 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:04 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:06 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jaogaohtrxihwzdrrrxlotrfeuhrkkcz ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449265.6936257-29233-252595485937981/AnsiballZ_stat.py
+Mar 22 21:41:06 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:07 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:08 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-plwiptkecffnfnsgvodsfyeoulozruvs ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449265.6936257-29233-252595485937981/AnsiballZ_copy.py
+Mar 22 21:41:08 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:08 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:10 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-niqfoztxpvlvlignsvmfzyrobbreespf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449269.2410972-29299-145548709859763/AnsiballZ_lineinfile.py
+Mar 22 21:41:10 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:10 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:11 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xjyirzcyvnbkmqnadvdbeotbqkhopzvg ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449271.128039-29336-60972017272871/AnsiballZ_apt.py
+Mar 22 21:41:11 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:22 acme-mail groupadd[6993]: group added to /etc/group: name=dovecot, GID=114
+Mar 22 21:41:22 acme-mail groupadd[6993]: group added to /etc/gshadow: name=dovecot
+Mar 22 21:41:22 acme-mail groupadd[6993]: new group: name=dovecot, GID=114
+Mar 22 21:41:22 acme-mail useradd[6999]: new user: name=dovecot, UID=110, GID=114, home=/usr/lib/dovecot, shell=/bin/false
+Mar 22 21:41:22 acme-mail usermod[7007]: change user 'dovecot' password
+Mar 22 21:41:22 acme-mail chage[7013]: changed password expiry for dovecot
+Mar 22 21:41:22 acme-mail chfn[7018]: changed user 'dovecot' information
+Mar 22 21:41:22 acme-mail groupadd[7061]: group added to /etc/group: name=dovenull, GID=115
+Mar 22 21:41:22 acme-mail groupadd[7061]: group added to /etc/gshadow: name=dovenull
+Mar 22 21:41:22 acme-mail groupadd[7061]: new group: name=dovenull, GID=115
+Mar 22 21:41:22 acme-mail useradd[7067]: new user: name=dovenull, UID=111, GID=115, home=/nonexistent, shell=/bin/false
+Mar 22 21:41:22 acme-mail usermod[7075]: change user 'dovenull' password
+Mar 22 21:41:22 acme-mail chage[7081]: changed password expiry for dovenull
+Mar 22 21:41:22 acme-mail chfn[7086]: changed user 'dovenull' information
+Mar 22 21:41:35 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:37 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-snarpgbqwebtnzuyscrgbkrkxueesvye ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449296.3439193-29376-44067269467980/AnsiballZ_stat.py
+Mar 22 21:41:37 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:37 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:39 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ampjdtkmsfcckbedpeyrxcbuhasxmdgm ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449296.3439193-29376-44067269467980/AnsiballZ_copy.py
+Mar 22 21:41:39 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:39 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:41 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ksntoejzbjczanbgxkhvjvdubiemlapc ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449300.0470843-29440-238901873225376/AnsiballZ_stat.py
+Mar 22 21:41:41 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:41 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:42 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qwoheukvxfioajgryccimsagynhlurbo ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449300.0470843-29440-238901873225376/AnsiballZ_copy.py
+Mar 22 21:41:42 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:42 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:44 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nixvekeiylkxxqbhctggggoopchvtzci ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449303.6422322-29544-206211095569980/AnsiballZ_stat.py
+Mar 22 21:41:44 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:44 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:46 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-evnjmivumsikxidfwatxeautqpyglqhf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449303.6422322-29544-206211095569980/AnsiballZ_copy.py
+Mar 22 21:41:46 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:46 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:47 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yinyfwrjolmxwustbrtoyjllwseemjck ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449307.0512848-29626-26352835744456/AnsiballZ_stat.py
+Mar 22 21:41:47 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:48 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:49 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rmdiolletikfsyhmprroysiddlplztgf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449307.0512848-29626-26352835744456/AnsiballZ_copy.py
+Mar 22 21:41:49 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:49 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:51 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-leezrjupiscjlkrvjdchcirnhiskxzxy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449310.3403795-29690-84438071041833/AnsiballZ_stat.py
+Mar 22 21:41:51 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:51 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:52 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-deloqdssidwuxwtodmitwqxatepvtsxf ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449310.3403795-29690-84438071041833/AnsiballZ_copy.py
+Mar 22 21:41:52 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:53 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:54 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ztosyfqlbbedcdytvnmcebixscorxpqg ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449314.0453353-29755-50634857736865/AnsiballZ_stat.py
+Mar 22 21:41:54 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:55 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:56 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cuowadrodnejfjwxaicjtopmenkkufhz ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449314.0453353-29755-50634857736865/AnsiballZ_copy.py
+Mar 22 21:41:56 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:56 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:58 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aihmkuklvenysocvzpsakhpoceytbxtb ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449317.5287292-29819-211420937254252/AnsiballZ_stat.py
+Mar 22 21:41:58 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:41:58 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:41:59 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bicttutnkdcjgvfmykqvsydrjzybchwu ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449317.5287292-29819-211420937254252/AnsiballZ_copy.py
+Mar 22 21:41:59 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:42:00 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:42:02 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ztwadakhomofpbadupdtsolnwxnnvgel ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449321.173574-29893-214823977498003/AnsiballZ_user.py
+Mar 22 21:42:02 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:42:02 acme-mail useradd[10343]: new group: name=rossmanne, GID=1002
+Mar 22 21:42:02 acme-mail useradd[10343]: new user: name=rossmanne, UID=1002, GID=1002, home=/home/rossmanne, shell=/usr/sbin/nologin
+Mar 22 21:42:02 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:42:04 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nuilyayulnpghgauynrvjioqmhxyvlsz ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449323.5781813-29893-28477785686897/AnsiballZ_user.py
+Mar 22 21:42:04 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:42:04 acme-mail useradd[10383]: new group: name=reynoldse, GID=1003
+Mar 22 21:42:04 acme-mail useradd[10383]: new user: name=reynoldse, UID=1003, GID=1003, home=/home/reynoldse, shell=/usr/sbin/nologin
+Mar 22 21:42:04 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:42:06 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-amshuylhulabwgzjywiqlkwisrzyoyor ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449325.6757493-29893-273512013947202/AnsiballZ_user.py
+Mar 22 21:42:06 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:42:07 acme-mail useradd[10423]: new group: name=eichhornm, GID=1004
+Mar 22 21:42:07 acme-mail useradd[10423]: new user: name=eichhornm, UID=1004, GID=1004, home=/home/eichhornm, shell=/usr/sbin/nologin
+Mar 22 21:42:07 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:42:08 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ydgqhzdypqgmcqbqvfirlkpvsunbhine ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449327.5935194-29893-120104258216874/AnsiballZ_user.py
+Mar 22 21:42:08 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:42:08 acme-mail useradd[10463]: new group: name=kirkm, GID=1005
+Mar 22 21:42:08 acme-mail useradd[10463]: new user: name=kirkm, UID=1005, GID=1005, home=/home/kirkm, shell=/usr/sbin/nologin
+Mar 22 21:42:09 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:42:21 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-roaghezhkbsluzfktwxwzeybczmmstja ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449340.2624357-30074-235929838172054/AnsiballZ_apt.py
+Mar 22 21:42:21 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:43:00 acme-mail groupadd[10892]: group added to /etc/group: name=mysql, GID=116
+Mar 22 21:43:00 acme-mail groupadd[10892]: group added to /etc/gshadow: name=mysql
+Mar 22 21:43:00 acme-mail groupadd[10892]: new group: name=mysql, GID=116
+Mar 22 21:43:00 acme-mail useradd[10919]: new user: name=mysql, UID=112, GID=116, home=/nonexistent, shell=/bin/false
+Mar 22 21:43:00 acme-mail chage[10927]: changed password expiry for mysql
+Mar 22 21:43:00 acme-mail chfn[10932]: changed user 'mysql' information
+Mar 22 21:43:21 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:43:24 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tbaztdvftmcqfhhzoozcqbfqbovtzcdv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449402.2501516-30218-198423071719131/AnsiballZ_systemd.py
+Mar 22 21:43:24 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:43:24 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:43:26 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ppwdfqbfisrsgfizgsrtwfmwuykxjslm ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449405.3411407-30256-68750912650143/AnsiballZ_mysql_db.py
+Mar 22 21:43:26 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:43:26 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:43:28 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ovhbuzzqlkttuolykbhicmlpocfrlkbk ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449407.6130197-30292-169236864907300/AnsiballZ_mysql_user.py
+Mar 22 21:43:28 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:43:28 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:43:30 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mlyuiyddarywipbelahtfzsfujeursgx ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449409.6097803-30329-194914782300796/AnsiballZ_apt.py
+Mar 22 21:43:30 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:45:26 acme-mail groupadd[14761]: group added to /etc/group: name=ssl-cert, GID=117
+Mar 22 21:45:26 acme-mail groupadd[14761]: group added to /etc/gshadow: name=ssl-cert
+Mar 22 21:45:26 acme-mail groupadd[14761]: new group: name=ssl-cert, GID=117
+Mar 22 21:45:58 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:46:47 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-phsrnzefhlkzwremkeafxcoxlkxaoqmh ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449605.729706-30869-220306420183861/AnsiballZ_pip.py
+Mar 22 21:46:47 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:46:51 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:46:52 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-owwwadzpanxspoexzbemremqxbinnvxs ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449611.82033-30908-195047167748692/AnsiballZ_expect.py
+Mar 22 21:46:52 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:31 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:33 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-imobvzkygsocaphemofcrzzprtvwmoek ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449652.4478915-31010-29350966768651/AnsiballZ_stat.py
+Mar 22 21:47:33 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:34 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:35 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ffxoatyqtxhqnlwmbwbqhmergemibbfp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449652.4478915-31010-29350966768651/AnsiballZ_copy.py
+Mar 22 21:47:35 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:35 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:37 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nwpqjdchdkyzmxaxynxoztnelqthaogd ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449656.3073652-31010-88043571256110/AnsiballZ_stat.py
+Mar 22 21:47:37 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:37 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:38 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ygubwkxknwczuzqxbwwcagadwfgpotin ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449656.3073652-31010-88043571256110/AnsiballZ_copy.py
+Mar 22 21:47:38 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:38 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:39 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpgipphqwmskbbksebpkcljjxuzfawvc ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449659.1068764-31010-180675467925657/AnsiballZ_stat.py
+Mar 22 21:47:39 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:40 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:41 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yxbrdkvytouhgusykbryxmrdbonwhvdq ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449659.1068764-31010-180675467925657/AnsiballZ_copy.py
+Mar 22 21:47:41 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:41 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:43 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xceqpcpkyefvgmxknjfikturypvhmqba ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449662.4859927-31010-276245392757860/AnsiballZ_stat.py
+Mar 22 21:47:43 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:43 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:45 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zdppaimzcehpeqbfbaidcgmmtrtnkvca ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449662.4859927-31010-276245392757860/AnsiballZ_copy.py
+Mar 22 21:47:45 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:45 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:46 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-loofybrhgnjjjssjppovstcktavrnkcv ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449666.052475-31010-18152050377908/AnsiballZ_stat.py
+Mar 22 21:47:46 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:47 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:48 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-augdbvdisnytesjdypqekseljwdmzpjn ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449666.052475-31010-18152050377908/AnsiballZ_copy.py
+Mar 22 21:47:48 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:49 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:50 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zegxrwgyewnkbrfvjducomlizyyvlkym ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449669.6752923-31010-5578590189377/AnsiballZ_stat.py
+Mar 22 21:47:50 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:50 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:52 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sygrjqmgbgtfdjilcksplcfkwvidafla ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449669.6752923-31010-5578590189377/AnsiballZ_copy.py
+Mar 22 21:47:52 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:52 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:54 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vcpuiskydwwmyrgmpsmtvkkseypwtbkj ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449673.228059-31376-265730953236409/AnsiballZ_stat.py
+Mar 22 21:47:54 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:54 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:55 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dmocwemxcgwetzkyzakpxfaykmiqrfdr ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449673.228059-31376-265730953236409/AnsiballZ_copy.py
+Mar 22 21:47:55 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:55 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:57 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ltaokeecxfnuwlsfwhmevbqgntqrwvih ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449676.3990293-31376-129106220891067/AnsiballZ_stat.py
+Mar 22 21:47:57 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:57 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:47:58 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bhntqymqgreclpzxlyzskiehzelkptyy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449676.3990293-31376-129106220891067/AnsiballZ_copy.py
+Mar 22 21:47:58 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:47:59 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:00 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qbuoivxvhddihzougaljpeaqrfwyyldu ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449679.7005138-31499-105809235443050/AnsiballZ_file.py
+Mar 22 21:48:00 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:01 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:02 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qravrfgkdxtkrtjizvcjdiijxubhnrpt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449681.6500301-31499-232557533525646/AnsiballZ_file.py
+Mar 22 21:48:02 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:02 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:04 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-drmjgkyozmlajusfdtmgyuwzdotadppj ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449683.210496-31499-109370591411382/AnsiballZ_file.py
+Mar 22 21:48:04 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:04 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:05 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-irfriggnqnwakdxykvxpfcjihqdebftb ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449685.1729453-31499-119328728538696/AnsiballZ_file.py
+Mar 22 21:48:05 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:06 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:07 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-piktxzxslpjsyhxzerdlkhsarhgyycjp ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449686.8391912-31499-182840468453458/AnsiballZ_file.py
+Mar 22 21:48:07 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:07 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:09 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vrguyvxttjkpcggkvvzkpppohurjnbxd ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449688.3102937-31499-188806264236788/AnsiballZ_file.py
+Mar 22 21:48:09 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:09 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:11 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vbtrwmwwdcuzqzrzpoyplvaareyphslt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449690.5834422-31683-204837498678792/AnsiballZ_file.py
+Mar 22 21:48:11 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:11 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:13 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xsaujchkihixbpfvvsecsrcwiwlmysia ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449692.5238142-31719-70097489214438/AnsiballZ_apache2_module.py
+Mar 22 21:48:13 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:14 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:15 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wtcttwaiilhwkqfmmspspmqlxzcrqjwq ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449694.9442885-31719-73639201546903/AnsiballZ_apache2_module.py
+Mar 22 21:48:15 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:16 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:18 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ncoyjpvixyuyxrkmmwzyxeyiyvghwdvk ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449697.048071-31925-104053936906938/AnsiballZ_systemd.py
+Mar 22 21:48:18 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:19 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:20 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rrmrcjsgewsehnjjyjxvayjllcchnksy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449699.9270656-31961-27567932344927/AnsiballZ_command.py
+Mar 22 21:48:20 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:21 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:48:23 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fixcuiazzatahfmtzvezidblydrzpqgw ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449702.154162-31998-42360326738031/AnsiballZ_apt.py
+Mar 22 21:48:23 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:48:40 acme-mail groupadd[30071]: group added to /etc/group: name=clamav, GID=118
+Mar 22 21:48:40 acme-mail groupadd[30071]: group added to /etc/gshadow: name=clamav
+Mar 22 21:48:40 acme-mail groupadd[30071]: new group: name=clamav, GID=118
+Mar 22 21:48:40 acme-mail useradd[30077]: new user: name=clamav, UID=113, GID=118, home=/var/lib/clamav, shell=/bin/false
+Mar 22 21:48:40 acme-mail chage[30085]: changed password expiry for clamav
+Mar 22 21:48:43 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:49:00 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-prknzpkwusjradtttwkvzdppagtgjbme ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449728.180252-32114-171274543876796/AnsiballZ_cron.py
+Mar 22 21:49:00 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:49:00 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:49:16 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-suekjelkielgucqatmqgukqgbpvyudwm ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449743.2414382-32153-122169198375040/AnsiballZ_command.py
+Mar 22 21:49:16 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:49:17 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:49:38 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-svqzafkzanxgdbeggahgoidopzyolfou ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449760.110332-32192-263041681066709/AnsiballZ_systemd.py
+Mar 22 21:49:38 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:49:38 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:50:19 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tvyglouxfeyhydpvquzqxqcjlsfnvhvt ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449782.836664-32231-89343854096046/AnsiballZ_systemd.py
+Mar 22 21:50:19 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:50:20 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:50:39 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dsuicqgzwxglwbsewfunjmhdlycqiiok ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449825.0461025-32341-247143312358275/AnsiballZ_systemd.py
+Mar 22 21:50:39 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:50:40 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:50:42 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vqsmtwijmyfqdlfvkoxmfopwrmjszocy ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449840.9815075-32341-63817628298851/AnsiballZ_systemd.py
+Mar 22 21:50:42 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:50:44 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:50:46 acme-mail sudo:      ait : TTY=pts/0 ; PWD=/home/ait ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hvhjjrrarpeildcfqdqvhqecxbjfudll ; /usr/bin/python3 /home/ait/.ansible/tmp/ansible-tmp-1616449844.9813757-32341-83930881050082/AnsiballZ_systemd.py
+Mar 22 21:50:46 acme-mail sudo: pam_unix(sudo:session): session opened for user root by ait(uid=0)
+Mar 22 21:50:47 acme-mail sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 21:52:26 acme-mail sshd[5042]: pam_unix(sshd:session): session closed for user ait
+Mar 22 21:52:26 acme-mail systemd-logind[492]: Removed session 12.
+Mar 22 21:52:26 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 22 22:09:01 acme-mail CRON[31353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 22:09:01 acme-mail CRON[31353]: pam_unix(cron:session): session closed for user root
+Mar 22 22:17:01 acme-mail CRON[31416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 22:17:01 acme-mail CRON[31416]: pam_unix(cron:session): session closed for user root
+Mar 22 22:39:01 acme-mail CRON[31497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 22:39:01 acme-mail CRON[31497]: pam_unix(cron:session): session closed for user root
+Mar 22 23:09:01 acme-mail CRON[31736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 23:09:01 acme-mail CRON[31736]: pam_unix(cron:session): session closed for user root
+Mar 22 23:17:01 acme-mail CRON[31873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 23:17:01 acme-mail CRON[31873]: pam_unix(cron:session): session closed for user root
+Mar 22 23:39:01 acme-mail CRON[32030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 23:39:01 acme-mail CRON[32030]: pam_unix(cron:session): session closed for user root
+Mar 23 00:09:01 acme-mail CRON[32164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 00:09:01 acme-mail CRON[32164]: pam_unix(cron:session): session closed for user root
+Mar 23 00:17:01 acme-mail CRON[32236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 00:17:01 acme-mail CRON[32236]: pam_unix(cron:session): session closed for user root
+Mar 23 00:39:01 acme-mail CRON[32286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 00:39:01 acme-mail CRON[32286]: pam_unix(cron:session): session closed for user root
+Mar 23 01:09:01 acme-mail CRON[32407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 01:09:01 acme-mail CRON[32407]: pam_unix(cron:session): session closed for user root
+Mar 23 01:17:01 acme-mail CRON[32480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 01:17:01 acme-mail CRON[32480]: pam_unix(cron:session): session closed for user root
+Mar 23 01:39:01 acme-mail CRON[32533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 01:39:01 acme-mail CRON[32533]: pam_unix(cron:session): session closed for user root
+Mar 23 02:09:01 acme-mail CRON[32651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 02:09:01 acme-mail CRON[32651]: pam_unix(cron:session): session closed for user root
+Mar 23 02:17:01 acme-mail CRON[32728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 02:17:01 acme-mail CRON[32728]: pam_unix(cron:session): session closed for user root
+Mar 23 02:39:01 acme-mail CRON[309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 02:39:01 acme-mail CRON[309]: pam_unix(cron:session): session closed for user root
+Mar 23 03:09:01 acme-mail CRON[433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 03:09:01 acme-mail CRON[433]: pam_unix(cron:session): session closed for user root
+Mar 23 03:17:01 acme-mail CRON[504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 03:17:01 acme-mail CRON[504]: pam_unix(cron:session): session closed for user root
+Mar 23 03:39:01 acme-mail CRON[567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 03:39:01 acme-mail CRON[567]: pam_unix(cron:session): session closed for user root
+Mar 23 04:09:01 acme-mail CRON[689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 04:09:01 acme-mail CRON[689]: pam_unix(cron:session): session closed for user root
+Mar 23 04:17:01 acme-mail CRON[766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 04:17:01 acme-mail CRON[766]: pam_unix(cron:session): session closed for user root
+Mar 23 04:39:01 acme-mail CRON[815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 04:39:01 acme-mail CRON[815]: pam_unix(cron:session): session closed for user root
+Mar 23 05:09:01 acme-mail CRON[945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 05:09:01 acme-mail CRON[945]: pam_unix(cron:session): session closed for user root
+Mar 23 05:17:01 acme-mail CRON[1013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 05:17:01 acme-mail CRON[1013]: pam_unix(cron:session): session closed for user root
+Mar 23 05:39:01 acme-mail CRON[1058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 05:39:01 acme-mail CRON[1058]: pam_unix(cron:session): session closed for user root
+Mar 23 06:09:01 acme-mail CRON[1187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:09:01 acme-mail CRON[1187]: pam_unix(cron:session): session closed for user root
+Mar 23 06:17:01 acme-mail CRON[1268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:17:01 acme-mail CRON[1268]: pam_unix(cron:session): session closed for user root
+Mar 23 06:25:01 acme-mail CRON[1290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:25:06 acme-mail CRON[1290]: pam_unix(cron:session): session closed for user root
+Mar 23 06:39:01 acme-mail CRON[1405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 06:39:01 acme-mail CRON[1405]: pam_unix(cron:session): session closed for user root
+Mar 23 07:09:01 acme-mail CRON[1592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 07:09:01 acme-mail CRON[1592]: pam_unix(cron:session): session closed for user root
+Mar 23 07:17:01 acme-mail CRON[1660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 07:17:01 acme-mail CRON[1660]: pam_unix(cron:session): session closed for user root
+Mar 23 07:39:01 acme-mail CRON[1714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 07:39:01 acme-mail CRON[1714]: pam_unix(cron:session): session closed for user root
+Mar 23 08:09:01 acme-mail CRON[1846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 08:09:01 acme-mail CRON[1846]: pam_unix(cron:session): session closed for user root
+Mar 23 08:17:01 acme-mail CRON[1911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 08:17:01 acme-mail CRON[1911]: pam_unix(cron:session): session closed for user root
+Mar 23 08:30:01 acme-mail CRON[1950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 08:39:01 acme-mail CRON[2023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 08:39:01 acme-mail CRON[2023]: pam_unix(cron:session): session closed for user root
+Mar 23 08:58:22 acme-mail CRON[1950]: pam_unix(cron:session): session closed for user root
+Mar 23 09:09:01 acme-mail CRON[2199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 09:09:01 acme-mail CRON[2199]: pam_unix(cron:session): session closed for user root
+Mar 23 09:17:01 acme-mail CRON[2279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 09:17:01 acme-mail CRON[2279]: pam_unix(cron:session): session closed for user root
+Mar 23 09:39:01 acme-mail CRON[2606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 09:39:01 acme-mail CRON[2606]: pam_unix(cron:session): session closed for user root
+Mar 23 10:09:01 acme-mail CRON[2879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 10:09:01 acme-mail CRON[2879]: pam_unix(cron:session): session closed for user root
+Mar 23 10:17:01 acme-mail CRON[2961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 10:17:01 acme-mail CRON[2961]: pam_unix(cron:session): session closed for user root
+Mar 23 10:39:01 acme-mail CRON[3076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 10:39:01 acme-mail CRON[3076]: pam_unix(cron:session): session closed for user root
+Mar 23 11:09:01 acme-mail CRON[3413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 11:09:01 acme-mail CRON[3413]: pam_unix(cron:session): session closed for user root
+Mar 23 11:17:01 acme-mail CRON[3509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 11:17:01 acme-mail CRON[3509]: pam_unix(cron:session): session closed for user root
+Mar 23 11:31:06 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:14 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:21 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:25 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:29 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:34 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:38 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:31:41 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:35:21 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:35:29 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:35:37 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:35:41 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:37:49 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:37:57 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:38:05 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:38:09 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:39:01 acme-mail CRON[3735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 11:39:01 acme-mail CRON[3735]: pam_unix(cron:session): session closed for user root
+Mar 23 11:39:31 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:39:38 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:39:45 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:39:53 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:46:21 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:46:28 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:46:36 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:46:40 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:48:37 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:48:45 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:48:52 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:48:56 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:50:33 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:50:41 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:50:49 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:50:57 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:51:08 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:51:11 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:51:15 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:52:53 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:01 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:09 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:20 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:28 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:32 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:39 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:43 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:53:47 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:23 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:31 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:35 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:38 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:45 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:49 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 11:55:52 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:01:07 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:01:14 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:01:22 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:01:26 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:06:11 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:06:19 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:06:27 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:06:36 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:08:25 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:08:33 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:08:41 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:08:45 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=kirkm rhost=192.42.2.175  user=kirkm
+Mar 23 12:09:01 acme-mail CRON[4178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 12:09:01 acme-mail CRON[4178]: pam_unix(cron:session): session closed for user root
+Mar 23 12:17:01 acme-mail CRON[4302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 12:17:01 acme-mail CRON[4302]: pam_unix(cron:session): session closed for user root
+Mar 23 12:39:01 acme-mail CRON[4399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 12:39:01 acme-mail CRON[4399]: pam_unix(cron:session): session closed for user root
+Mar 23 13:09:01 acme-mail CRON[4628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 13:09:01 acme-mail CRON[4628]: pam_unix(cron:session): session closed for user root
+Mar 23 13:17:01 acme-mail CRON[4744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 13:17:01 acme-mail CRON[4744]: pam_unix(cron:session): session closed for user root
+Mar 23 13:39:01 acme-mail CRON[4957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 13:39:01 acme-mail CRON[4957]: pam_unix(cron:session): session closed for user root
+Mar 23 14:09:01 acme-mail CRON[5327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 14:09:01 acme-mail CRON[5327]: pam_unix(cron:session): session closed for user root
+Mar 23 14:17:01 acme-mail CRON[5455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 14:17:01 acme-mail CRON[5455]: pam_unix(cron:session): session closed for user root
+Mar 23 14:39:01 acme-mail CRON[5723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 14:39:01 acme-mail CRON[5723]: pam_unix(cron:session): session closed for user root
+Mar 23 15:09:01 acme-mail CRON[6188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 15:09:01 acme-mail CRON[6188]: pam_unix(cron:session): session closed for user root
+Mar 23 15:17:01 acme-mail CRON[6315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 15:17:01 acme-mail CRON[6315]: pam_unix(cron:session): session closed for user root
+Mar 23 15:39:01 acme-mail CRON[6607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 15:39:01 acme-mail CRON[6607]: pam_unix(cron:session): session closed for user root
+Mar 23 16:09:01 acme-mail CRON[6840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 16:09:01 acme-mail CRON[6840]: pam_unix(cron:session): session closed for user root
+Mar 23 16:17:01 acme-mail CRON[6932]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 16:17:01 acme-mail CRON[6932]: pam_unix(cron:session): session closed for user root
+Mar 23 16:39:01 acme-mail CRON[7029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 16:39:01 acme-mail CRON[7029]: pam_unix(cron:session): session closed for user root
+Mar 23 17:09:01 acme-mail CRON[7434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 17:09:01 acme-mail CRON[7434]: pam_unix(cron:session): session closed for user root
+Mar 23 17:17:01 acme-mail CRON[7563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 17:17:01 acme-mail CRON[7563]: pam_unix(cron:session): session closed for user root
+Mar 23 17:39:01 acme-mail CRON[7719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 17:39:01 acme-mail CRON[7719]: pam_unix(cron:session): session closed for user root
+Mar 23 18:09:01 acme-mail CRON[7936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 18:09:01 acme-mail CRON[7936]: pam_unix(cron:session): session closed for user root
+Mar 23 18:17:01 acme-mail CRON[8012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 18:17:01 acme-mail CRON[8012]: pam_unix(cron:session): session closed for user root
+Mar 23 18:39:01 acme-mail CRON[8058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 18:39:01 acme-mail CRON[8058]: pam_unix(cron:session): session closed for user root
+Mar 23 19:09:01 acme-mail CRON[8184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 19:09:01 acme-mail CRON[8184]: pam_unix(cron:session): session closed for user root
+Mar 23 19:17:01 acme-mail CRON[8259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 19:17:01 acme-mail CRON[8259]: pam_unix(cron:session): session closed for user root
+Mar 23 19:39:01 acme-mail CRON[8310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 19:39:01 acme-mail CRON[8310]: pam_unix(cron:session): session closed for user root
+Mar 23 20:09:01 acme-mail CRON[8431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 20:09:01 acme-mail CRON[8431]: pam_unix(cron:session): session closed for user root
+Mar 23 20:17:01 acme-mail CRON[8495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 20:17:01 acme-mail CRON[8495]: pam_unix(cron:session): session closed for user root
+Mar 23 20:30:01 acme-mail CRON[8539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 20:39:02 acme-mail CRON[8565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 20:39:02 acme-mail CRON[8565]: pam_unix(cron:session): session closed for user root
+Mar 23 20:56:58 acme-mail CRON[8539]: pam_unix(cron:session): session closed for user root
+Mar 23 21:09:01 acme-mail CRON[8704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 21:09:01 acme-mail CRON[8704]: pam_unix(cron:session): session closed for user root
+Mar 23 21:17:01 acme-mail CRON[8783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 21:17:01 acme-mail CRON[8783]: pam_unix(cron:session): session closed for user root
+Mar 23 21:39:01 acme-mail CRON[8836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 21:39:01 acme-mail CRON[8836]: pam_unix(cron:session): session closed for user root
+Mar 23 22:09:01 acme-mail CRON[8958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 22:09:01 acme-mail CRON[8958]: pam_unix(cron:session): session closed for user root
+Mar 23 22:17:01 acme-mail CRON[9025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 22:17:01 acme-mail CRON[9025]: pam_unix(cron:session): session closed for user root
+Mar 23 22:39:01 acme-mail CRON[9079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 22:39:01 acme-mail CRON[9079]: pam_unix(cron:session): session closed for user root
+Mar 23 23:09:01 acme-mail CRON[9201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 23:09:01 acme-mail CRON[9201]: pam_unix(cron:session): session closed for user root
+Mar 23 23:17:01 acme-mail CRON[9272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 23:17:01 acme-mail CRON[9272]: pam_unix(cron:session): session closed for user root
+Mar 23 23:39:01 acme-mail CRON[9322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 23 23:39:01 acme-mail CRON[9322]: pam_unix(cron:session): session closed for user root
+Mar 24 00:09:01 acme-mail CRON[9435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 00:09:01 acme-mail CRON[9435]: pam_unix(cron:session): session closed for user root
+Mar 24 00:17:01 acme-mail CRON[9514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 00:17:01 acme-mail CRON[9514]: pam_unix(cron:session): session closed for user root
+Mar 24 00:39:01 acme-mail CRON[9565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 00:39:01 acme-mail CRON[9565]: pam_unix(cron:session): session closed for user root
+Mar 24 01:09:01 acme-mail CRON[9694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 01:09:01 acme-mail CRON[9694]: pam_unix(cron:session): session closed for user root
+Mar 24 01:17:01 acme-mail CRON[9758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 01:17:01 acme-mail CRON[9758]: pam_unix(cron:session): session closed for user root
+Mar 24 01:39:01 acme-mail CRON[9812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 01:39:01 acme-mail CRON[9812]: pam_unix(cron:session): session closed for user root
+Mar 24 02:09:01 acme-mail CRON[9930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 02:09:01 acme-mail CRON[9930]: pam_unix(cron:session): session closed for user root
+Mar 24 02:17:01 acme-mail CRON[10001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 02:17:01 acme-mail CRON[10001]: pam_unix(cron:session): session closed for user root
+Mar 24 02:39:01 acme-mail CRON[10066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 02:39:01 acme-mail CRON[10066]: pam_unix(cron:session): session closed for user root
+Mar 24 03:09:01 acme-mail CRON[10180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 03:09:01 acme-mail CRON[10180]: pam_unix(cron:session): session closed for user root
+Mar 24 03:17:01 acme-mail CRON[10247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 03:17:01 acme-mail CRON[10247]: pam_unix(cron:session): session closed for user root
+Mar 24 03:39:01 acme-mail CRON[10309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 03:39:01 acme-mail CRON[10309]: pam_unix(cron:session): session closed for user root
+Mar 24 04:09:01 acme-mail CRON[10438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 04:09:01 acme-mail CRON[10438]: pam_unix(cron:session): session closed for user root
+Mar 24 04:17:01 acme-mail CRON[10510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 04:17:01 acme-mail CRON[10510]: pam_unix(cron:session): session closed for user root
+Mar 24 04:39:01 acme-mail CRON[10564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 04:39:01 acme-mail CRON[10564]: pam_unix(cron:session): session closed for user root
+Mar 24 05:09:01 acme-mail CRON[10678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 05:09:01 acme-mail CRON[10678]: pam_unix(cron:session): session closed for user root
+Mar 24 05:17:01 acme-mail CRON[10757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 05:17:01 acme-mail CRON[10757]: pam_unix(cron:session): session closed for user root
+Mar 24 05:39:01 acme-mail CRON[10815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 05:39:01 acme-mail CRON[10815]: pam_unix(cron:session): session closed for user root
+Mar 24 06:09:01 acme-mail CRON[11031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:09:01 acme-mail CRON[11031]: pam_unix(cron:session): session closed for user root
+Mar 24 06:17:01 acme-mail CRON[11095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:17:01 acme-mail CRON[11095]: pam_unix(cron:session): session closed for user root
+Mar 24 06:25:01 acme-mail CRON[11126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:25:17 acme-mail CRON[11126]: pam_unix(cron:session): session closed for user root
+Mar 24 06:39:01 acme-mail CRON[11278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:39:01 acme-mail CRON[11278]: pam_unix(cron:session): session closed for user root
+Mar 24 07:09:01 acme-mail CRON[11386]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:09:01 acme-mail CRON[11386]: pam_unix(cron:session): session closed for user root
+Mar 24 07:17:01 acme-mail CRON[11452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:17:01 acme-mail CRON[11452]: pam_unix(cron:session): session closed for user root
+Mar 24 07:39:01 acme-mail CRON[11556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:39:01 acme-mail CRON[11556]: pam_unix(cron:session): session closed for user root
+Mar 24 08:09:01 acme-mail CRON[11709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:09:01 acme-mail CRON[11709]: pam_unix(cron:session): session closed for user root
+Mar 24 08:17:01 acme-mail CRON[11772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:17:01 acme-mail CRON[11772]: pam_unix(cron:session): session closed for user root
+Mar 24 08:30:01 acme-mail CRON[11879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:39:02 acme-mail CRON[11972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:39:02 acme-mail CRON[11972]: pam_unix(cron:session): session closed for user root
+Mar 24 08:58:04 acme-mail CRON[11879]: pam_unix(cron:session): session closed for user root
+Mar 24 09:09:01 acme-mail CRON[12263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:09:01 acme-mail CRON[12263]: pam_unix(cron:session): session closed for user root
+Mar 24 09:17:01 acme-mail CRON[12356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:17:01 acme-mail CRON[12356]: pam_unix(cron:session): session closed for user root
+Mar 24 09:39:01 acme-mail CRON[12540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:39:01 acme-mail CRON[12540]: pam_unix(cron:session): session closed for user root
+Mar 24 10:09:01 acme-mail CRON[12924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:09:01 acme-mail CRON[12924]: pam_unix(cron:session): session closed for user root
+Mar 24 10:17:01 acme-mail CRON[13073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:17:01 acme-mail CRON[13073]: pam_unix(cron:session): session closed for user root
+Mar 24 10:39:01 acme-mail CRON[13153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:39:01 acme-mail CRON[13153]: pam_unix(cron:session): session closed for user root
+Mar 24 11:09:01 acme-mail CRON[13369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:09:01 acme-mail CRON[13369]: pam_unix(cron:session): session closed for user root
+Mar 24 11:17:01 acme-mail CRON[13462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:17:01 acme-mail CRON[13462]: pam_unix(cron:session): session closed for user root
+Mar 24 11:39:01 acme-mail CRON[13646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:39:01 acme-mail CRON[13646]: pam_unix(cron:session): session closed for user root
+Mar 24 12:09:01 acme-mail CRON[14181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:09:01 acme-mail CRON[14181]: pam_unix(cron:session): session closed for user root
+Mar 24 12:17:01 acme-mail CRON[14287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:17:01 acme-mail CRON[14287]: pam_unix(cron:session): session closed for user root
+Mar 24 12:39:01 acme-mail CRON[14424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:39:01 acme-mail CRON[14424]: pam_unix(cron:session): session closed for user root
+Mar 24 13:09:01 acme-mail CRON[14654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:09:01 acme-mail CRON[14654]: pam_unix(cron:session): session closed for user root
+Mar 24 13:17:01 acme-mail CRON[14721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:17:01 acme-mail CRON[14721]: pam_unix(cron:session): session closed for user root
+Mar 24 13:39:01 acme-mail CRON[14955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:39:01 acme-mail CRON[14955]: pam_unix(cron:session): session closed for user root
+Mar 24 14:09:01 acme-mail CRON[15294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:09:01 acme-mail CRON[15294]: pam_unix(cron:session): session closed for user root
+Mar 24 14:17:01 acme-mail CRON[15388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:17:01 acme-mail CRON[15388]: pam_unix(cron:session): session closed for user root
+Mar 24 14:39:01 acme-mail CRON[15545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:39:01 acme-mail CRON[15545]: pam_unix(cron:session): session closed for user root
+Mar 24 15:09:01 acme-mail CRON[15804]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:09:01 acme-mail CRON[15804]: pam_unix(cron:session): session closed for user root
+Mar 24 15:17:01 acme-mail CRON[16003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:17:01 acme-mail CRON[16003]: pam_unix(cron:session): session closed for user root
+Mar 24 15:39:01 acme-mail CRON[16429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:39:01 acme-mail CRON[16429]: pam_unix(cron:session): session closed for user root
+Mar 24 16:09:01 acme-mail CRON[16772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:09:01 acme-mail CRON[16772]: pam_unix(cron:session): session closed for user root
+Mar 24 16:17:01 acme-mail CRON[16902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:17:01 acme-mail CRON[16902]: pam_unix(cron:session): session closed for user root
+Mar 24 16:39:01 acme-mail CRON[17059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:39:01 acme-mail CRON[17059]: pam_unix(cron:session): session closed for user root
+Mar 24 17:09:01 acme-mail CRON[17364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:09:01 acme-mail CRON[17364]: pam_unix(cron:session): session closed for user root
+Mar 24 17:17:01 acme-mail CRON[17490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:17:01 acme-mail CRON[17490]: pam_unix(cron:session): session closed for user root
+Mar 24 17:39:01 acme-mail CRON[17654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:39:01 acme-mail CRON[17654]: pam_unix(cron:session): session closed for user root
+Mar 24 18:09:01 acme-mail CRON[17779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:09:01 acme-mail CRON[17779]: pam_unix(cron:session): session closed for user root
+Mar 24 18:17:01 acme-mail CRON[17847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:17:01 acme-mail CRON[17847]: pam_unix(cron:session): session closed for user root
+Mar 24 18:39:01 acme-mail CRON[17902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:39:01 acme-mail CRON[17902]: pam_unix(cron:session): session closed for user root
+Mar 24 19:09:01 acme-mail CRON[18023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:09:01 acme-mail CRON[18023]: pam_unix(cron:session): session closed for user root
+Mar 24 19:17:01 acme-mail CRON[18098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:17:01 acme-mail CRON[18098]: pam_unix(cron:session): session closed for user root
+Mar 24 19:39:01 acme-mail CRON[18154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:39:01 acme-mail CRON[18154]: pam_unix(cron:session): session closed for user root
+Mar 24 20:09:01 acme-mail CRON[18270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:09:01 acme-mail CRON[18270]: pam_unix(cron:session): session closed for user root
+Mar 24 20:17:01 acme-mail CRON[18338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:17:01 acme-mail CRON[18338]: pam_unix(cron:session): session closed for user root
+Mar 24 20:30:01 acme-mail CRON[18383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:39:02 acme-mail CRON[18405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:39:02 acme-mail CRON[18405]: pam_unix(cron:session): session closed for user root
+Mar 24 20:58:17 acme-mail CRON[18383]: pam_unix(cron:session): session closed for user root
+Mar 24 21:09:01 acme-mail CRON[18546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:09:01 acme-mail CRON[18546]: pam_unix(cron:session): session closed for user root
+Mar 24 21:17:01 acme-mail CRON[18614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:17:01 acme-mail CRON[18614]: pam_unix(cron:session): session closed for user root
+Mar 24 21:39:01 acme-mail CRON[18677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:39:01 acme-mail CRON[18677]: pam_unix(cron:session): session closed for user root
+Mar 24 22:09:01 acme-mail CRON[18790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 22:09:01 acme-mail CRON[18790]: pam_unix(cron:session): session closed for user root
+Mar 24 22:17:01 acme-mail CRON[18865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 22:17:01 acme-mail CRON[18865]: pam_unix(cron:session): session closed for user root
+Mar 24 22:39:01 acme-mail CRON[18909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 22:39:01 acme-mail CRON[18909]: pam_unix(cron:session): session closed for user root
+Mar 24 23:09:01 acme-mail CRON[19048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 23:09:01 acme-mail CRON[19048]: pam_unix(cron:session): session closed for user root
+Mar 24 23:17:01 acme-mail CRON[19116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 23:17:02 acme-mail CRON[19116]: pam_unix(cron:session): session closed for user root
+Mar 24 23:39:01 acme-mail CRON[19173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 23:39:01 acme-mail CRON[19173]: pam_unix(cron:session): session closed for user root
+Mar 25 00:09:01 acme-mail CRON[19293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 00:09:01 acme-mail CRON[19293]: pam_unix(cron:session): session closed for user root
+Mar 25 00:17:01 acme-mail CRON[19363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 00:17:01 acme-mail CRON[19363]: pam_unix(cron:session): session closed for user root
+Mar 25 00:39:01 acme-mail CRON[19415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 00:39:01 acme-mail CRON[19415]: pam_unix(cron:session): session closed for user root
+Mar 25 01:09:01 acme-mail CRON[19536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 01:09:01 acme-mail CRON[19536]: pam_unix(cron:session): session closed for user root
+Mar 25 01:17:01 acme-mail CRON[19600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 01:17:01 acme-mail CRON[19600]: pam_unix(cron:session): session closed for user root
+Mar 25 01:39:01 acme-mail CRON[19658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 01:39:01 acme-mail CRON[19658]: pam_unix(cron:session): session closed for user root
+Mar 25 02:09:01 acme-mail CRON[19776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 02:09:01 acme-mail CRON[19776]: pam_unix(cron:session): session closed for user root
+Mar 25 02:17:01 acme-mail CRON[19844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 02:17:01 acme-mail CRON[19844]: pam_unix(cron:session): session closed for user root
+Mar 25 02:39:01 acme-mail CRON[19910]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 02:39:01 acme-mail CRON[19910]: pam_unix(cron:session): session closed for user root
+Mar 25 03:09:01 acme-mail CRON[20028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 03:09:01 acme-mail CRON[20028]: pam_unix(cron:session): session closed for user root
+Mar 25 03:17:01 acme-mail CRON[20095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 03:17:01 acme-mail CRON[20095]: pam_unix(cron:session): session closed for user root
+Mar 25 03:39:01 acme-mail CRON[20153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 03:39:01 acme-mail CRON[20153]: pam_unix(cron:session): session closed for user root
+Mar 25 04:09:01 acme-mail CRON[20279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 04:09:01 acme-mail CRON[20279]: pam_unix(cron:session): session closed for user root
+Mar 25 04:17:01 acme-mail CRON[20347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 04:17:01 acme-mail CRON[20347]: pam_unix(cron:session): session closed for user root
+Mar 25 04:39:01 acme-mail CRON[20401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 04:39:01 acme-mail CRON[20401]: pam_unix(cron:session): session closed for user root
+Mar 25 05:09:01 acme-mail CRON[20515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 05:09:01 acme-mail CRON[20515]: pam_unix(cron:session): session closed for user root
+Mar 25 05:17:01 acme-mail CRON[20638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 05:17:01 acme-mail CRON[20638]: pam_unix(cron:session): session closed for user root
+Mar 25 05:39:01 acme-mail CRON[20688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 05:39:01 acme-mail CRON[20688]: pam_unix(cron:session): session closed for user root
+Mar 25 06:09:01 acme-mail CRON[20809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:09:01 acme-mail CRON[20809]: pam_unix(cron:session): session closed for user root
+Mar 25 06:17:01 acme-mail CRON[20873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:17:01 acme-mail CRON[20873]: pam_unix(cron:session): session closed for user root
+Mar 25 06:25:01 acme-mail CRON[20900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:25:18 acme-mail CRON[20900]: pam_unix(cron:session): session closed for user root
+Mar 25 06:39:01 acme-mail CRON[21108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 06:39:01 acme-mail CRON[21108]: pam_unix(cron:session): session closed for user root
+Mar 25 07:09:01 acme-mail CRON[21224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 07:09:01 acme-mail CRON[21224]: pam_unix(cron:session): session closed for user root
+Mar 25 07:17:01 acme-mail CRON[21286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 07:17:01 acme-mail CRON[21286]: pam_unix(cron:session): session closed for user root
+Mar 25 07:39:01 acme-mail CRON[21350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 07:39:01 acme-mail CRON[21350]: pam_unix(cron:session): session closed for user root
+Mar 25 08:09:01 acme-mail CRON[21556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 08:09:01 acme-mail CRON[21556]: pam_unix(cron:session): session closed for user root
+Mar 25 08:17:01 acme-mail CRON[21703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 08:17:01 acme-mail CRON[21703]: pam_unix(cron:session): session closed for user root
+Mar 25 08:30:01 acme-mail CRON[21779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 08:39:01 acme-mail CRON[21823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 08:39:02 acme-mail CRON[21823]: pam_unix(cron:session): session closed for user root
+Mar 25 08:57:29 acme-mail CRON[21779]: pam_unix(cron:session): session closed for user root
+Mar 25 09:09:01 acme-mail CRON[22225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 09:09:01 acme-mail CRON[22225]: pam_unix(cron:session): session closed for user root
+Mar 25 09:17:01 acme-mail CRON[22350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 09:17:01 acme-mail CRON[22350]: pam_unix(cron:session): session closed for user root
+Mar 25 09:39:01 acme-mail CRON[22605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 09:39:01 acme-mail CRON[22605]: pam_unix(cron:session): session closed for user root
+Mar 25 10:09:01 acme-mail CRON[22983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 10:09:01 acme-mail CRON[22983]: pam_unix(cron:session): session closed for user root
+Mar 25 10:17:01 acme-mail CRON[23138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 10:17:01 acme-mail CRON[23138]: pam_unix(cron:session): session closed for user root
+Mar 25 10:39:01 acme-mail CRON[23273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 10:39:01 acme-mail CRON[23273]: pam_unix(cron:session): session closed for user root
+Mar 25 11:09:01 acme-mail CRON[23414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 11:09:01 acme-mail CRON[23414]: pam_unix(cron:session): session closed for user root
+Mar 25 11:17:01 acme-mail CRON[23479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 11:17:01 acme-mail CRON[23479]: pam_unix(cron:session): session closed for user root
+Mar 25 11:39:01 acme-mail CRON[23652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 11:39:01 acme-mail CRON[23652]: pam_unix(cron:session): session closed for user root
+Mar 25 12:09:01 acme-mail CRON[23918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 12:09:01 acme-mail CRON[23918]: pam_unix(cron:session): session closed for user root
+Mar 25 12:17:01 acme-mail CRON[23997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 12:17:01 acme-mail CRON[23997]: pam_unix(cron:session): session closed for user root
+Mar 25 12:39:01 acme-mail CRON[24141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 12:39:01 acme-mail CRON[24141]: pam_unix(cron:session): session closed for user root
+Mar 25 13:09:01 acme-mail CRON[24504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 13:09:01 acme-mail CRON[24504]: pam_unix(cron:session): session closed for user root
+Mar 25 13:17:01 acme-mail CRON[24595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 13:17:01 acme-mail CRON[24595]: pam_unix(cron:session): session closed for user root
+Mar 25 13:17:21 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:28 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:36 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:39 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:43 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:46 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:50 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:17:54 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:20:34 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:20:42 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:20:50 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:20:58 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:22:31 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:22:38 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:22:46 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:22:50 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:24:23 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:24:31 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:24:39 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:24:43 acme-mail auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=eichhornm rhost=192.42.2.175  user=eichhornm
+Mar 25 13:39:01 acme-mail CRON[24816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 13:39:01 acme-mail CRON[24816]: pam_unix(cron:session): session closed for user root
+Mar 25 14:09:01 acme-mail CRON[25157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 14:09:01 acme-mail CRON[25157]: pam_unix(cron:session): session closed for user root
+Mar 25 14:17:01 acme-mail CRON[25322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 14:17:01 acme-mail CRON[25322]: pam_unix(cron:session): session closed for user root
+Mar 25 14:39:01 acme-mail CRON[25484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 14:39:01 acme-mail CRON[25484]: pam_unix(cron:session): session closed for user root
+Mar 25 15:09:01 acme-mail CRON[25727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 15:09:01 acme-mail CRON[25727]: pam_unix(cron:session): session closed for user root
+Mar 25 15:17:01 acme-mail CRON[25805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 15:17:01 acme-mail CRON[25805]: pam_unix(cron:session): session closed for user root
+Mar 25 15:39:01 acme-mail CRON[25911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 15:39:01 acme-mail CRON[25911]: pam_unix(cron:session): session closed for user root
+Mar 25 16:09:01 acme-mail CRON[26134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 16:09:01 acme-mail CRON[26134]: pam_unix(cron:session): session closed for user root
+Mar 25 16:17:01 acme-mail CRON[26273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 16:17:01 acme-mail CRON[26273]: pam_unix(cron:session): session closed for user root
+Mar 25 16:39:01 acme-mail CRON[26374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 16:39:01 acme-mail CRON[26374]: pam_unix(cron:session): session closed for user root
+Mar 25 17:09:01 acme-mail CRON[26580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 17:09:01 acme-mail CRON[26580]: pam_unix(cron:session): session closed for user root
+Mar 25 17:17:01 acme-mail CRON[26651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 17:17:01 acme-mail CRON[26651]: pam_unix(cron:session): session closed for user root
+Mar 25 17:39:01 acme-mail CRON[26894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 17:39:01 acme-mail CRON[26894]: pam_unix(cron:session): session closed for user root
+Mar 25 18:09:01 acme-mail CRON[27061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 18:09:01 acme-mail CRON[27061]: pam_unix(cron:session): session closed for user root
+Mar 25 18:17:01 acme-mail CRON[27137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 18:17:01 acme-mail CRON[27137]: pam_unix(cron:session): session closed for user root
+Mar 25 18:39:01 acme-mail CRON[27188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 18:39:01 acme-mail CRON[27188]: pam_unix(cron:session): session closed for user root
+Mar 25 19:09:01 acme-mail CRON[27313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 19:09:01 acme-mail CRON[27313]: pam_unix(cron:session): session closed for user root
+Mar 25 19:17:01 acme-mail CRON[27383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 19:17:01 acme-mail CRON[27383]: pam_unix(cron:session): session closed for user root
+Mar 25 19:39:01 acme-mail CRON[27454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 19:39:01 acme-mail CRON[27454]: pam_unix(cron:session): session closed for user root
+Mar 25 20:09:01 acme-mail CRON[27594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:09:01 acme-mail CRON[27594]: pam_unix(cron:session): session closed for user root
+Mar 25 20:17:01 acme-mail CRON[27666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:17:01 acme-mail CRON[27666]: pam_unix(cron:session): session closed for user root
+Mar 25 20:30:01 acme-mail CRON[27703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:39:02 acme-mail CRON[27729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:39:02 acme-mail CRON[27729]: pam_unix(cron:session): session closed for user root
+Mar 25 20:58:55 acme-mail CRON[27703]: pam_unix(cron:session): session closed for user root
+Mar 25 21:09:01 acme-mail CRON[27886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 21:09:01 acme-mail CRON[27886]: pam_unix(cron:session): session closed for user root
+Mar 25 21:17:01 acme-mail CRON[27957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 21:17:01 acme-mail CRON[27957]: pam_unix(cron:session): session closed for user root
+Mar 25 21:39:01 acme-mail CRON[28012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 21:39:01 acme-mail CRON[28012]: pam_unix(cron:session): session closed for user root
+Mar 25 22:09:01 acme-mail CRON[28128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 22:09:01 acme-mail CRON[28128]: pam_unix(cron:session): session closed for user root
+Mar 25 22:17:01 acme-mail CRON[28198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 22:17:01 acme-mail CRON[28198]: pam_unix(cron:session): session closed for user root
+Mar 25 22:39:01 acme-mail CRON[28258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 22:39:01 acme-mail CRON[28258]: pam_unix(cron:session): session closed for user root
+Mar 25 23:09:01 acme-mail CRON[28378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 23:09:01 acme-mail CRON[28378]: pam_unix(cron:session): session closed for user root
+Mar 25 23:17:01 acme-mail CRON[28446]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 23:17:01 acme-mail CRON[28446]: pam_unix(cron:session): session closed for user root
+Mar 25 23:39:01 acme-mail CRON[28538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 23:39:01 acme-mail CRON[28538]: pam_unix(cron:session): session closed for user root
+Mar 26 00:09:01 acme-mail CRON[28667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 00:09:01 acme-mail CRON[28667]: pam_unix(cron:session): session closed for user root
+Mar 26 00:17:01 acme-mail CRON[28738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 00:17:01 acme-mail CRON[28738]: pam_unix(cron:session): session closed for user root
+Mar 26 00:39:01 acme-mail CRON[28798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 00:39:01 acme-mail CRON[28798]: pam_unix(cron:session): session closed for user root
+Mar 26 01:09:01 acme-mail CRON[28922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 01:09:01 acme-mail CRON[28922]: pam_unix(cron:session): session closed for user root
+Mar 26 01:17:01 acme-mail CRON[28994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 01:17:01 acme-mail CRON[28994]: pam_unix(cron:session): session closed for user root
+Mar 26 01:39:01 acme-mail CRON[29056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 01:39:01 acme-mail CRON[29056]: pam_unix(cron:session): session closed for user root
+Mar 26 02:09:01 acme-mail CRON[29185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 02:09:01 acme-mail CRON[29185]: pam_unix(cron:session): session closed for user root
+Mar 26 02:17:01 acme-mail CRON[29257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 02:17:01 acme-mail CRON[29257]: pam_unix(cron:session): session closed for user root
+Mar 26 02:39:01 acme-mail CRON[29316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 02:39:01 acme-mail CRON[29316]: pam_unix(cron:session): session closed for user root
+Mar 26 03:09:01 acme-mail CRON[29441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:09:01 acme-mail CRON[29441]: pam_unix(cron:session): session closed for user root
+Mar 26 03:17:01 acme-mail CRON[29508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:17:01 acme-mail CRON[29508]: pam_unix(cron:session): session closed for user root
+Mar 26 03:39:01 acme-mail CRON[29554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:39:01 acme-mail CRON[29554]: pam_unix(cron:session): session closed for user root
+Mar 26 04:09:01 acme-mail CRON[29687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 04:09:01 acme-mail CRON[29687]: pam_unix(cron:session): session closed for user root
+Mar 26 04:17:01 acme-mail CRON[29759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 04:17:01 acme-mail CRON[29759]: pam_unix(cron:session): session closed for user root
+Mar 26 04:39:01 acme-mail CRON[29805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 04:39:01 acme-mail CRON[29805]: pam_unix(cron:session): session closed for user root
+Mar 26 05:09:01 acme-mail CRON[29931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 05:09:01 acme-mail CRON[29931]: pam_unix(cron:session): session closed for user root
+Mar 26 05:17:01 acme-mail CRON[30001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 05:17:01 acme-mail CRON[30001]: pam_unix(cron:session): session closed for user root
+Mar 26 05:39:01 acme-mail CRON[30055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 05:39:01 acme-mail CRON[30055]: pam_unix(cron:session): session closed for user root
+Mar 26 06:09:01 acme-mail CRON[30187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:09:01 acme-mail CRON[30187]: pam_unix(cron:session): session closed for user root
+Mar 26 06:17:01 acme-mail CRON[30255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:17:01 acme-mail CRON[30255]: pam_unix(cron:session): session closed for user root
+Mar 26 06:25:01 acme-mail CRON[30289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:25:17 acme-mail CRON[30289]: pam_unix(cron:session): session closed for user root
+Mar 26 06:39:01 acme-mail CRON[30497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 06:39:01 acme-mail CRON[30497]: pam_unix(cron:session): session closed for user root
+Mar 26 07:09:01 acme-mail CRON[30602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 07:09:01 acme-mail CRON[30602]: pam_unix(cron:session): session closed for user root
+Mar 26 07:17:01 acme-mail CRON[30675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 07:17:01 acme-mail CRON[30675]: pam_unix(cron:session): session closed for user root
+Mar 26 07:39:01 acme-mail CRON[30725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 07:39:01 acme-mail CRON[30725]: pam_unix(cron:session): session closed for user root
+Mar 26 08:09:01 acme-mail CRON[30838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 08:09:01 acme-mail CRON[30838]: pam_unix(cron:session): session closed for user root
+Mar 26 08:17:01 acme-mail CRON[30904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 08:17:01 acme-mail CRON[30904]: pam_unix(cron:session): session closed for user root
+Mar 26 08:30:01 acme-mail CRON[30939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 08:39:02 acme-mail CRON[30970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 08:39:02 acme-mail CRON[30970]: pam_unix(cron:session): session closed for user root
+Mar 26 08:58:43 acme-mail CRON[30939]: pam_unix(cron:session): session closed for user root
+Mar 26 09:09:01 acme-mail CRON[31412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 09:09:01 acme-mail CRON[31412]: pam_unix(cron:session): session closed for user root
+Mar 26 09:17:01 acme-mail CRON[31554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 09:17:01 acme-mail CRON[31554]: pam_unix(cron:session): session closed for user root
+Mar 26 09:39:01 acme-mail CRON[31865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 09:39:01 acme-mail CRON[31865]: pam_unix(cron:session): session closed for user root
+Mar 26 10:09:01 acme-mail CRON[32134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 10:09:01 acme-mail CRON[32134]: pam_unix(cron:session): session closed for user root
+Mar 26 10:17:01 acme-mail CRON[32249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 10:17:01 acme-mail CRON[32249]: pam_unix(cron:session): session closed for user root
+Mar 26 10:39:01 acme-mail CRON[32383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 10:39:01 acme-mail CRON[32383]: pam_unix(cron:session): session closed for user root
+Mar 26 11:09:01 acme-mail CRON[32513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 11:09:01 acme-mail CRON[32513]: pam_unix(cron:session): session closed for user root
+Mar 26 11:17:01 acme-mail CRON[32664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 11:17:01 acme-mail CRON[32664]: pam_unix(cron:session): session closed for user root
+Mar 26 11:39:01 acme-mail CRON[372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 11:39:01 acme-mail CRON[372]: pam_unix(cron:session): session closed for user root
+Mar 26 12:09:01 acme-mail CRON[544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 12:09:01 acme-mail CRON[544]: pam_unix(cron:session): session closed for user root
+Mar 26 12:17:01 acme-mail CRON[679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 12:17:01 acme-mail CRON[679]: pam_unix(cron:session): session closed for user root
+Mar 26 12:39:01 acme-mail CRON[864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 12:39:01 acme-mail CRON[864]: pam_unix(cron:session): session closed for user root
+Mar 26 13:09:01 acme-mail CRON[1074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 13:09:01 acme-mail CRON[1074]: pam_unix(cron:session): session closed for user root
+Mar 26 13:17:01 acme-mail CRON[1138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 13:17:01 acme-mail CRON[1138]: pam_unix(cron:session): session closed for user root
+Mar 26 13:39:01 acme-mail CRON[1245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 13:39:01 acme-mail CRON[1245]: pam_unix(cron:session): session closed for user root
+Mar 26 14:09:01 acme-mail CRON[1535]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:09:01 acme-mail CRON[1535]: pam_unix(cron:session): session closed for user root
+Mar 26 14:17:01 acme-mail CRON[1652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:17:01 acme-mail CRON[1652]: pam_unix(cron:session): session closed for user root
+Mar 26 14:39:01 acme-mail CRON[1836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:39:01 acme-mail CRON[1836]: pam_unix(cron:session): session closed for user root
+Mar 26 15:09:01 acme-mail CRON[2120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 15:09:01 acme-mail CRON[2120]: pam_unix(cron:session): session closed for user root
+Mar 26 15:17:01 acme-mail CRON[2311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 15:17:01 acme-mail CRON[2311]: pam_unix(cron:session): session closed for user root
+Mar 26 15:39:01 acme-mail CRON[2595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 15:39:01 acme-mail CRON[2595]: pam_unix(cron:session): session closed for user root
+Mar 26 16:09:01 acme-mail CRON[2990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 16:09:01 acme-mail CRON[2990]: pam_unix(cron:session): session closed for user root
+Mar 26 16:17:01 acme-mail CRON[3111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 16:17:01 acme-mail CRON[3111]: pam_unix(cron:session): session closed for user root
+Mar 26 16:39:01 acme-mail CRON[3257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 16:39:01 acme-mail CRON[3257]: pam_unix(cron:session): session closed for user root
+Mar 26 17:09:01 acme-mail CRON[3460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 17:09:01 acme-mail CRON[3460]: pam_unix(cron:session): session closed for user root
+Mar 26 17:17:01 acme-mail CRON[3544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 17:17:02 acme-mail CRON[3544]: pam_unix(cron:session): session closed for user root
+Mar 26 17:39:01 acme-mail CRON[3618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 17:39:01 acme-mail CRON[3618]: pam_unix(cron:session): session closed for user root
+Mar 26 18:09:01 acme-mail CRON[3743]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 18:09:01 acme-mail CRON[3743]: pam_unix(cron:session): session closed for user root
+Mar 26 18:17:01 acme-mail CRON[3807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 18:17:01 acme-mail CRON[3807]: pam_unix(cron:session): session closed for user root
+Mar 26 18:39:01 acme-mail CRON[3870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 18:39:01 acme-mail CRON[3870]: pam_unix(cron:session): session closed for user root
+Mar 26 19:09:01 acme-mail CRON[3983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 19:09:01 acme-mail CRON[3983]: pam_unix(cron:session): session closed for user root
+Mar 26 19:17:01 acme-mail CRON[4062]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 19:17:01 acme-mail CRON[4062]: pam_unix(cron:session): session closed for user root
+Mar 26 19:39:01 acme-mail CRON[4114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 19:39:01 acme-mail CRON[4114]: pam_unix(cron:session): session closed for user root
+Mar 26 20:09:01 acme-mail CRON[4234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:09:01 acme-mail CRON[4234]: pam_unix(cron:session): session closed for user root
+Mar 26 20:17:01 acme-mail CRON[4298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:17:01 acme-mail CRON[4298]: pam_unix(cron:session): session closed for user root
+Mar 26 20:30:01 acme-mail CRON[4347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:39:01 acme-mail CRON[4365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:39:01 acme-mail CRON[4365]: pam_unix(cron:session): session closed for user root
+Mar 26 20:57:07 acme-mail CRON[4347]: pam_unix(cron:session): session closed for user root
+Mar 26 21:09:01 acme-mail CRON[4517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:09:01 acme-mail CRON[4517]: pam_unix(cron:session): session closed for user root
+Mar 26 21:17:01 acme-mail CRON[4634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:17:01 acme-mail CRON[4634]: pam_unix(cron:session): session closed for user root
+Mar 26 21:39:01 acme-mail CRON[4693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:39:01 acme-mail CRON[4693]: pam_unix(cron:session): session closed for user root
+Mar 26 22:09:01 acme-mail CRON[4814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:09:01 acme-mail CRON[4814]: pam_unix(cron:session): session closed for user root
+Mar 26 22:17:01 acme-mail CRON[4888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:17:01 acme-mail CRON[4888]: pam_unix(cron:session): session closed for user root
+Mar 26 22:39:01 acme-mail CRON[4932]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:39:01 acme-mail CRON[4932]: pam_unix(cron:session): session closed for user root
+Mar 26 23:09:01 acme-mail CRON[5063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 23:09:01 acme-mail CRON[5063]: pam_unix(cron:session): session closed for user root
+Mar 26 23:17:01 acme-mail CRON[5131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 23:17:01 acme-mail CRON[5131]: pam_unix(cron:session): session closed for user root
+Mar 26 23:39:01 acme-mail CRON[5186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 23:39:01 acme-mail CRON[5186]: pam_unix(cron:session): session closed for user root
+Mar 27 00:09:01 acme-mail CRON[5303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 00:09:01 acme-mail CRON[5303]: pam_unix(cron:session): session closed for user root
+Mar 27 00:17:01 acme-mail CRON[5374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 00:17:01 acme-mail CRON[5374]: pam_unix(cron:session): session closed for user root
+Mar 27 00:39:01 acme-mail CRON[5442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 00:39:01 acme-mail CRON[5442]: pam_unix(cron:session): session closed for user root
+Mar 27 01:09:01 acme-mail CRON[5584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 01:09:01 acme-mail CRON[5584]: pam_unix(cron:session): session closed for user root
+Mar 27 01:17:01 acme-mail CRON[5676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 01:17:01 acme-mail CRON[5676]: pam_unix(cron:session): session closed for user root
+Mar 27 01:39:01 acme-mail CRON[5762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 01:39:01 acme-mail CRON[5762]: pam_unix(cron:session): session closed for user root
+Mar 27 02:09:01 acme-mail CRON[5896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 02:09:01 acme-mail CRON[5896]: pam_unix(cron:session): session closed for user root
+Mar 27 02:17:01 acme-mail CRON[5972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 02:17:01 acme-mail CRON[5972]: pam_unix(cron:session): session closed for user root
+Mar 27 02:39:01 acme-mail CRON[6046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 02:39:01 acme-mail CRON[6046]: pam_unix(cron:session): session closed for user root
+Mar 27 03:09:01 acme-mail CRON[6172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 03:09:01 acme-mail CRON[6172]: pam_unix(cron:session): session closed for user root
+Mar 27 03:17:01 acme-mail CRON[6235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 03:17:01 acme-mail CRON[6235]: pam_unix(cron:session): session closed for user root
+Mar 27 03:39:01 acme-mail CRON[6301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 03:39:01 acme-mail CRON[6301]: pam_unix(cron:session): session closed for user root
+Mar 27 04:09:01 acme-mail CRON[6427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 04:09:01 acme-mail CRON[6427]: pam_unix(cron:session): session closed for user root
+Mar 27 04:17:01 acme-mail CRON[6495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 04:17:01 acme-mail CRON[6495]: pam_unix(cron:session): session closed for user root
+Mar 27 04:39:01 acme-mail CRON[6549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 04:39:01 acme-mail CRON[6549]: pam_unix(cron:session): session closed for user root
+Mar 27 05:09:01 acme-mail CRON[6671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 05:09:01 acme-mail CRON[6671]: pam_unix(cron:session): session closed for user root
+Mar 27 05:17:01 acme-mail CRON[6738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 05:17:01 acme-mail CRON[6738]: pam_unix(cron:session): session closed for user root
+Mar 27 05:39:01 acme-mail CRON[6804]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 05:39:01 acme-mail CRON[6804]: pam_unix(cron:session): session closed for user root
+Mar 27 06:09:01 acme-mail CRON[6913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:09:01 acme-mail CRON[6913]: pam_unix(cron:session): session closed for user root
+Mar 27 06:17:01 acme-mail CRON[6985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:17:01 acme-mail CRON[6985]: pam_unix(cron:session): session closed for user root
+Mar 27 06:25:02 acme-mail CRON[7008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:25:26 acme-mail CRON[7008]: pam_unix(cron:session): session closed for user root
+Mar 27 06:39:01 acme-mail CRON[7236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 06:39:01 acme-mail CRON[7236]: pam_unix(cron:session): session closed for user root
+Mar 27 07:09:01 acme-mail CRON[7340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 07:09:01 acme-mail CRON[7340]: pam_unix(cron:session): session closed for user root
+Mar 27 07:17:01 acme-mail CRON[7410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 07:17:01 acme-mail CRON[7410]: pam_unix(cron:session): session closed for user root
+Mar 27 07:39:01 acme-mail CRON[7464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 07:39:01 acme-mail CRON[7464]: pam_unix(cron:session): session closed for user root
+Mar 27 08:09:01 acme-mail CRON[7654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 08:09:01 acme-mail CRON[7654]: pam_unix(cron:session): session closed for user root
+Mar 27 08:17:01 acme-mail CRON[7744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 08:17:01 acme-mail CRON[7744]: pam_unix(cron:session): session closed for user root
+Mar 27 08:30:01 acme-mail CRON[7856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 08:39:01 acme-mail CRON[7967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 08:39:01 acme-mail CRON[7967]: pam_unix(cron:session): session closed for user root
+Mar 27 08:57:55 acme-mail CRON[7856]: pam_unix(cron:session): session closed for user root
+Mar 27 09:09:02 acme-mail CRON[8363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 09:09:02 acme-mail CRON[8363]: pam_unix(cron:session): session closed for user root
+Mar 27 09:17:01 acme-mail CRON[8493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 09:17:01 acme-mail CRON[8493]: pam_unix(cron:session): session closed for user root
+Mar 27 09:39:01 acme-mail CRON[8643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 09:39:01 acme-mail CRON[8643]: pam_unix(cron:session): session closed for user root
+Mar 27 10:09:01 acme-mail CRON[8915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 10:09:01 acme-mail CRON[8915]: pam_unix(cron:session): session closed for user root
+Mar 27 10:17:01 acme-mail CRON[9012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 10:17:01 acme-mail CRON[9012]: pam_unix(cron:session): session closed for user root
+Mar 27 10:39:01 acme-mail CRON[9211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 10:39:01 acme-mail CRON[9211]: pam_unix(cron:session): session closed for user root
+Mar 27 11:09:01 acme-mail CRON[9522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 11:09:01 acme-mail CRON[9522]: pam_unix(cron:session): session closed for user root
+Mar 27 11:17:01 acme-mail CRON[9746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 11:17:01 acme-mail CRON[9746]: pam_unix(cron:session): session closed for user root
+Mar 27 11:39:01 acme-mail CRON[10039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 11:39:01 acme-mail CRON[10039]: pam_unix(cron:session): session closed for user root
+Mar 27 12:09:01 acme-mail CRON[10394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 12:09:01 acme-mail CRON[10394]: pam_unix(cron:session): session closed for user root
+Mar 27 12:17:01 acme-mail CRON[10514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 12:17:01 acme-mail CRON[10514]: pam_unix(cron:session): session closed for user root
+Mar 27 12:39:01 acme-mail CRON[10673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 12:39:01 acme-mail CRON[10673]: pam_unix(cron:session): session closed for user root
+Mar 27 13:09:01 acme-mail CRON[11033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 13:09:01 acme-mail CRON[11033]: pam_unix(cron:session): session closed for user root
+Mar 27 13:17:01 acme-mail CRON[11149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 13:17:01 acme-mail CRON[11149]: pam_unix(cron:session): session closed for user root
+Mar 27 13:39:01 acme-mail CRON[11259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 13:39:01 acme-mail CRON[11259]: pam_unix(cron:session): session closed for user root
+Mar 27 14:09:01 acme-mail CRON[11514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 14:09:01 acme-mail CRON[11514]: pam_unix(cron:session): session closed for user root
+Mar 27 14:17:01 acme-mail CRON[11674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 14:17:01 acme-mail CRON[11674]: pam_unix(cron:session): session closed for user root
+Mar 27 14:39:01 acme-mail CRON[11793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 14:39:01 acme-mail CRON[11793]: pam_unix(cron:session): session closed for user root
+Mar 27 15:09:01 acme-mail CRON[11972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 15:09:01 acme-mail CRON[11972]: pam_unix(cron:session): session closed for user root
+Mar 27 15:17:01 acme-mail CRON[12049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 15:17:01 acme-mail CRON[12049]: pam_unix(cron:session): session closed for user root
+Mar 27 15:39:01 acme-mail CRON[12150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 15:39:01 acme-mail CRON[12150]: pam_unix(cron:session): session closed for user root
+Mar 27 16:09:01 acme-mail CRON[12460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 16:09:01 acme-mail CRON[12460]: pam_unix(cron:session): session closed for user root
+Mar 27 16:17:01 acme-mail CRON[12628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 16:17:01 acme-mail CRON[12628]: pam_unix(cron:session): session closed for user root
+Mar 27 16:39:01 acme-mail CRON[12742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 16:39:01 acme-mail CRON[12742]: pam_unix(cron:session): session closed for user root
+Mar 27 17:09:01 acme-mail CRON[13105]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 17:09:01 acme-mail CRON[13105]: pam_unix(cron:session): session closed for user root
+Mar 27 17:17:01 acme-mail CRON[13263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 17:17:01 acme-mail CRON[13263]: pam_unix(cron:session): session closed for user root
+Mar 27 17:39:01 acme-mail CRON[13461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 17:39:01 acme-mail CRON[13461]: pam_unix(cron:session): session closed for user root
+Mar 27 18:09:01 acme-mail CRON[13777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 18:09:01 acme-mail CRON[13777]: pam_unix(cron:session): session closed for user root
+Mar 27 18:17:01 acme-mail CRON[13846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 18:17:01 acme-mail CRON[13846]: pam_unix(cron:session): session closed for user root
+Mar 27 18:39:01 acme-mail CRON[13911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 18:39:01 acme-mail CRON[13911]: pam_unix(cron:session): session closed for user root
+Mar 27 19:09:01 acme-mail CRON[14077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 19:09:01 acme-mail CRON[14077]: pam_unix(cron:session): session closed for user root
+Mar 27 19:17:01 acme-mail CRON[14145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 19:17:01 acme-mail CRON[14145]: pam_unix(cron:session): session closed for user root
+Mar 27 19:39:01 acme-mail CRON[14200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 19:39:01 acme-mail CRON[14200]: pam_unix(cron:session): session closed for user root
+Mar 27 20:09:01 acme-mail CRON[14319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:09:01 acme-mail CRON[14319]: pam_unix(cron:session): session closed for user root
+Mar 27 20:17:01 acme-mail CRON[14391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:17:01 acme-mail CRON[14391]: pam_unix(cron:session): session closed for user root
+Mar 27 20:30:02 acme-mail CRON[14431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:39:01 acme-mail CRON[14453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:39:01 acme-mail CRON[14453]: pam_unix(cron:session): session closed for user root
+Mar 27 20:58:44 acme-mail CRON[14431]: pam_unix(cron:session): session closed for user root
+Mar 27 21:09:01 acme-mail CRON[14598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 21:09:01 acme-mail CRON[14598]: pam_unix(cron:session): session closed for user root
+Mar 27 21:17:01 acme-mail CRON[14673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 21:17:01 acme-mail CRON[14673]: pam_unix(cron:session): session closed for user root
+Mar 27 21:39:01 acme-mail CRON[14736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 21:39:01 acme-mail CRON[14736]: pam_unix(cron:session): session closed for user root
+Mar 27 22:09:01 acme-mail CRON[14849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 22:09:01 acme-mail CRON[14849]: pam_unix(cron:session): session closed for user root
+Mar 27 22:17:01 acme-mail CRON[14924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 22:17:01 acme-mail CRON[14924]: pam_unix(cron:session): session closed for user root
+Mar 27 22:39:01 acme-mail CRON[14980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 22:39:01 acme-mail CRON[14980]: pam_unix(cron:session): session closed for user root
+Mar 27 23:09:01 acme-mail CRON[15107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 23:09:01 acme-mail CRON[15107]: pam_unix(cron:session): session closed for user root
+Mar 27 23:17:01 acme-mail CRON[15175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 23:17:01 acme-mail CRON[15175]: pam_unix(cron:session): session closed for user root
+Mar 27 23:39:01 acme-mail CRON[15226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 23:39:01 acme-mail CRON[15226]: pam_unix(cron:session): session closed for user root
+Mar 28 00:08:57 acme-mail sshd[15351]: Accepted publickey for ait from 192.42.3.82 port 56708 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 28 00:08:58 acme-mail sshd[15351]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 28 00:08:59 acme-mail systemd-logind[492]: New session 395 of user ait.
+Mar 28 00:08:59 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 28 00:09:01 acme-mail CRON[15367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 28 00:09:01 acme-mail CRON[15367]: pam_unix(cron:session): session closed for user root
+Mar 28 00:10:08 acme-mail sshd[15351]: pam_unix(sshd:session): session closed for user ait
+Mar 28 00:10:08 acme-mail systemd-logind[492]: Removed session 395.
+Mar 28 00:10:08 acme-mail systemd: pam_unix(systemd-user:session): session closed for user ait
+Mar 28 00:10:49 acme-mail sshd[15479]: Accepted publickey for ait from 192.42.3.82 port 56776 ssh2: RSA SHA256:yxAJcMgl5WTSlj4ZPvj7TSgUbIlxQ1GHdtXeIcp0czs
+Mar 28 00:10:49 acme-mail sshd[15479]: pam_unix(sshd:session): session opened for user ait by (uid=0)
+Mar 28 00:10:49 acme-mail systemd-logind[492]: New session 398 of user ait.
+Mar 28 00:10:49 acme-mail systemd: pam_unix(systemd-user:session): session opened for user ait by (uid=0)
+Mar 28 00:10:49 acme-mail sudo:      ait : TTY=unknown ; PWD=/home/ait ; USER=root ; COMMAND=/usr/bin/rsync --server --sender -lLogDtrze.LsfxC . /var/log/auth.log
+Mar 28 00:10:49 acme-mail sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
